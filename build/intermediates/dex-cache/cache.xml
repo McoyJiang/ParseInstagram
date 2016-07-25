@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/libs/MobTools-2016.0714.1402.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a583c5b1b67aa1f1b9dbbc658d9e0d185d89dd3">
+        <dex dex="/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/pre-dexed/debug/MobTools-2016.0714.1402-4a9f62b9b2e260801e02e46a2d266fee384153ee.jar" />
+    </item>
+    <item
+        jar="/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/libs/MobCommons-2016.0714.1402.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57eee6c3e8bab2ed4b9a585a7f590808d6518573">
+        <dex dex="/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/pre-dexed/debug/MobCommons-2016.0714.1402-09a03a716d5567d147adedb30f006d7b634d9f6d.jar" />
+    </item>
+    <item
+        jar="/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDK-2.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d7b3619e58ab2a0fb6fa87a74e1b4802b413749a">
+        <dex dex="/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-a139caeb5b169820b74a0973c07e75d091bd5ed7.jar" />
+    </item>
+    <item
+        jar="/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDKGUI-2.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1f30237972841d767d5fae5674a001348fd6edfa">
+        <dex dex="/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-7dced09f9a8f4303b625619d8d42a16d7c13c5cf.jar" />
+    </item>
+
+</items>
