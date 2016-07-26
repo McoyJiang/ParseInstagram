@@ -1,11 +1,3 @@
-/*
- * Copyright (c) 2015-present, Parse, LLC.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- */
 package com.parse.starter.activity;
 
 import android.app.Activity;
@@ -15,12 +7,22 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Gravity;
+import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.FindCallback;
+import com.parse.GetCallback;
+import com.parse.GetDataCallback;
 import com.parse.ParseACL;
 import com.parse.ParseAnalytics;
 import com.parse.ParseException;
@@ -28,10 +30,8 @@ import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
-import com.parse.ProgressCallback;
 import com.parse.SaveCallback;
 import com.parse.starter.R;
-import com.parse.starter.utils.Constants;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -40,16 +40,94 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-
 public class MainActivity extends AppCompatActivity {
+
+    private DrawerLayout drawerLayout;
+    private NavigationView navigationView;
+    private ImageView userLogo;
+    private TextView userPhone;
+    private TextView userEmail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_drawer);
+
+        initViews();
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
+    }
+
+    private void initViews() {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("语音图片");
+
+        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        //4.5表示侧拉菜单的两种状态描述
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawerLayout, toolbar, R.string.open_menu, R.string.close_menu);
+        drawerLayout.setDrawerListener(toggle);
+        //让DrawerLayout和ToolBar状态同步
+        toggle.syncState();
+
+        navigationView = (NavigationView) findViewById(
+                R.id.navigation_view);
+        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem item) {
+                switch (item.getItemId()) {
+                    case R.id.action_settings:
+                        Toast.makeText(MainActivity.this, "123", Toast.LENGTH_SHORT).show();
+                        drawerLayout.closeDrawer(Gravity.LEFT);
+                        break;
+                }
+                return true;
+            }
+        });
+        userLogo = (ImageView) navigationView.findViewById(R.id.image_profile);
+        getUserLogo();
+        userLogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showPickLogo();
+            }
+        });
+
+        userPhone = ((TextView) navigationView.findViewById(R.id.userPhone));
+        userEmail = ((TextView) navigationView.findViewById(R.id.userEmail));
+
+        if (ParseUser.getCurrentUser() != null) {
+            userPhone.setText(ParseUser.getCurrentUser().getUsername());
+            userEmail.setText(ParseUser.getCurrentUser().getEmail() == null
+                    ? "点击设置邮箱": ParseUser.getCurrentUser().getEmail());
+            userEmail.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    click(v);
+                }
+            });
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (drawerLayout.isDrawerOpen(Gravity.LEFT)) {
+            drawerLayout.closeDrawer(Gravity.LEFT);
+        } else if (drawerLayout.isDrawerOpen(Gravity.RIGHT)) {
+            drawerLayout.closeDrawer(Gravity.RIGHT);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+
+    private void showPickLogo() {
+        Intent logo = new Intent(Intent.ACTION_PICK,
+                MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+
+        startActivityForResult(logo, 1);
     }
 
     public void click(View view) {
@@ -62,11 +140,11 @@ public class MainActivity extends AppCompatActivity {
                 intent.setClass(this, UserListActivity.class);
                 break;
             case R.id.uploadLogo:
-                Intent logo = new Intent(Intent.ACTION_PICK,
-                        MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 
-                startActivityForResult(logo, 1);
                 return;
+            case R.id.userEmail:
+                Toast.makeText(MainActivity.this, "设置邮箱", Toast.LENGTH_SHORT).show();
+                break;
         }
 
         startActivity(intent);
@@ -77,44 +155,150 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (resultCode == RESULT_OK && data != null) {
-            Uri uri = data.getData();
+            final Uri uri = data.getData();
             Log.e("TAG", "onActivityResult: uri is " + uri.getPath());
 
-            try {
-                Toast.makeText(MainActivity.this, "开始上传", Toast.LENGTH_SHORT).show();
+            refreshUserLogo(uri);
+        }
+    }
 
+    public void getUserLogo(){
+        if (ParseUser.getCurrentUser() == null) {
+            return;
+        }
 
-                Bitmap bitmapImage = getBitmapFormUri(this, uri);
-                //Bitmap bitmapImage = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
-                //Bitmap bitmapImage = BitmapFactory.decodeResource(getResources(), R.drawable.baby);
-                ByteArrayOutputStream baos = new ByteArrayOutputStream();
-                bitmapImage.compress(Bitmap.CompressFormat.JPEG, 100, baos);
-                byte[] buffer = baos.toByteArray();
-
-                ParseFile parseFile = new ParseFile("Image.jpg", buffer);
-
-                final ParseACL parseACL = new ParseACL();
-                parseACL.setPublicReadAccess(true);
-
-                ParseUser user = ParseUser.getCurrentUser();
-                if (user != null && user.getUsername() != null) {
-                    ParseObject parseObject = new ParseObject("Images");
-                    parseObject.put("username", ParseUser.getCurrentUser().getUsername());
-                    parseObject.put("image", parseFile);
-                    parseObject.setACL(parseACL);
-                    parseObject.saveInBackground(new SaveCallback() {
+        final ParseQuery<ParseObject> query = ParseQuery.getQuery("UserInfo");
+        query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
+        query.getFirstInBackground(new GetCallback<ParseObject>() {
+            @Override
+            public void done(ParseObject object, ParseException e) {
+                if (e == null) {
+                    Log.e("TAG", "done: 找到 " + object.getString("username"));
+                    final ParseFile userlogo = (ParseFile) object.getParseFile("userlogo");
+                    userlogo.getDataInBackground(new GetDataCallback() {
                         @Override
-                        public void done(ParseException e) {
-                            Toast.makeText(MainActivity.this, "上传成功",
-                                    Toast.LENGTH_SHORT).show();
+                        public void done(byte[] data, ParseException e) {
+                            if (e == null && data.length > 0) {
+                                Bitmap bitmap = BitmapFactory.decodeByteArray(data, 0, data.length);
+                                userLogo.setImageBitmap(bitmap);
+                            } else {
+                                Log.e("TAG", "done: " + e.getCode());
+                            }
                         }
-                    });;
+                    });
+                } else {
+                    Log.e("TAG", "done: 未找到 " + e.getCode());
                 }
-
-            } catch (Exception e) {
-                Log.e("TAG", "onActivityResult: e is " + e.getMessage());
-                e.printStackTrace();
             }
+        });
+    }
+
+    public void refreshUserLogo(final Uri uri){
+        final ParseQuery<ParseObject> query = ParseQuery.getQuery("UserInfo");
+        query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
+        query.getFirstInBackground(new GetCallback<ParseObject>() {
+            @Override
+            public void done(ParseObject object, ParseException e) {
+                if (e == null) {
+                    Log.e("TAG", "done: 找到 " + object.getString("username"));
+                    updateImage(object.getObjectId(), uri);
+                } else {
+                    Log.e("TAG", "done: 未找到 " + e.getCode());
+                    switch (e.getCode()) {
+                        case ParseException.OBJECT_NOT_FOUND:
+                            uploadImage(uri);
+                            break;
+                    }
+                }
+            }
+        });
+    }
+
+    public void updateImage(String objectId, Uri uri){
+        Toast.makeText(MainActivity.this, "开始上传", Toast.LENGTH_SHORT).show();
+
+        final Bitmap bitmapImage;
+        try {
+            bitmapImage = getBitmapFormUri(this, uri);
+
+            //Bitmap bitmapImage = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+            //Bitmap bitmapImage = BitmapFactory.decodeResource(getResources(), R.drawable.baby);
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            bitmapImage.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+            byte[] buffer = baos.toByteArray();
+
+            final ParseFile parseFile = new ParseFile("Image.jpg", buffer);
+
+            final ParseACL parseACL = new ParseACL();
+            parseACL.setPublicReadAccess(true);
+            parseACL.setPublicWriteAccess(true);
+
+            ParseQuery<ParseObject> query = ParseQuery.getQuery("UserInfo");
+            query.getInBackground(objectId, new GetCallback<ParseObject>() {
+                public void done(ParseObject object, ParseException e) {
+                    if (e == null) {
+                        object.put("username", ParseUser.getCurrentUser().getUsername());
+                        object.put("userlogo", parseFile);
+                        object.setACL(parseACL);
+                        object.saveInBackground(new SaveCallback() {
+                            @Override
+                            public void done(ParseException e) {
+                                if (e == null) {
+                                    Toast.makeText(MainActivity.this, "上传成功",
+                                            Toast.LENGTH_SHORT).show();
+                                    userLogo.setImageBitmap(bitmapImage);
+                                } else {
+                                    Log.e("TAG", "done: updateImage : " + e.getCode());
+                                }
+                            }
+                        });
+                    } else {
+                        Log.e("TAG", "done: updateImage : " + e.getCode());
+                    }
+                }
+            });
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void uploadImage(Uri uri){
+        try {
+            Toast.makeText(MainActivity.this, "开始上传", Toast.LENGTH_SHORT).show();
+
+
+            final Bitmap bitmapImage = getBitmapFormUri(this, uri);
+            //Bitmap bitmapImage = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+            //Bitmap bitmapImage = BitmapFactory.decodeResource(getResources(), R.drawable.baby);
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            bitmapImage.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+            byte[] buffer = baos.toByteArray();
+
+            ParseFile parseFile = new ParseFile("Image.jpg", buffer);
+
+            final ParseACL parseACL = new ParseACL();
+            parseACL.setPublicReadAccess(true);
+            parseACL.setPublicWriteAccess(true);
+
+            final ParseUser user = ParseUser.getCurrentUser();
+            if (user != null && user.getUsername() != null) {
+                ParseObject parseObject = new ParseObject("UserInfo");
+                parseObject.put("username", ParseUser.getCurrentUser().getUsername());
+                parseObject.put("userlogo", parseFile);
+                parseObject.setACL(parseACL);
+                parseObject.saveInBackground(new SaveCallback() {
+                    @Override
+                    public void done(ParseException e) {
+                        Toast.makeText(MainActivity.this, "上传成功",
+                                Toast.LENGTH_SHORT).show();
+                        userLogo.setImageBitmap(bitmapImage);
+                    }
+                });
+            }
+
+        } catch (Exception e) {
+            Log.e("TAG", "onActivityResult: e is " + e.getMessage());
+            e.printStackTrace();
         }
     }
 

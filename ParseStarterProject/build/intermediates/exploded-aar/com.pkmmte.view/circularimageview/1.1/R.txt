@@ -1,0 +1,20 @@
+int attr border 0x7f010000
+int attr border_color 0x7f010001
+int attr border_width 0x7f010002
+int attr circularImageViewStyle 0x7f010008
+int attr selector 0x7f010003
+int attr selector_color 0x7f010004
+int attr selector_stroke_color 0x7f010005
+int attr selector_stroke_width 0x7f010006
+int attr shadow 0x7f010007
+int[] styleable CircularImageView { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007 }
+int styleable CircularImageView_border 0
+int styleable CircularImageView_border_color 1
+int styleable CircularImageView_border_width 2
+int styleable CircularImageView_selector 3
+int styleable CircularImageView_selector_color 4
+int styleable CircularImageView_selector_stroke_color 5
+int styleable CircularImageView_selector_stroke_width 6
+int styleable CircularImageView_shadow 7
+int[] styleable CustomCircularImageViewTheme { 0x7f010008 }
+int styleable CustomCircularImageViewTheme_circularImageViewStyle 0

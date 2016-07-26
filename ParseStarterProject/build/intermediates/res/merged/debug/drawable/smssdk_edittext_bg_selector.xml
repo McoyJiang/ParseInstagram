@@ -6,4 +6,4 @@
     <item android:drawable="@drawable/smssdk_input_bg_focus" android:state_pressed="true"/>
     <item android:drawable="@drawable/smssdk_input_bg_focus" android:state_selected="true"/>
 
-</selector><!-- From: file:/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDKGUI-2.1.1/res/drawable/smssdk_edittext_bg_selector.xml -->
+</selector><!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDKGUI-2.1.1/res/drawable/smssdk_edittext_bg_selector.xml -->

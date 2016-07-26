@@ -3,6 +3,7 @@ package com.parse.starter.activity;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -34,6 +35,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private KProgressHUD kProgressHUD;
     private Button sendSmsBtn;
     private EditText editVerifyCode;
+    private TextInputLayout editUernameWrapper;
+    private TextInputLayout editPasswordWrapper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +53,10 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
         editName = ((EditText) findViewById(R.id.editUserName));
         editPwd = ((EditText) findViewById(R.id.editPassword));
+        editUernameWrapper = ((TextInputLayout) findViewById(R.id.editUserNameWrapper));
+        editUernameWrapper.setHint("请输入电话号码");
+        editPasswordWrapper = ((TextInputLayout) findViewById(R.id.editPasswordWrapper));
+        editPasswordWrapper.setHint("请输入密码");
         editVerifyCode = ((EditText) findViewById(R.id.editVerifyCode));
 
         sendSmsBtn = ((Button) findViewById(R.id.sendSMS));
@@ -134,11 +141,13 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
 
                 } else if (event == SMSSDK.EVENT_GET_VERIFICATION_CODE) {//获取验证码成功
                     Log.e("TAG", "获取验证码成功");
+                    kProgressHUD.dismiss();
                 } else if (event == SMSSDK.EVENT_GET_SUPPORTED_COUNTRIES) {//返回支持发送验证码的国家列表
 
                 }
             } else {
                 ((Throwable) data).printStackTrace();
+                kProgressHUD.dismiss();
             }
         }
     };

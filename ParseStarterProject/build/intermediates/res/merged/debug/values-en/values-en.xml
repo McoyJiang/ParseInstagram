@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDK-2.1.1/res/values-en/values-en.xml -->
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDK-2.1.1/res/values-en/values-en.xml -->
     <eat-comment/>
     <string-array name="smssdk_country_group_a">
 		<item>Afghanistan,93,46,41220|41230|41240|41250|41201</item>
@@ -272,7 +272,7 @@
 		<item>Zambia,260,92,64502|64501|64503</item>
 		<item>Zimbabwe,263,95,64801|64803|64804</item>
     </string-array>
-    <!-- From: file:/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDKGUI-2.1.1/res/values-en/values-en.xml -->
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDKGUI-2.1.1/res/values-en/values-en.xml -->
     <eat-comment/>
     <string name="smssdk_add_contact">Add</string>
     <string name="smssdk_back">Back </string>
@@ -286,7 +286,7 @@
     <string name="smssdk_contacts_phones">Phone: </string>
     <string name="smssdk_country">Country</string>
     <string name="smssdk_country_not_support_currently">Country not support, please choose other</string>
-    <!-- From: file:/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDK-2.1.1/res/values-en/values-en.xml -->
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDK-2.1.1/res/values-en/values-en.xml -->
     <eat-comment/>
     <string name="smssdk_error_desc_400">Invalid request</string>
     <string name="smssdk_error_desc_401">Token is empty</string>
@@ -383,7 +383,7 @@
     <string name="smssdk_error_detail_603">Please input the correct phone number</string>
     <string name="smssdk_error_detail_604">Country not support, please choose another one</string>
     <string name="smssdk_error_detail_605">No Permission to request the server</string>
-    <!-- From: file:/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDKGUI-2.1.1/res/values-en/values-en.xml -->
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDKGUI-2.1.1/res/values-en/values-en.xml -->
     <eat-comment/>
     <string name="smssdk_get_phone_verifycode_today_frequentlly">I am sorry, the phone number for verification code number too much, please try again tomorrow!</string>
     <string name="smssdk_get_verifycode_frequentlly">Send verification code too frequently, please try later!</string>

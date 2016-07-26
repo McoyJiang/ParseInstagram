@@ -7,6 +7,7 @@
   ~ of patent rights can be found in the PATENTS file in the same directory.
   -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
@@ -31,26 +32,43 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/logo"
+        android:layout_marginTop="30dp"
         android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editUserName"
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/editUserNameWrapper"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/MyEditTextStyle"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="40dp"
-            android:hint="请输入电话号码" />
+            app:hintTextAppearance="@style/MyEditTextStyle">
 
-        <EditText
-            android:id="@+id/editPassword"
+            <EditText
+                android:id="@+id/editUserName"
+                style="@style/MyEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="请输入电话号码" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/editPasswordWrapper"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/MyEditTextStyle"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
-            android:hint="密码"
-            android:inputType="textPassword" />
+            app:hintTextAppearance="@style/MyEditTextStyle">
+
+            <EditText
+                android:id="@+id/editPassword"
+                style="@style/MyEditTextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入密码"
+                android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -64,11 +82,11 @@
 
             <EditText
                 android:id="@+id/editVerifyCode"
+                style="@style/MyEditTextStyle"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="5dp"
-                style="@style/MyEditTextStyle"
                 android:layout_weight="1"
                 android:background="@android:color/transparent" />
 
@@ -115,4 +133,4 @@
     </LinearLayout>
 
 </RelativeLayout>
-<!-- From: file:/Users/axing/Downloads/udemy/Instagram/ParseStarterProject/src/main/res/layout/activity_register.xml -->
+<!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/src/main/res/layout/activity_register.xml -->

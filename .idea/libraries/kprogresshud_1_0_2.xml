@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="kprogresshud-1.0.2">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.kaopiz/kprogresshud/1.0.2/res" />
+      <root url="jar://$PROJECT_DIR$/ParseStarterProject/build/intermediates/exploded-aar/com.kaopiz/kprogresshud/1.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kaopiz/kprogresshud/1.0.2/9ed1c279dd610549157666a1a13332709146bc65/kprogresshud-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
