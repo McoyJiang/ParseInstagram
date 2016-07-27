@@ -17,4 +17,4 @@
 ![image](https://github.com/McoyJiang/ParseInstagram/raw/master/IMAGES/uploadllogo.gif)
 <br>
 <br>
-<font color=#ff0000 size=7 face="黑体">未完待续。。。</font>
+<font color=red size=7 face="黑体">未完待续。。。</font>
