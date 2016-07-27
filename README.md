@@ -8,6 +8,9 @@
 
 ![image](https://github.com/McoyJiang/ParseInstagram/raw/master/ParseStarterProject/register2.gif)
 
+当服务端注册成功之后，可以在Parse服务器的数据库中查看是否已经添加了此用户信息，如下图所示：
+![image](https://github.com/McoyJiang/ParseInstagram/raw/master/IMAGES/parse_database.png)
+
 
 2 注册用户成功之后，在主界面，拉出左侧滑菜单，可以看到用户的头像和账号信息。点击头像可以重新设置头像
 
