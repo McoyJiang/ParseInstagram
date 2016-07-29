@@ -8,7 +8,7 @@
   ~ of patent rights can be found in the PATENTS file in the same directory.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.parse.starter"
+    package="material.danny_jiang.com.webview_senior"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -27,6 +27,13 @@
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
 
     <application
         android:name="com.parse.starter.StarterApplication"
@@ -59,11 +66,14 @@
             android:launchMode="singleTask" />
         <activity android:name="com.parse.starter.activity.UserListActivity" />
         <activity android:name="com.parse.starter.activity.UserDetailActivity" />
+        <activity android:name="com.parse.starter.activity.ShowNewsActivity" />
         <activity
             android:name="com.mob.tools.MobUIShell"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="material.danny_jiang.com.photoselectorlib.activity.ShowAlbumActivity" />
+        <activity android:name="material.danny_jiang.com.photoselectorlib.activity.ShowImageActivity" />
     </application>
 
 </manifest>

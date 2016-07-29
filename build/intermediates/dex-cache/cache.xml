@@ -2,109 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/libs/MobTools-2016.0714.1402.jar"
+        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/ParseInstagram/mcoyninegridimage/unspecified/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="2a583c5b1b67aa1f1b9dbbc658d9e0d185d89dd3">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/MobTools-2016.0714.1402-ab037c3e6b6e6e81755a993d88105be757f07a7d.jar" />
-    </item>
-    <item
-        jar="/Users/axing/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/parse-android-1.13.0-ed90e6b5ba1f6f65da5925905004d7e09bc6ac67.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-2548a54046608cfcc75bd0dbbc6c360d87893dd3.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.pkmmte.view/circularimageview/1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c341a7ad32bc2eef9dcfab239262b77ac60788cc">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-d493aaa2703612708aa8f486bf5f9e4da4b9d75c.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-892819a0ee1318d30fda0369778c3a0935bce349.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-8e3ab3a96b8473aba9585c520e5f98493db882ef.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/mac_develop/android-sdk-macosx-2/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-b1325936b78e96d062799e45aef1c66de8050120.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDK-2.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d7b3619e58ab2a0fb6fa87a74e1b4802b413749a">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-9d1bbf3887382a26ea232cc7fcf0585fff976deb.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/libs/MobCommons-2016.0714.1402.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57eee6c3e8bab2ed4b9a585a7f590808d6518573">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/MobCommons-2016.0714.1402-cf304b375b50ce709db14ffaebbf3705868bd060.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-b56ac335efff04c020c241cc94587cd7a87f0220.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.kaopiz/kprogresshud/1.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="432921a1dc94a95bbe682a08780b91231dbf54d0">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-8db813420dd82c16b6f25b1da600f8b2803e952c.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/SMSSDKGUI-2.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1f30237972841d767d5fae5674a001348fd6edfa">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-16d945e115349d885eae36e4eb5ba8f125a0c4ac.jar" />
-    </item>
-    <item
-        jar="/Users/axing/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-2d867995a3010c45764665b4e2af107ee6f72e5b.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-26d725071f7266a74535fe68fe0d22e57a480dc0.jar" />
-    </item>
-    <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-50521922b6b8ff1d933ad4c23e0de84e8bcdcd5a.jar" />
+        revision="23.0.3"
+        sha1="50302781ee834909d63a3bece928cb005200d73b">
+        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-5e13c99efac8983a48c90baa3e34a4fc208cca8d.jar" />
     </item>
 
 </items>

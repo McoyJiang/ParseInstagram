@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <GridView
+        android:id="@+id/albumGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:horizontalSpacing="20dp"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:verticalSpacing="20dp" >
+    </GridView>
+
+</RelativeLayout>
+<!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/photoselectorlib/src/main/res/layout/activity_show_thumb.xml -->

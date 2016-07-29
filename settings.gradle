@@ -1,1 +1,1 @@
-include ':ParseStarterProject'
+include ':ParseStarterProject', ':mcoyninegridimage', ':photoselectorlib'

@@ -38,7 +38,10 @@ import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
+
+import material.danny_jiang.com.photoselectorlib.activity.ShowAlbumActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -86,7 +89,8 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             }
         });
-        userLogo = (ImageView) navigationView.findViewById(R.id.image_profile);
+        View headerView = navigationView.getHeaderView(0);
+        userLogo = (ImageView) headerView.findViewById(R.id.userCircleLogo);
         getUserLogo();
         userLogo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -95,8 +99,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        userPhone = ((TextView) navigationView.findViewById(R.id.userPhone));
-        userEmail = ((TextView) navigationView.findViewById(R.id.userEmail));
+        userPhone = ((TextView) headerView.findViewById(R.id.userPhone));
+        userEmail = ((TextView) headerView.findViewById(R.id.userEmail));
 
         if (ParseUser.getCurrentUser() != null) {
             userPhone.setText(ParseUser.getCurrentUser().getUsername());
@@ -135,26 +139,95 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.register:
                 intent.setClass(this, RegisterActivity.class);
+                startActivity(intent);
                 break;
             case R.id.showAll:
                 intent.setClass(this, UserListActivity.class);
+                startActivity(intent);
                 break;
             case R.id.uploadLogo:
-
+                uploadMultiImages();
                 return;
             case R.id.userEmail:
                 Toast.makeText(MainActivity.this, "设置邮箱", Toast.LENGTH_SHORT).show();
                 break;
+            case R.id.showMyNews:
+                intent.setClass(this, ShowNewsActivity.class);
+                startActivity(intent);
+                break;
         }
 
-        startActivity(intent);
+    }
+
+    private void uploadMultiImages() {
+        Intent intent = new Intent(this, ShowAlbumActivity.class);
+
+        startActivityForResult(intent, 5);
+        /**Bitmap bitmapImage1 = BitmapFactory.decodeResource(getResources(), R.drawable.voice);
+         ByteArrayOutputStream baos1 = new ByteArrayOutputStream();
+         bitmapImage1.compress(Bitmap.CompressFormat.JPEG, 100, baos1);
+         byte[] buffer1 = baos1.toByteArray();
+         ParseFile parseFile1 = new ParseFile("Image1.jpg", buffer1);
+
+         Bitmap bitmapImage2 = BitmapFactory.decodeResource(getResources(), R.drawable.leaf);
+         ByteArrayOutputStream baos2 = new ByteArrayOutputStream();
+         bitmapImage2.compress(Bitmap.CompressFormat.JPEG, 100, baos2);
+         byte[] buffer2 = baos2.toByteArray();
+         ParseFile parseFile2 = new ParseFile("Image2.jpg", buffer2);
+
+         ArrayList<ParseFile> files = new ArrayList<>();
+         files.add(parseFile1);
+         files.add(parseFile2);
+
+         ParseObject news = new ParseObject("News");
+         news.put("images", files);
+
+         news.saveInBackground(new SaveCallback() {
+        @Override public void done(ParseException e) {
+        if (e == null) {
+        Log.e("TAG", "done: 上传多张图片成功");
+        } else {
+        Log.e("TAG", "done: 上传多张图片失败--" + e.getCode());
+        }
+        }
+        });*/
     }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if (resultCode == RESULT_OK && data != null) {
+        if (requestCode == 5 && resultCode == RESULT_OK){
+            List<String> selectedPhotos = data.getStringArrayListExtra("data");
+            if (selectedPhotos != null && selectedPhotos.size() > 0) {
+                ArrayList<ParseFile> files = new ArrayList<>();
+                for (int i = 0; i < selectedPhotos.size(); i++) {
+                    String path = selectedPhotos.get(i);
+                    Log.e("TAG", "onActivityResult: " + path);
+                    Bitmap bitmapImage = BitmapFactory.decodeFile(path);
+                    ByteArrayOutputStream baos = new ByteArrayOutputStream();
+                    bitmapImage.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+                    byte[] buffer = baos.toByteArray();
+                    ParseFile parseFile = new ParseFile("Image" + i + ".jpg", buffer);
+
+                    files.add(parseFile);
+                }
+
+                ParseObject news = new ParseObject("News");
+                news.put("username", ParseUser.getCurrentUser().getUsername());
+                news.put("images", files);
+
+                news.saveInBackground(new SaveCallback() {
+                    @Override public void done(ParseException e) {
+                        if (e == null) {
+                            Log.e("TAG", "done: 上传多张图片成功");
+                        } else {
+                            Log.e("TAG", "done: 上传多张图片失败--" + e.getCode());
+                        }
+                    }
+                });
+            }
+        } else if (resultCode == RESULT_OK && data != null) {
             final Uri uri = data.getData();
             Log.e("TAG", "onActivityResult: uri is " + uri.getPath());
 

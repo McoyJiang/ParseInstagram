@@ -52,6 +52,7 @@
             android:launchMode="singleTask" />
         <activity android:name=".activity.UserListActivity" />
         <activity android:name=".activity.UserDetailActivity"></activity>
+        <activity android:name=".activity.ShowNewsActivity"></activity>
 
         <activity
             android:name="com.mob.tools.MobUIShell"

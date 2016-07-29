@@ -10,6 +10,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ParseStarterProject" />
+            <option value="$PROJECT_DIR$/mcoyninegridimage" />
+            <option value="$PROJECT_DIR$/photoselectorlib" />
           </set>
         </option>
       </GradleProjectSettings>

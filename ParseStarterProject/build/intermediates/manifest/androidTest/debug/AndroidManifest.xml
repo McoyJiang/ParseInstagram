@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.parse.starter.test">
+    package="material.danny_jiang.com.webview_senior.test">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.parse.starter"
+                     android:targetPackage="material.danny_jiang.com.webview_senior"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.parse.starter"/>
+                     android:label="Tests for material.danny_jiang.com.webview_senior"/>
 </manifest>

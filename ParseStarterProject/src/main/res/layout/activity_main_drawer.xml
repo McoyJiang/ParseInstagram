@@ -36,6 +36,13 @@
             android:text="所有用户" />
 
         <Button
+            android:id="@+id/showMyNews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="显示我的新鲜事" />
+
+        <Button
             android:id="@+id/uploadLogo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

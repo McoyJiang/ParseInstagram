@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:state_pressed="true" android:drawable="@drawable/bg_button_press"></item>    
+	<item android:drawable="@drawable/btn_bg"></item>
+
+</selector>
+<!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/photoselectorlib/src/main/res/drawable/selector_btn_black.xml --><!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/ParseInstagram/photoselectorlib/unspecified/res/drawable/selector_btn_black.xml -->

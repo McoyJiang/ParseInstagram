@@ -1,13 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-ru/values-ru.xml -->
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/si.virag/fuzzydateformatter/1.1.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <plurals name="fuzzydatetime__days_ago">
+        <item quantity="zero">%d дней назад</item>
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+        <item quantity="other">%d дней назад</item>
+    </plurals>
+    <plurals name="fuzzydatetime__days_future">
+        <item quantity="zero">осталось %d дней</item>
+        <item quantity="one">остался %d день</item>
+        <item quantity="few">осталось %d дня</item>
+        <item quantity="many">осталось %d дней</item>
+        <item quantity="other">осталось %d дней</item>
+    </plurals>
+    <plurals name="fuzzydatetime__hours_ago">
+        <item quantity="zero">%d часов назад</item>
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="many">%d часов назад</item>
+        <item quantity="other">%d часов назад</item>
+    </plurals>
+    <plurals name="fuzzydatetime__hours_future">
+        <item quantity="zero">осталось %d часов</item>
+        <item quantity="one">остался %d час</item>
+        <item quantity="few">осталось %d часа</item>
+        <item quantity="many">осталось %d часов</item>
+        <item quantity="other">осталось %d часов</item>
+    </plurals>
+    <plurals name="fuzzydatetime__minutes_ago">
+        <item quantity="zero">%d минут назад</item>
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+        <item quantity="many">%d минут назад</item>
+        <item quantity="other">%d минут назад</item>
+    </plurals>
+    <plurals name="fuzzydatetime__minutes_future">
+        <item quantity="zero">осталось %d минут</item>
+        <item quantity="one">осталась %d минута</item>
+        <item quantity="few">осталось %d минуты</item>
+        <item quantity="many">осталось %d минут</item>
+        <item quantity="other">осталось %d минут</item>
+    </plurals>
+    <plurals name="fuzzydatetime__months_ago">
+        <item quantity="zero">%d месяцев назад</item>
+        <item quantity="one">%d месяц назад</item>
+        <item quantity="few">%d месяца назад</item>
+        <item quantity="many">%d месяцев назад</item>
+        <item quantity="other">%d месяцев назад</item>
+    </plurals>
+    <plurals name="fuzzydatetime__months_future">
+        <item quantity="zero">осталось %d месяцев</item>
+        <item quantity="one">остался %d месяц</item>
+        <item quantity="few">осталось %d месяца</item>
+        <item quantity="many">осталось %d месяцев</item>
+        <item quantity="other">осталось %d месяцев</item>
+    </plurals>
+    <plurals name="fuzzydatetime__seconds_ago">
+        <item quantity="zero">только что</item>
+        <item quantity="one">%d секунду назад</item>
+        <item quantity="few">%d секунды назад</item>
+        <item quantity="many">%d секунд назад</item>
+        <item quantity="other">%d секунд назад</item>
+    </plurals>
+    <plurals name="fuzzydatetime__seconds_future">
+        <item quantity="zero">сейчас</item>
+        <item quantity="one">осталась %d секунда</item>
+        <item quantity="few">осталось %d секунды</item>
+        <item quantity="many">осталось %d секунд</item>
+        <item quantity="other">осталось %d секунд</item>
+    </plurals>
+    <plurals name="fuzzydatetime__weeks_ago">
+        <item quantity="zero">%d недель назад</item>
+        <item quantity="one">%d неделя назад</item>
+        <item quantity="few">%d недели назад</item>
+        <item quantity="many">%d недель назад</item>
+        <item quantity="other">%d недель назад</item>
+    </plurals>
+    <plurals name="fuzzydatetime__weeks_future">
+        <item quantity="zero">осталось %d недель</item>
+        <item quantity="one">осталась %d неделя</item>
+        <item quantity="few">осталось %d недели</item>
+        <item quantity="many">осталось %d недель</item>
+        <item quantity="other">осталось %d недель</item>
+    </plurals>
+    <plurals name="fuzzydatetime__years_ago">
+        <item quantity="zero">%d лет назад</item>
+        <item quantity="one">%d год назад</item>
+        <item quantity="few">%d года назад</item>
+        <item quantity="many">%d лет назад</item>
+        <item quantity="other">%d лет назад</item>
+    </plurals>
+    <plurals name="fuzzydatetime__years_future">
+        <item quantity="zero">осталось %d лет</item>
+        <item quantity="one">остался %d год</item>
+        <item quantity="few">осталось %d года</item>
+        <item quantity="many">осталось %d лет</item>
+        <item quantity="other">осталось %d лет</item>
+    </plurals>
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-ru/values-ru.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
     <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
     <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
     <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ОТКЛ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Поиск"</string>
     <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
     <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
     <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
@@ -15,4 +120,11 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/si.virag/fuzzydateformatter/1.1.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string name="fuzzydatetime__now">только что</string>
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
 </resources>

@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values-sl/values-sl.xml -->
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/si.virag/fuzzydateformatter/1.1.0/res/values-sl/values-sl.xml -->
+    <eat-comment/>
+    <plurals name="fuzzydatetime__days_ago">
+        <item quantity="one">pred %d dnevom</item>
+        <item quantity="two">pred %d dnevoma</item>
+        <item quantity="few">pred %d dnevi</item>
+        <item quantity="other">pred %d dnevi</item>
+    </plurals>
+    <plurals name="fuzzydatetime__hours_ago">
+        <item quantity="one">pred %d uro</item>
+        <item quantity="two">pred %d urama</item>
+        <item quantity="few">pred %d urami</item>
+        <item quantity="other">pred %d urami</item>
+    </plurals>
+    <plurals name="fuzzydatetime__minutes_ago">
+        <item quantity="one">pred %d minuto</item>
+        <item quantity="two">pred %d minutama</item>
+        <item quantity="few">pred %d minutami</item>
+        <item quantity="other">pred %d minutami</item>
+    </plurals>
+    <plurals name="fuzzydatetime__months_ago">
+        <item quantity="one">pred %d mesecem</item>
+        <item quantity="two">pred %d mesecema</item>
+        <item quantity="few">pred %d meseci</item>
+        <item quantity="other">pred %d meseci</item>
+    </plurals>
+    <plurals name="fuzzydatetime__seconds_ago">
+        <item quantity="one">pred %d sekundo</item>
+        <item quantity="two">pred %d sekundama</item>
+        <item quantity="few">pred %d sekundami</item>
+        <item quantity="other">pred %d sekundami</item>
+    </plurals>
+    <plurals name="fuzzydatetime__weeks_ago">
+        <item quantity="one">pred %d tednom</item>
+        <item quantity="two">pred %d tednoma</item>
+        <item quantity="few">pred %d tedni</item>
+        <item quantity="other">pred %d tedni</item>
+    </plurals>
+    <plurals name="fuzzydatetime__years_ago">
+        <item quantity="one">pred %d letom</item>
+        <item quantity="two">pred %d letoma</item>
+        <item quantity="few">pred %d leti</item>
+        <item quantity="other">pred %d leti</item>
+    </plurals>
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-sl/values-sl.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Krmarjenje domov"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
     <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Krmarjenje navzgor"</string>
     <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Več možnosti"</string>
     <string msgid="4076576682505996667" name="abc_action_mode_done">"Končano"</string>
     <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Pokaži vse"</string>
     <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Izbira aplikacije"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"IZKLOPLJENO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"VKLOPLJENO"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Iskanje …"</string>
     <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Izbris poizvedbe"</string>
     <string msgid="2550479030709304392" name="abc_searchview_description_query">"Iskalna poizvedba"</string>
     <string msgid="8264924765203268293" name="abc_searchview_description_search">"Iskanje"</string>
@@ -15,4 +64,11 @@
     <string msgid="893419373245838918" name="abc_searchview_description_voice">"Glasovno iskanje"</string>
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Deljenje z"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Deljenje z:"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Strni"</string>
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/si.virag/fuzzydateformatter/1.1.0/res/values-sl/values-sl.xml -->
+    <eat-comment/>
+    <string name="fuzzydatetime__now">pravkar</string>
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-sl/values-sl.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

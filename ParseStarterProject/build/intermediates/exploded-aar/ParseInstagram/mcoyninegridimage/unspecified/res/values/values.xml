@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NineGridImageView"><attr format="dimension" name="singleImgSize"/><attr format="dimension" name="imgGap"/><attr format="integer" name="maxSize"/><attr format="enum" name="showStyle"><enum name="grid" value="0"/><enum name="fill" value="1"/></attr></declare-styleable>
+    <!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/mcoyninegridimage/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">mcoyNineGridImage</string>
+</resources>
