@@ -20,6 +20,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.kaopiz.kprogresshud.KProgressHUD;
 import com.parse.FindCallback;
 import com.parse.GetCallback;
 import com.parse.GetDataCallback;
@@ -51,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView userPhone;
     private TextView userEmail;
 
+    private KProgressHUD kProgressHUD;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("语音图片");
+
 
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         //4.5表示侧拉菜单的两种状态描述
@@ -217,12 +221,27 @@ public class MainActivity extends AppCompatActivity {
                 news.put("username", ParseUser.getCurrentUser().getUsername());
                 news.put("images", files);
 
+                kProgressHUD = KProgressHUD.create(this)
+                        .setStyle(KProgressHUD.Style.SPIN_INDETERMINATE)
+                        .setLabel("正在上传...")
+                        .setCancellable(false)
+                        .setAnimationSpeed(2)
+                        .setDimAmount(0.5f)
+                        .show();
+
                 news.saveInBackground(new SaveCallback() {
                     @Override public void done(ParseException e) {
+                        if (kProgressHUD != null && kProgressHUD.isShowing()) {
+                            kProgressHUD.dismiss();
+                        }
                         if (e == null) {
                             Log.e("TAG", "done: 上传多张图片成功");
+                            Toast.makeText(MainActivity.this, "上传成功",
+                                    Toast.LENGTH_SHORT).show();
                         } else {
                             Log.e("TAG", "done: 上传多张图片失败--" + e.getCode());
+                            Toast.makeText(MainActivity.this, "上传失败",
+                                    Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

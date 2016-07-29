@@ -9,8 +9,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.jaeger.ninegridimageview.NineGridImageView;
-import com.jaeger.ninegridimageview.NineGridImageViewAdapter;
 import com.parse.starter.R;
 import com.parse.starter.bean.NewsBean;
 import com.squareup.picasso.Picasso;
