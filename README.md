@@ -23,7 +23,7 @@
 ![image](https://github.com/McoyJiang/ParseInstagram/raw/master/IMAGES/uploadmultiple.gif)
 <br>
 同样，上传成功之后再打开Parse云端数据库，可以发现如下格式的Json字符串<br>
-        ```
+        ```json
         [
             {
                 "__type":"File",
