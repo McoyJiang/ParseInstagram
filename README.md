@@ -22,6 +22,30 @@
 ## 3 点击上传图片时，会打开Gallery界面显示设备SD卡中的图片，选中需要上传的图片后点击完成
 ![image](https://github.com/McoyJiang/ParseInstagram/raw/master/IMAGES/uploadmultiple.gif)
 <br>
+同样，上传成功之后再打开Parse云端数据库，可以发现如下格式的Json字符串
+[
+    {
+        "__type":"File",
+        "name":"9df0646a1e948f98c514e5fefb50d780_Image0.jpg",
+        "url":"http://instagram-0720.herokuapp.com/parse/files/jianginstagramUlPFLNRGJfoe/9df0646a1e948f98c514e5fefb50d780_Image0.jpg"
+    },
+    {
+        "__type":"File",
+        "name":"c35051e41abf21ce5042a2f6ec04d954_Image1.jpg",
+        "url":"http://instagram-0720.herokuapp.com/parse/files/jianginstagramUlPFLNRGJfoe/c35051e41abf21ce5042a2f6ec04d954_Image1.jpg"
+    },
+    {
+        "__type":"File",
+        "name":"d4686ccfc65e59b7454037e389a01b49_Image2.jpg",
+        "url":"http://instagram-0720.herokuapp.com/parse/files/jianginstagramUlPFLNRGJfoe/d4686ccfc65e59b7454037e389a01b49_Image2.jpg"
+    },
+    {
+        "__type":"File",
+        "name":"420247ee2b9d548addfb2992dfba1688_Image3.jpg",
+        "url":"http://instagram-0720.herokuapp.com/parse/files/jianginstagramUlPFLNRGJfoe/420247ee2b9d548addfb2992dfba1688_Image3.jpg"
+    }
+]
+<br>
 <br>
 <br>
 未完待续。。。
