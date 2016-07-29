@@ -23,8 +23,8 @@
 ![image](https://github.com/McoyJiang/ParseInstagram/raw/master/IMAGES/uploadmultiple.gif)
 <br>
 同样，上传成功之后再打开Parse云端数据库，可以发现如下格式的Json字符串<br>
-        ```json
-        [
+        ```
+                [
             {
                 "__type":"File",
                 "name":"9df0646a1e948f98c514e5fefb50d780_Image0.jpg",
@@ -45,7 +45,7 @@
                 "name":"420247ee2b9d548addfb2992dfba1688_Image3.jpg",
                 "url":"http://instagram-0720.herokuapp.com/parse/files/jianginstagramUlPFLNRGJfoe/420247ee2b9d548addfb2992dfba1688_Image3.jpg"
             }
-        ]
+ ]
         ```
 <br>
 <br>
