@@ -13,8 +13,15 @@
 ![image](https://github.com/McoyJiang/ParseInstagram/raw/master/IMAGES/parse_database.png)
 <br>
 <br>
+<br>
 ## 2 注册用户成功之后，在主界面，拉出左侧滑菜单，可以看到用户的头像和账号信息。点击头像可以重新设置头像
 ![image](https://github.com/McoyJiang/ParseInstagram/raw/master/IMAGES/uploadllogo.gif)
+<br>
+<br>
+<br>
+## 3 点击上传图片时，会打开Gallery界面显示设备SD卡中的图片，选中需要上传的图片后点击完成
+![image](https://github.com/McoyJiang/ParseInstagram/raw/master/IMAGES/uploadmultiple.gif)
+<br>
 <br>
 <br>
 未完待续。。。
