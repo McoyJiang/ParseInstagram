@@ -39,7 +39,7 @@ public class NineGridLayout<T> extends ViewGroup {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         //super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        Log.e("TAG", "NineGridLayout--onMeasure: ");
+        Log.e("NineGirdImageView", "NineGridLayout--onMeasure: ");
 
         //定义高度，初始值为0
         int totalHeight = 0;
@@ -52,8 +52,8 @@ public class NineGridLayout<T> extends ViewGroup {
 
             // 先计算出每个单元格的大小
             mGridSize = (availableWidth - mGap * (mColumnCount - 1)) / mColumnCount;
-            Log.e("TAG", "onMeasure: mColumnCount is " + mColumnCount + " mRowCount is " + mRowCount);
-            Log.e("TAG", "onMeasure: mGridSize is " + mGridSize);
+            Log.e("NineGirdImageView", "onMeasure: mColumnCount is " + mColumnCount + " mRowCount is " + mRowCount);
+            Log.e("NineGirdImageView", "onMeasure: mGridSize is " + mGridSize);
 
             //根据单元格的大小、行数、行间隙，计算出总共需要的高度
             totalHeight = mGridSize * mRowCount + mGap * (mRowCount - 1) + getPaddingTop() + getPaddingBottom();
@@ -64,7 +64,7 @@ public class NineGridLayout<T> extends ViewGroup {
 
         }
 
-        Log.e("TAG", "NineaGridLayout onMeasure: totalWidht is " + totalWidth + " totalHeight is " + totalHeight);
+        Log.e("NineGirdImageView", "NineaGridLayout onMeasure: totalWidht is " + totalWidth + " totalHeight is " + totalHeight);
         setMeasuredDimension(totalWidth, totalHeight);
     }
 
@@ -128,7 +128,7 @@ public class NineGridLayout<T> extends ViewGroup {
      * @return 宫格参数 gridParam[0] 宫格行数 gridParam[1] 宫格列数
      */
     private int[] calculateGridParam(int imagesSize) {
-        Log.e("TAG", "calculateGridParam: imageSize is " + imagesSize);
+        Log.e("NineGirdImageView", "calculateGridParam: imageSize is " + imagesSize);
         int[] gridparam = new int[2];
 
         if (imagesSize > 9) {
@@ -162,12 +162,6 @@ public class NineGridLayout<T> extends ViewGroup {
             int top = (mGridSize + mGap) * rowNum + getPaddingTop();
             int right = left + mGridSize;
             int bottom = top + mGridSize;
-
-            Log.e("TAG", "layoutChildView: i is " + i);
-            Log.e("TAG", "left is " + left);
-            Log.e("TAG", "top is " + top);
-            Log.e("TAG", "right is " + right);
-            Log.e("TAG", "bottom is " + bottom);
 
             childrenView.layout(left, top, right, bottom);
         }

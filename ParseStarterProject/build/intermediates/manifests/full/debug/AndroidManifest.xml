@@ -8,7 +8,7 @@
   ~ of patent rights can be found in the PATENTS file in the same directory.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="material.danny_jiang.com.webview_senior"
+    package="com.parse.starter"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -72,6 +72,7 @@
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.parse.starter.activity.TestActivity" />
         <activity android:name="material.danny_jiang.com.photoselectorlib.activity.ShowAlbumActivity" />
         <activity android:name="material.danny_jiang.com.photoselectorlib.activity.ShowImageActivity" />
     </application>

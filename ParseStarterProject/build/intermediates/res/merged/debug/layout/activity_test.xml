@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material.danny_jiang.com.mcoypulltorefresh.refresh.RadarRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/radarRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parse.starter.activity.TestActivity">
+
+    <ListView
+        android:id="@+id/list_Test"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</material.danny_jiang.com.mcoypulltorefresh.refresh.RadarRefreshLayout>
+<!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/src/main/res/layout/activity_test.xml -->

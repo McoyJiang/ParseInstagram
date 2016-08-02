@@ -2,8 +2,10 @@ package com.parse.starter.activity;
 
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.parse.FindCallback;
@@ -20,31 +22,64 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
+
+import material.danny_jiang.com.mcoypulltorefresh.listener.PullToRefreshListener;
+import material.danny_jiang.com.mcoypulltorefresh.refresh.BaseRefreshLayout;
+import material.danny_jiang.com.mcoypulltorefresh.refresh.RadarRefreshLayout;
+import material.danny_jiang.com.pulltorefresh.widget.XListView;
 
 /**
  * Created by axing on 16/7/27.
  */
-public class ShowNewsActivity extends AppCompatActivity {
+public class ShowNewsActivity extends AppCompatActivity implements XListView.IXListViewListener {
 
     private ListView listView;
+//    private XListView listView;
     private NewsAdapter adapter;
     private List<NewsBean> beans = new ArrayList<>();
+    private RadarRefreshLayout radarRefreshLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_news);
 
+        initView();
+
+    }
+
+    private void initView() {
+//        listView = (XListView) findViewById(R.id.newsList);
+//        listView.setPullRefreshEnable(true);
+//        listView.setPullLoadEnable(true);
+//        listView.setAutoLoadEnable(true);
+//        listView.setXListViewListener(this);
+//        listView.setRefreshTime(getTime());
+
+        radarRefreshLayout = ((RadarRefreshLayout) findViewById(R.id.radarRefreshLayout_ShowNews));
+        radarRefreshLayout.setHandler(new Handler());
+        radarRefreshLayout.setPullToRefreshListener(new PullToRefreshListener() {
+            @Override
+            public void onStartRefresh(BaseRefreshLayout baseRefreshLayout) {
+                Log.e("TAG", "onStartRefresh: ");
+                beans.clear();
+                getNetwork();
+            }
+        });
+
         listView = ((ListView) findViewById(R.id.newsList));
 
         adapter = new NewsAdapter(this, beans);
-
         listView.setAdapter(adapter);
+    }
 
-        getNetwork();
+    private String getTime() {
+        return new SimpleDateFormat("MM-dd HH:mm", Locale.CHINA).format(new Date());
     }
 
     private void getNetwork() {
@@ -66,7 +101,7 @@ public class ShowNewsActivity extends AppCompatActivity {
                                 String username = parseObject.getString("username");
                                 String text = parseObject.getString("text");
 
-                                if (BuildConfig.DEBUG) {
+                                if (false) {
                                     Log.e("TAG", "done: jsonArray is " + jsonArray);
                                     Log.e("TAG", "done: createdTime is " + createdTime);
                                     Log.e("TAG", "done: address is " + address);
@@ -97,7 +132,7 @@ public class ShowNewsActivity extends AppCompatActivity {
                             Log.e("TAG", "done: beans'size is " + beans.size());
                             refresh();
                         } else {
-
+                            Log.e("TAG", "done: 找到0数据");
                         }
                     } else {
                         Log.e("TAG", "done: 搜索失败--" + e.getCode() + " : " + e.getMessage());
@@ -108,6 +143,39 @@ public class ShowNewsActivity extends AppCompatActivity {
     }
 
     private void refresh() {
+        onLoadFinished();
         adapter.notifyDataSetChanged();
+    }
+
+
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+
+        if (hasFocus) {
+//            listView.autoRefresh();
+            radarRefreshLayout.autoRefresh();
+        }
+
+    }
+
+    @Override
+    public void onRefresh() {
+        Log.e("TAG", "onRefresh: ");
+        beans.clear();
+        getNetwork();
+    }
+
+    @Override
+    public void onLoadMore() {
+
+    }
+
+    private void onLoadFinished() {
+//        listView.stopRefresh();
+//        listView.stopLoadMore();
+//        listView.setRefreshTime(getTime());
+        Log.e("TAG", "onLoadFinished: ");
+        radarRefreshLayout.stopRefresh();
     }
 }

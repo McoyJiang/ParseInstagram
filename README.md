@@ -51,5 +51,8 @@
 </pre>
 <br>
 <br>
+## 上传新鲜事完成之后，就可以在主页查看当前用户以及好友的新鲜事列表，如下图
+![image](https://github.com/McoyJiang/ParseInstagram/raw/master/IMAGES/shownews.gif)
+<br>
 <br>
 未完待续。。。

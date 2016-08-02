@@ -159,6 +159,10 @@ public class MainActivity extends AppCompatActivity {
                 intent.setClass(this, ShowNewsActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.test:
+                intent.setClass(this, TestActivity.class);
+                startActivity(intent);
+                break;
         }
 
     }
@@ -167,34 +171,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ShowAlbumActivity.class);
 
         startActivityForResult(intent, 5);
-        /**Bitmap bitmapImage1 = BitmapFactory.decodeResource(getResources(), R.drawable.voice);
-         ByteArrayOutputStream baos1 = new ByteArrayOutputStream();
-         bitmapImage1.compress(Bitmap.CompressFormat.JPEG, 100, baos1);
-         byte[] buffer1 = baos1.toByteArray();
-         ParseFile parseFile1 = new ParseFile("Image1.jpg", buffer1);
-
-         Bitmap bitmapImage2 = BitmapFactory.decodeResource(getResources(), R.drawable.leaf);
-         ByteArrayOutputStream baos2 = new ByteArrayOutputStream();
-         bitmapImage2.compress(Bitmap.CompressFormat.JPEG, 100, baos2);
-         byte[] buffer2 = baos2.toByteArray();
-         ParseFile parseFile2 = new ParseFile("Image2.jpg", buffer2);
-
-         ArrayList<ParseFile> files = new ArrayList<>();
-         files.add(parseFile1);
-         files.add(parseFile2);
-
-         ParseObject news = new ParseObject("News");
-         news.put("images", files);
-
-         news.saveInBackground(new SaveCallback() {
-        @Override public void done(ParseException e) {
-        if (e == null) {
-        Log.e("TAG", "done: 上传多张图片成功");
-        } else {
-        Log.e("TAG", "done: 上传多张图片失败--" + e.getCode());
-        }
-        }
-        });*/
     }
 
     @Override
@@ -254,9 +230,13 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void getUserLogo(){
+    public void getUserLogo() {
         if (ParseUser.getCurrentUser() == null) {
+            Log.e("TAG", "getUserLogo: 当前没有登录用户");
             return;
+        } else {
+            Log.e("TAG", "getUserLogo: 当前用户是 " +
+                    ParseUser.getCurrentUser().getUsername());
         }
 
         final ParseQuery<ParseObject> query = ParseQuery.getQuery("UserInfo");

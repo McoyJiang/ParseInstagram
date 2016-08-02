@@ -16,4 +16,7 @@
     <string name="action_settings">Settings</string>
     <string name="open_menu">open</string>
     <string name="close_menu">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

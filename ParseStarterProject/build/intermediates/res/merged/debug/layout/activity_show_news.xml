@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/newsList"
+    <!--<material.danny_jiang.com.pulltorefresh.widget.XListView-->
+    <!--android:id="@+id/newsList"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <material.danny_jiang.com.mcoypulltorefresh.refresh.RadarRefreshLayout
+        android:id="@+id/radarRefreshLayout_ShowNews"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/newsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+    </material.danny_jiang.com.mcoypulltorefresh.refresh.RadarRefreshLayout>
 
 </LinearLayout><!-- From: file:/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/src/main/res/layout/activity_show_news.xml -->

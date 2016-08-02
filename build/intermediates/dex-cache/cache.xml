@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/ParseInstagram/mcoyninegridimage/unspecified/jars/classes.jar"
+        jar="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/exploded-aar/ParseInstagram/mcoypulltorefresh/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="50302781ee834909d63a3bece928cb005200d73b">
-        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-5e13c99efac8983a48c90baa3e34a4fc208cca8d.jar" />
+        sha1="5721c06316472bdbab7e28cd5d7d500f4dc91b8a">
+        <dex dex="/Users/axing/Downloads/work_dir/my_github/ParseInstagram/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-a0764a2cddf812d3da6fb91232a5cdb35f0871a9.jar" />
     </item>
 
 </items>

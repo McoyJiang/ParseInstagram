@@ -1,1 +1,1 @@
-include ':ParseStarterProject', ':mcoyninegridimage', ':photoselectorlib'
+include ':ParseStarterProject', ':mcoyninegridimage', ':photoselectorlib', ':pulltorefresh', ':mcoypulltorefresh'

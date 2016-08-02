@@ -13,7 +13,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -51,15 +50,14 @@
             android:name=".activity.LoginActivity"
             android:launchMode="singleTask" />
         <activity android:name=".activity.UserListActivity" />
-        <activity android:name=".activity.UserDetailActivity"></activity>
-        <activity android:name=".activity.ShowNewsActivity"></activity>
-
+        <activity android:name=".activity.UserDetailActivity" />
+        <activity android:name=".activity.ShowNewsActivity" />
         <activity
             android:name="com.mob.tools.MobUIShell"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:configChanges="keyboardHidden|orientation|screenSize"
-            android:windowSoftInputMode="stateHidden|adjustResize"/>
-
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".activity.TestActivity"></activity>
     </application>
 
 </manifest>

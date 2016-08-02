@@ -48,6 +48,13 @@
             android:layout_height="wrap_content"
             android:onClick="click"
             android:text="上传图片" />
+
+        <Button
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="test" />
     </LinearLayout>
 
     <android.support.design.widget.NavigationView

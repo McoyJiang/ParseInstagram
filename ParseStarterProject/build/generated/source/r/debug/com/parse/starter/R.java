@@ -2244,106 +2244,108 @@ containing a value of this type.
         public static final int abc_config_showMenuShortcutsWhenKeyboardPresent=0x7f090007;
     }
     public static final class color {
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f0e0058;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f0e0059;
-        public static final int abc_color_highlight_material=0x7f0e005a;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f0e005a;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f0e005b;
+        public static final int abc_color_highlight_material=0x7f0e005c;
         public static final int abc_input_method_navigation_guard=0x7f0e0000;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f0e005b;
-        public static final int abc_primary_text_disable_only_material_light=0x7f0e005c;
-        public static final int abc_primary_text_material_dark=0x7f0e005d;
-        public static final int abc_primary_text_material_light=0x7f0e005e;
-        public static final int abc_search_url_text=0x7f0e005f;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f0e005d;
+        public static final int abc_primary_text_disable_only_material_light=0x7f0e005e;
+        public static final int abc_primary_text_material_dark=0x7f0e005f;
+        public static final int abc_primary_text_material_light=0x7f0e0060;
+        public static final int abc_search_url_text=0x7f0e0061;
         public static final int abc_search_url_text_normal=0x7f0e0001;
         public static final int abc_search_url_text_pressed=0x7f0e0002;
         public static final int abc_search_url_text_selected=0x7f0e0003;
-        public static final int abc_secondary_text_material_dark=0x7f0e0060;
-        public static final int abc_secondary_text_material_light=0x7f0e0061;
+        public static final int abc_secondary_text_material_dark=0x7f0e0062;
+        public static final int abc_secondary_text_material_light=0x7f0e0063;
         public static final int accent_material_dark=0x7f0e0004;
         public static final int accent_material_light=0x7f0e0005;
-        public static final int background_floating_material_dark=0x7f0e0006;
-        public static final int background_floating_material_light=0x7f0e0007;
-        public static final int background_material_dark=0x7f0e0008;
-        public static final int background_material_light=0x7f0e0009;
-        public static final int black=0x7f0e000a;
-        public static final int bright_foreground_disabled_material_dark=0x7f0e000b;
-        public static final int bright_foreground_disabled_material_light=0x7f0e000c;
-        public static final int bright_foreground_inverse_material_dark=0x7f0e000d;
-        public static final int bright_foreground_inverse_material_light=0x7f0e000e;
-        public static final int bright_foreground_material_dark=0x7f0e000f;
-        public static final int bright_foreground_material_light=0x7f0e0010;
-        public static final int button_material_dark=0x7f0e0011;
-        public static final int button_material_light=0x7f0e0012;
-        public static final int cardview_dark_background=0x7f0e0013;
-        public static final int cardview_light_background=0x7f0e0014;
-        public static final int cardview_shadow_end_color=0x7f0e0015;
-        public static final int cardview_shadow_start_color=0x7f0e0016;
-        public static final int design_fab_shadow_end_color=0x7f0e0017;
-        public static final int design_fab_shadow_mid_color=0x7f0e0018;
-        public static final int design_fab_shadow_start_color=0x7f0e0019;
-        public static final int design_fab_stroke_end_inner_color=0x7f0e001a;
-        public static final int design_fab_stroke_end_outer_color=0x7f0e001b;
-        public static final int design_fab_stroke_top_inner_color=0x7f0e001c;
-        public static final int design_fab_stroke_top_outer_color=0x7f0e001d;
-        public static final int design_snackbar_background_color=0x7f0e001e;
-        public static final int design_textinput_error_color_dark=0x7f0e001f;
-        public static final int design_textinput_error_color_light=0x7f0e0020;
-        public static final int dialog_btn=0x7f0e0021;
-        public static final int dim_foreground_disabled_material_dark=0x7f0e0022;
-        public static final int dim_foreground_disabled_material_light=0x7f0e0023;
-        public static final int dim_foreground_material_dark=0x7f0e0024;
-        public static final int dim_foreground_material_light=0x7f0e0025;
-        public static final int foreground_material_dark=0x7f0e0026;
-        public static final int foreground_material_light=0x7f0e0027;
-        public static final int highlighted_text_material_dark=0x7f0e0028;
-        public static final int highlighted_text_material_light=0x7f0e0029;
-        public static final int hint_foreground_material_dark=0x7f0e002a;
-        public static final int hint_foreground_material_light=0x7f0e002b;
-        public static final int kprogresshud_default_color=0x7f0e002c;
-        public static final int kprogresshud_grey_color=0x7f0e002d;
-        public static final int line=0x7f0e002e;
-        public static final int material_blue_grey_800=0x7f0e002f;
-        public static final int material_blue_grey_900=0x7f0e0030;
-        public static final int material_blue_grey_950=0x7f0e0031;
-        public static final int material_deep_teal_200=0x7f0e0032;
-        public static final int material_deep_teal_500=0x7f0e0033;
-        public static final int material_grey_100=0x7f0e0034;
-        public static final int material_grey_300=0x7f0e0035;
-        public static final int material_grey_50=0x7f0e0036;
-        public static final int material_grey_600=0x7f0e0037;
-        public static final int material_grey_800=0x7f0e0038;
-        public static final int material_grey_850=0x7f0e0039;
-        public static final int material_grey_900=0x7f0e003a;
-        public static final int primary_dark_material_dark=0x7f0e003b;
-        public static final int primary_dark_material_light=0x7f0e003c;
-        public static final int primary_material_dark=0x7f0e003d;
-        public static final int primary_material_light=0x7f0e003e;
-        public static final int primary_text_default_material_dark=0x7f0e003f;
-        public static final int primary_text_default_material_light=0x7f0e0040;
-        public static final int primary_text_disabled_material_dark=0x7f0e0041;
-        public static final int primary_text_disabled_material_light=0x7f0e0042;
-        public static final int ripple_material_dark=0x7f0e0043;
-        public static final int ripple_material_light=0x7f0e0044;
-        public static final int secondary_text_default_material_dark=0x7f0e0045;
-        public static final int secondary_text_default_material_light=0x7f0e0046;
-        public static final int secondary_text_disabled_material_dark=0x7f0e0047;
-        public static final int secondary_text_disabled_material_light=0x7f0e0048;
-        public static final int smssdk_black=0x7f0e0049;
-        public static final int smssdk_gray=0x7f0e004a;
-        public static final int smssdk_gray_press=0x7f0e004b;
-        public static final int smssdk_lv_item_divider=0x7f0e004c;
-        public static final int smssdk_lv_item_selector=0x7f0e004d;
-        public static final int smssdk_lv_title_color=0x7f0e004e;
-        public static final int smssdk_lv_tv_color=0x7f0e004f;
-        public static final int smssdk_transparent=0x7f0e0050;
-        public static final int smssdk_white=0x7f0e0051;
-        public static final int switch_thumb_disabled_material_dark=0x7f0e0052;
-        public static final int switch_thumb_disabled_material_light=0x7f0e0053;
-        public static final int switch_thumb_material_dark=0x7f0e0062;
-        public static final int switch_thumb_material_light=0x7f0e0063;
-        public static final int switch_thumb_normal_material_dark=0x7f0e0054;
-        public static final int switch_thumb_normal_material_light=0x7f0e0055;
-        public static final int transparent=0x7f0e0056;
-        public static final int white=0x7f0e0057;
+        public static final int background=0x7f0e0006;
+        public static final int background_floating_material_dark=0x7f0e0007;
+        public static final int background_floating_material_light=0x7f0e0008;
+        public static final int background_material_dark=0x7f0e0009;
+        public static final int background_material_light=0x7f0e000a;
+        public static final int black=0x7f0e000b;
+        public static final int bright_foreground_disabled_material_dark=0x7f0e000c;
+        public static final int bright_foreground_disabled_material_light=0x7f0e000d;
+        public static final int bright_foreground_inverse_material_dark=0x7f0e000e;
+        public static final int bright_foreground_inverse_material_light=0x7f0e000f;
+        public static final int bright_foreground_material_dark=0x7f0e0010;
+        public static final int bright_foreground_material_light=0x7f0e0011;
+        public static final int button_material_dark=0x7f0e0012;
+        public static final int button_material_light=0x7f0e0013;
+        public static final int cardview_dark_background=0x7f0e0014;
+        public static final int cardview_light_background=0x7f0e0015;
+        public static final int cardview_shadow_end_color=0x7f0e0016;
+        public static final int cardview_shadow_start_color=0x7f0e0017;
+        public static final int design_fab_shadow_end_color=0x7f0e0018;
+        public static final int design_fab_shadow_mid_color=0x7f0e0019;
+        public static final int design_fab_shadow_start_color=0x7f0e001a;
+        public static final int design_fab_stroke_end_inner_color=0x7f0e001b;
+        public static final int design_fab_stroke_end_outer_color=0x7f0e001c;
+        public static final int design_fab_stroke_top_inner_color=0x7f0e001d;
+        public static final int design_fab_stroke_top_outer_color=0x7f0e001e;
+        public static final int design_snackbar_background_color=0x7f0e001f;
+        public static final int design_textinput_error_color_dark=0x7f0e0020;
+        public static final int design_textinput_error_color_light=0x7f0e0021;
+        public static final int dialog_btn=0x7f0e0022;
+        public static final int dim_foreground_disabled_material_dark=0x7f0e0023;
+        public static final int dim_foreground_disabled_material_light=0x7f0e0024;
+        public static final int dim_foreground_material_dark=0x7f0e0025;
+        public static final int dim_foreground_material_light=0x7f0e0026;
+        public static final int foreground_material_dark=0x7f0e0027;
+        public static final int foreground_material_light=0x7f0e0028;
+        public static final int highlighted_text_material_dark=0x7f0e0029;
+        public static final int highlighted_text_material_light=0x7f0e002a;
+        public static final int hint_foreground_material_dark=0x7f0e002b;
+        public static final int hint_foreground_material_light=0x7f0e002c;
+        public static final int kprogresshud_default_color=0x7f0e002d;
+        public static final int kprogresshud_grey_color=0x7f0e002e;
+        public static final int line=0x7f0e002f;
+        public static final int material_blue_grey_800=0x7f0e0030;
+        public static final int material_blue_grey_900=0x7f0e0031;
+        public static final int material_blue_grey_950=0x7f0e0032;
+        public static final int material_deep_teal_200=0x7f0e0033;
+        public static final int material_deep_teal_500=0x7f0e0034;
+        public static final int material_grey_100=0x7f0e0035;
+        public static final int material_grey_300=0x7f0e0036;
+        public static final int material_grey_50=0x7f0e0037;
+        public static final int material_grey_600=0x7f0e0038;
+        public static final int material_grey_800=0x7f0e0039;
+        public static final int material_grey_850=0x7f0e003a;
+        public static final int material_grey_900=0x7f0e003b;
+        public static final int primary_dark_material_dark=0x7f0e003c;
+        public static final int primary_dark_material_light=0x7f0e003d;
+        public static final int primary_material_dark=0x7f0e003e;
+        public static final int primary_material_light=0x7f0e003f;
+        public static final int primary_text_default_material_dark=0x7f0e0040;
+        public static final int primary_text_default_material_light=0x7f0e0041;
+        public static final int primary_text_disabled_material_dark=0x7f0e0042;
+        public static final int primary_text_disabled_material_light=0x7f0e0043;
+        public static final int ripple_material_dark=0x7f0e0044;
+        public static final int ripple_material_light=0x7f0e0045;
+        public static final int secondary_text_default_material_dark=0x7f0e0046;
+        public static final int secondary_text_default_material_light=0x7f0e0047;
+        public static final int secondary_text_disabled_material_dark=0x7f0e0048;
+        public static final int secondary_text_disabled_material_light=0x7f0e0049;
+        public static final int smssdk_black=0x7f0e004a;
+        public static final int smssdk_gray=0x7f0e004b;
+        public static final int smssdk_gray_press=0x7f0e004c;
+        public static final int smssdk_lv_item_divider=0x7f0e004d;
+        public static final int smssdk_lv_item_selector=0x7f0e004e;
+        public static final int smssdk_lv_title_color=0x7f0e004f;
+        public static final int smssdk_lv_tv_color=0x7f0e0050;
+        public static final int smssdk_transparent=0x7f0e0051;
+        public static final int smssdk_white=0x7f0e0052;
+        public static final int switch_thumb_disabled_material_dark=0x7f0e0053;
+        public static final int switch_thumb_disabled_material_light=0x7f0e0054;
+        public static final int switch_thumb_material_dark=0x7f0e0064;
+        public static final int switch_thumb_material_light=0x7f0e0065;
+        public static final int switch_thumb_normal_material_dark=0x7f0e0055;
+        public static final int switch_thumb_normal_material_light=0x7f0e0056;
+        public static final int title_color=0x7f0e0057;
+        public static final int transparent=0x7f0e0058;
+        public static final int white=0x7f0e0059;
     }
     public static final class dimen {
         public static final int abc_action_bar_content_inset_material=0x7f0a000d;
@@ -2395,7 +2397,7 @@ containing a value of this type.
         public static final int abc_seekbar_track_background_height_material=0x7f0a003a;
         public static final int abc_seekbar_track_progress_height_material=0x7f0a003b;
         public static final int abc_select_dialog_padding_start_material=0x7f0a003c;
-        public static final int abc_switch_padding=0x7f0a0018;
+        public static final int abc_switch_padding=0x7f0a0019;
         public static final int abc_text_size_body_1_material=0x7f0a003d;
         public static final int abc_text_size_body_2_material=0x7f0a003e;
         public static final int abc_text_size_button_material=0x7f0a003f;
@@ -2413,7 +2415,7 @@ containing a value of this type.
         public static final int abc_text_size_subtitle_material_toolbar=0x7f0a0003;
         public static final int abc_text_size_title_material=0x7f0a004b;
         public static final int abc_text_size_title_material_toolbar=0x7f0a0004;
-        public static final int activity_horizontal_margin=0x7f0a0019;
+        public static final int activity_horizontal_margin=0x7f0a0018;
         public static final int activity_vertical_margin=0x7f0a004c;
         public static final int cardview_compat_inset_shadow=0x7f0a004d;
         public static final int cardview_default_elevation=0x7f0a004e;
@@ -2449,16 +2451,19 @@ containing a value of this type.
         public static final int design_tab_text_size_2line=0x7f0a0064;
         public static final int disabled_alpha_material_dark=0x7f0a0065;
         public static final int disabled_alpha_material_light=0x7f0a0066;
-        public static final int highlight_alpha_material_colored=0x7f0a0067;
-        public static final int highlight_alpha_material_dark=0x7f0a0068;
-        public static final int highlight_alpha_material_light=0x7f0a0069;
-        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f0a006a;
-        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f0a006b;
-        public static final int item_touch_helper_swipe_escape_velocity=0x7f0a006c;
-        public static final int notification_large_icon_height=0x7f0a006d;
-        public static final int notification_large_icon_width=0x7f0a006e;
-        public static final int notification_subtext_size=0x7f0a006f;
-        public static final int register_vertical_padding=0x7f0a0070;
+        public static final int footer_height=0x7f0a0067;
+        public static final int footer_padding=0x7f0a0068;
+        public static final int header_height=0x7f0a0069;
+        public static final int highlight_alpha_material_colored=0x7f0a006a;
+        public static final int highlight_alpha_material_dark=0x7f0a006b;
+        public static final int highlight_alpha_material_light=0x7f0a006c;
+        public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f0a006d;
+        public static final int item_touch_helper_swipe_escape_max_velocity=0x7f0a006e;
+        public static final int item_touch_helper_swipe_escape_velocity=0x7f0a006f;
+        public static final int notification_large_icon_height=0x7f0a0070;
+        public static final int notification_large_icon_width=0x7f0a0071;
+        public static final int notification_subtext_size=0x7f0a0072;
+        public static final int register_vertical_padding=0x7f0a0073;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -2536,58 +2541,60 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020048;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020049;
         public static final int abc_textfield_search_material=0x7f02004a;
-        public static final int baby=0x7f02004b;
-        public static final int background=0x7f02004c;
-        public static final int bg=0x7f02004d;
-        public static final int bg_button_press=0x7f02004e;
-        public static final int bgd_relatly_line=0x7f02004f;
-        public static final int btn_bg=0x7f020050;
-        public static final int btn_transparent_selector=0x7f020051;
-        public static final int btn_transparent_sms=0x7f020052;
-        public static final int capture=0x7f020053;
-        public static final int design_fab_background=0x7f020054;
-        public static final int design_snackbar_background=0x7f020055;
-        public static final int ic_abstract=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
-        public static final int icon_data_select=0x7f020058;
-        public static final int instagramlogo=0x7f020059;
-        public static final int item_selector_white=0x7f02005a;
-        public static final int kprogresshud_spinner=0x7f02005b;
-        public static final int layout_transparent_input=0x7f02005c;
-        public static final int leaf=0x7f02005d;
-        public static final int notification_template_icon_bg=0x7f020079;
-        public static final int selector_btn_black=0x7f02005e;
-        public static final int sky=0x7f02005f;
-        public static final int smssdk_back_arrow=0x7f020060;
-        public static final int smssdk_back_arrow2=0x7f020061;
-        public static final int smssdk_btn_disenable=0x7f020062;
-        public static final int smssdk_btn_enable=0x7f020063;
-        public static final int smssdk_cl_divider=0x7f020064;
-        public static final int smssdk_clear_search=0x7f020065;
-        public static final int smssdk_corners_bg=0x7f020066;
-        public static final int smssdk_corners_bg_nor=0x7f020067;
-        public static final int smssdk_corners_bg_pre=0x7f020068;
-        public static final int smssdk_country_bg_selector=0x7f020069;
-        public static final int smssdk_country_group_scroll_down=0x7f02006a;
-        public static final int smssdk_country_group_scroll_up=0x7f02006b;
-        public static final int smssdk_cp_default_avatar=0x7f02006c;
-        public static final int smssdk_default_avatar=0x7f02006d;
-        public static final int smssdk_dialog_back=0x7f02006e;
-        public static final int smssdk_dialog_bg=0x7f02006f;
-        public static final int smssdk_dialog_btn_back=0x7f020070;
-        public static final int smssdk_dialog_btn_nor=0x7f02007a;
-        public static final int smssdk_dialog_btn_pre=0x7f02007b;
-        public static final int smssdk_edittext_bg_selector=0x7f020071;
-        public static final int smssdk_input_bg_focus=0x7f020072;
-        public static final int smssdk_input_bg_normal=0x7f020073;
-        public static final int smssdk_input_bg_special_focus=0x7f020074;
-        public static final int smssdk_input_bg_special_normal=0x7f020075;
-        public static final int smssdk_search_icon=0x7f020076;
-        public static final int smssdk_sharesdk_icon=0x7f020077;
-        public static final int voice=0x7f020078;
+        public static final int arrow_down=0x7f02004b;
+        public static final int arrow_up=0x7f02004c;
+        public static final int baby=0x7f02004d;
+        public static final int background=0x7f02004e;
+        public static final int bg=0x7f02004f;
+        public static final int bg_button_press=0x7f020050;
+        public static final int bgd_relatly_line=0x7f020051;
+        public static final int btn_bg=0x7f020052;
+        public static final int btn_transparent_selector=0x7f020053;
+        public static final int btn_transparent_sms=0x7f020054;
+        public static final int capture=0x7f020055;
+        public static final int design_fab_background=0x7f020056;
+        public static final int design_snackbar_background=0x7f020057;
+        public static final int ic_abstract=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
+        public static final int icon_data_select=0x7f02005a;
+        public static final int instagramlogo=0x7f02005b;
+        public static final int item_selector_white=0x7f02005c;
+        public static final int kprogresshud_spinner=0x7f02005d;
+        public static final int layout_transparent_input=0x7f02005e;
+        public static final int leaf=0x7f02005f;
+        public static final int notification_template_icon_bg=0x7f02007b;
+        public static final int selector_btn_black=0x7f020060;
+        public static final int sky=0x7f020061;
+        public static final int smssdk_back_arrow=0x7f020062;
+        public static final int smssdk_back_arrow2=0x7f020063;
+        public static final int smssdk_btn_disenable=0x7f020064;
+        public static final int smssdk_btn_enable=0x7f020065;
+        public static final int smssdk_cl_divider=0x7f020066;
+        public static final int smssdk_clear_search=0x7f020067;
+        public static final int smssdk_corners_bg=0x7f020068;
+        public static final int smssdk_corners_bg_nor=0x7f020069;
+        public static final int smssdk_corners_bg_pre=0x7f02006a;
+        public static final int smssdk_country_bg_selector=0x7f02006b;
+        public static final int smssdk_country_group_scroll_down=0x7f02006c;
+        public static final int smssdk_country_group_scroll_up=0x7f02006d;
+        public static final int smssdk_cp_default_avatar=0x7f02006e;
+        public static final int smssdk_default_avatar=0x7f02006f;
+        public static final int smssdk_dialog_back=0x7f020070;
+        public static final int smssdk_dialog_bg=0x7f020071;
+        public static final int smssdk_dialog_btn_back=0x7f020072;
+        public static final int smssdk_dialog_btn_nor=0x7f02007c;
+        public static final int smssdk_dialog_btn_pre=0x7f02007d;
+        public static final int smssdk_edittext_bg_selector=0x7f020073;
+        public static final int smssdk_input_bg_focus=0x7f020074;
+        public static final int smssdk_input_bg_normal=0x7f020075;
+        public static final int smssdk_input_bg_special_focus=0x7f020076;
+        public static final int smssdk_input_bg_special_normal=0x7f020077;
+        public static final int smssdk_search_icon=0x7f020078;
+        public static final int smssdk_sharesdk_icon=0x7f020079;
+        public static final int voice=0x7f02007a;
     }
     public static final class id {
-        public static final int action0=0x7f0f009c;
+        public static final int action0=0x7f0f00a4;
         public static final int action_bar=0x7f0f005b;
         public static final int action_bar_activity_content=0x7f0f0000;
         public static final int action_bar_container=0x7f0f005a;
@@ -2596,55 +2603,58 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0f003c;
         public static final int action_bar_title=0x7f0f003b;
         public static final int action_context_bar=0x7f0f005c;
-        public static final int action_divider=0x7f0f00a0;
+        public static final int action_divider=0x7f0f00a8;
         public static final int action_menu_divider=0x7f0f0002;
         public static final int action_menu_presenter=0x7f0f0003;
         public static final int action_mode_bar=0x7f0f0058;
         public static final int action_mode_bar_stub=0x7f0f0057;
         public static final int action_mode_close_button=0x7f0f003d;
-        public static final int action_settings=0x7f0f00af;
+        public static final int action_settings=0x7f0f00c9;
         public static final int activity_chooser_view_content=0x7f0f003e;
-        public static final int albumGridView=0x7f0f0082;
+        public static final int albumGridView=0x7f0f0088;
         public static final int alertTitle=0x7f0f004a;
         public static final int always=0x7f0f0033;
-        public static final int background=0x7f0f0091;
+        public static final int background=0x7f0f0099;
         public static final int beginning=0x7f0f0031;
         public static final int bottom=0x7f0f001d;
-        public static final int bt=0x7f0f0080;
+        public static final int bt=0x7f0f0085;
         public static final int buttonPanel=0x7f0f0045;
-        public static final int cancel_action=0x7f0f009d;
+        public static final int cancel_action=0x7f0f00a5;
         public static final int center=0x7f0f001e;
         public static final int center_horizontal=0x7f0f001f;
         public static final int center_vertical=0x7f0f0020;
         public static final int checkbox=0x7f0f0053;
-        public static final int chronometer=0x7f0f00a3;
+        public static final int chronometer=0x7f0f00ab;
         public static final int clip_horizontal=0x7f0f002c;
         public static final int clip_vertical=0x7f0f002d;
         public static final int collapseActionView=0x7f0f0034;
-        public static final int container=0x7f0f0092;
-        public static final int content=0x7f0f0074;
+        public static final int container=0x7f0f009a;
+        public static final int content=0x7f0f0078;
         public static final int contentPanel=0x7f0f004b;
-        public static final int count=0x7f0f00ab;
+        public static final int content_layout=0x7f0f00c7;
+        public static final int content_list=0x7f0f00c5;
+        public static final int count=0x7f0f00b3;
         public static final int custom=0x7f0f0051;
         public static final int customPanel=0x7f0f0050;
         public static final int decor_content_parent=0x7f0f0059;
         public static final int default_activity_button=0x7f0f0041;
-        public static final int design_bottom_sheet=0x7f0f0086;
-        public static final int design_menu_item_action_area=0x7f0f008d;
-        public static final int design_menu_item_action_area_stub=0x7f0f008c;
-        public static final int design_menu_item_text=0x7f0f008b;
-        public static final int design_navigation_view=0x7f0f008a;
-        public static final int details_label=0x7f0f0094;
+        public static final int design_bottom_sheet=0x7f0f008e;
+        public static final int design_menu_item_action_area=0x7f0f0095;
+        public static final int design_menu_item_action_area_stub=0x7f0f0094;
+        public static final int design_menu_item_text=0x7f0f0093;
+        public static final int design_navigation_view=0x7f0f0092;
+        public static final int details_label=0x7f0f009c;
         public static final int disableHome=0x7f0f000e;
-        public static final int drawer_layout=0x7f0f0073;
-        public static final int editPassword=0x7f0f006d;
-        public static final int editPasswordWrapper=0x7f0f007a;
-        public static final int editUserName=0x7f0f006c;
-        public static final int editUserNameWrapper=0x7f0f0079;
-        public static final int editVerifyCode=0x7f0f007b;
+        public static final int draweeView=0x7f0f00b7;
+        public static final int drawer_layout=0x7f0f0077;
+        public static final int editPassword=0x7f0f0071;
+        public static final int editPasswordWrapper=0x7f0f007f;
+        public static final int editUserName=0x7f0f0070;
+        public static final int editUserNameWrapper=0x7f0f007e;
+        public static final int editVerifyCode=0x7f0f0080;
         public static final int edit_query=0x7f0f005d;
         public static final int end=0x7f0f0021;
-        public static final int end_padder=0x7f0f00a8;
+        public static final int end_padder=0x7f0f00b0;
         public static final int enterAlways=0x7f0f0015;
         public static final int enterAlwaysCollapsed=0x7f0f0016;
         public static final int exitUntilCollapsed=0x7f0f0017;
@@ -2654,39 +2664,54 @@ containing a value of this type.
         public static final int fill_horizontal=0x7f0f002f;
         public static final int fill_vertical=0x7f0f0022;
         public static final int fixed=0x7f0f0039;
+        public static final int footer_arrow=0x7f0f00bd;
+        public static final int footer_hint_text=0x7f0f00bc;
+        public static final int footer_layout=0x7f0f00c8;
+        public static final int footer_progressbar=0x7f0f00bb;
         public static final int grid=0x7f0f0038;
-        public static final int gridview=0x7f0f007f;
+        public static final int gridview=0x7f0f0084;
+        public static final int header_arrow=0x7f0f00c3;
+        public static final int header_content=0x7f0f00be;
+        public static final int header_hint_text=0x7f0f00c0;
+        public static final int header_hint_time=0x7f0f00c1;
+        public static final int header_layout=0x7f0f00c6;
+        public static final int header_progressbar=0x7f0f00c2;
+        public static final int header_text_layout=0x7f0f00bf;
         public static final int home=0x7f0f0004;
         public static final int homeAsUp=0x7f0f000f;
         public static final int icon=0x7f0f0043;
         public static final int ifRoom=0x7f0f0035;
         public static final int image=0x7f0f0040;
-        public static final int info=0x7f0f00a7;
-        public static final int inputArea=0x7f0f0078;
-        public static final int isselected=0x7f0f00a9;
-        public static final int item_image_grid_text=0x7f0f00ac;
+        public static final int info=0x7f0f00af;
+        public static final int inputArea=0x7f0f007d;
+        public static final int isselected=0x7f0f00b1;
+        public static final int item_image_grid_text=0x7f0f00b4;
         public static final int item_touch_helper_previous_elevation=0x7f0f0005;
-        public static final int label=0x7f0f0093;
+        public static final int label=0x7f0f009b;
         public static final int left=0x7f0f0023;
-        public static final int line1=0x7f0f00a1;
-        public static final int line3=0x7f0f00a5;
+        public static final int line1=0x7f0f00a9;
+        public static final int line3=0x7f0f00ad;
         public static final int listMode=0x7f0f000b;
+        public static final int list_Test=0x7f0f008a;
         public static final int list_item=0x7f0f0042;
-        public static final int loginButton=0x7f0f006e;
-        public static final int logo=0x7f0f006b;
-        public static final int media_actions=0x7f0f009f;
+        public static final int list_item_text=0x7f0f00c4;
+        public static final int list_view=0x7f0f006a;
+        public static final int list_view_btn=0x7f0f006b;
+        public static final int loginButton=0x7f0f0072;
+        public static final int logo=0x7f0f006f;
+        public static final int media_actions=0x7f0f00a7;
         public static final int middle=0x7f0f0032;
         public static final int mini=0x7f0f0030;
         public static final int multiply=0x7f0f0027;
-        public static final int name=0x7f0f00aa;
-        public static final int navigation_header_container=0x7f0f0089;
-        public static final int navigation_view=0x7f0f0077;
+        public static final int name=0x7f0f00b2;
+        public static final int navigation_header_container=0x7f0f0091;
+        public static final int navigation_view=0x7f0f007c;
         public static final int never=0x7f0f0036;
-        public static final int newsAddress=0x7f0f009b;
-        public static final int newsImage=0x7f0f0099;
-        public static final int newsList=0x7f0f0081;
-        public static final int newsText=0x7f0f0098;
-        public static final int newsTime=0x7f0f009a;
+        public static final int newsAddress=0x7f0f00a3;
+        public static final int newsImage=0x7f0f00a1;
+        public static final int newsList=0x7f0f0087;
+        public static final int newsText=0x7f0f00a0;
+        public static final int newsTime=0x7f0f00a2;
         public static final int none=0x7f0f0010;
         public static final int normal=0x7f0f000c;
         public static final int parallax=0x7f0f001b;
@@ -2694,15 +2719,22 @@ containing a value of this type.
         public static final int pin=0x7f0f001c;
         public static final int progress_circular=0x7f0f0006;
         public static final int progress_horizontal=0x7f0f0007;
+        public static final int radarRefreshLayout=0x7f0f0089;
+        public static final int radarRefreshLayout_ShowNews=0x7f0f0086;
         public static final int radio=0x7f0f0055;
-        public static final int register=0x7f0f0070;
-        public static final int relativeLayout=0x7f0f006a;
+        public static final int register=0x7f0f0074;
+        public static final int relativeLayout=0x7f0f006e;
         public static final int right=0x7f0f0024;
+        public static final int ripple=0x7f0f00ba;
+        public static final int round1=0x7f0f00b8;
+        public static final int round2=0x7f0f00b9;
         public static final int screen=0x7f0f0028;
         public static final int scroll=0x7f0f0018;
         public static final int scrollIndicatorDown=0x7f0f004f;
         public static final int scrollIndicatorUp=0x7f0f004c;
         public static final int scrollView=0x7f0f004d;
+        public static final int scroll_view=0x7f0f006d;
+        public static final int scroll_view_btn=0x7f0f006c;
         public static final int scrollable=0x7f0f003a;
         public static final int search_badge=0x7f0f005f;
         public static final int search_bar=0x7f0f005e;
@@ -2715,16 +2747,16 @@ containing a value of this type.
         public static final int search_src_text=0x7f0f0064;
         public static final int search_voice_btn=0x7f0f0068;
         public static final int select_dialog_listview=0x7f0f0069;
-        public static final int sendSMS=0x7f0f007c;
+        public static final int sendSMS=0x7f0f0081;
         public static final int shortcut=0x7f0f0054;
-        public static final int showAll=0x7f0f0071;
+        public static final int showAll=0x7f0f0075;
         public static final int showCustom=0x7f0f0011;
         public static final int showHome=0x7f0f0012;
-        public static final int showMyNews=0x7f0f0076;
+        public static final int showMyNews=0x7f0f007a;
         public static final int showTitle=0x7f0f0013;
-        public static final int signUpButton=0x7f0f007d;
-        public static final int snackbar_action=0x7f0f0088;
-        public static final int snackbar_text=0x7f0f0087;
+        public static final int signUpButton=0x7f0f0082;
+        public static final int snackbar_action=0x7f0f0090;
+        public static final int snackbar_text=0x7f0f008f;
         public static final int snap=0x7f0f0019;
         public static final int spacer=0x7f0f0046;
         public static final int split_action_bar=0x7f0f0008;
@@ -2732,34 +2764,35 @@ containing a value of this type.
         public static final int src_in=0x7f0f002a;
         public static final int src_over=0x7f0f002b;
         public static final int start=0x7f0f0025;
-        public static final int status_bar_latest_event_content=0x7f0f009e;
+        public static final int status_bar_latest_event_content=0x7f0f00a6;
         public static final int submit_area=0x7f0f0066;
         public static final int tabMode=0x7f0f000d;
-        public static final int text=0x7f0f00a6;
-        public static final int text2=0x7f0f00a4;
+        public static final int test=0x7f0f007b;
+        public static final int text=0x7f0f00ae;
+        public static final int text2=0x7f0f00ac;
         public static final int textSpacerNoButtons=0x7f0f004e;
-        public static final int time=0x7f0f00a2;
+        public static final int time=0x7f0f00aa;
         public static final int title=0x7f0f0044;
         public static final int title_template=0x7f0f0049;
-        public static final int toLoging=0x7f0f007e;
-        public static final int toRegister=0x7f0f006f;
-        public static final int toolbar=0x7f0f0075;
+        public static final int toLoging=0x7f0f0083;
+        public static final int toRegister=0x7f0f0073;
+        public static final int toolbar=0x7f0f0079;
         public static final int top=0x7f0f0026;
         public static final int topPanel=0x7f0f0048;
-        public static final int touch_outside=0x7f0f0085;
+        public static final int touch_outside=0x7f0f008d;
         public static final int up=0x7f0f0009;
-        public static final int uploadLogo=0x7f0f0072;
+        public static final int uploadLogo=0x7f0f0076;
         public static final int useLogo=0x7f0f0014;
-        public static final int userCircleLogo=0x7f0f008e;
-        public static final int userEmail=0x7f0f0090;
-        public static final int userImage=0x7f0f0083;
-        public static final int userLabel=0x7f0f0097;
-        public static final int userList=0x7f0f0084;
-        public static final int userLogo=0x7f0f0096;
-        public static final int userPhone=0x7f0f008f;
-        public static final int userinfoContainer=0x7f0f0095;
-        public static final int userlogo=0x7f0f00ad;
-        public static final int username=0x7f0f00ae;
+        public static final int userCircleLogo=0x7f0f0096;
+        public static final int userEmail=0x7f0f0098;
+        public static final int userImage=0x7f0f008b;
+        public static final int userLabel=0x7f0f009f;
+        public static final int userList=0x7f0f008c;
+        public static final int userLogo=0x7f0f009e;
+        public static final int userPhone=0x7f0f0097;
+        public static final int userinfoContainer=0x7f0f009d;
+        public static final int userlogo=0x7f0f00b5;
+        public static final int username=0x7f0f00b6;
         public static final int view_offset_helper=0x7f0f000a;
         public static final int withText=0x7f0f0037;
         public static final int wrap_content=0x7f0f001a;
@@ -2799,48 +2832,60 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040016;
         public static final int abc_search_view=0x7f040017;
         public static final int abc_select_dialog_material=0x7f040018;
-        public static final int activity_login=0x7f040019;
-        public static final int activity_main=0x7f04001a;
-        public static final int activity_main_drawer=0x7f04001b;
-        public static final int activity_register=0x7f04001c;
-        public static final int activity_show_image=0x7f04001d;
-        public static final int activity_show_news=0x7f04001e;
-        public static final int activity_show_thumb=0x7f04001f;
-        public static final int activity_user_detail=0x7f040020;
-        public static final int activity_user_list=0x7f040021;
-        public static final int design_bottom_sheet_dialog=0x7f040022;
-        public static final int design_layout_snackbar=0x7f040023;
-        public static final int design_layout_snackbar_include=0x7f040024;
-        public static final int design_layout_tab_icon=0x7f040025;
-        public static final int design_layout_tab_text=0x7f040026;
-        public static final int design_menu_item_action_area=0x7f040027;
-        public static final int design_navigation_item=0x7f040028;
-        public static final int design_navigation_item_header=0x7f040029;
-        public static final int design_navigation_item_separator=0x7f04002a;
-        public static final int design_navigation_item_subheader=0x7f04002b;
-        public static final int design_navigation_menu=0x7f04002c;
-        public static final int design_navigation_menu_item=0x7f04002d;
-        public static final int item_header=0x7f04002e;
-        public static final int kprogresshud_hud=0x7f04002f;
-        public static final int layout_news_item=0x7f040030;
-        public static final int notification_media_action=0x7f040031;
-        public static final int notification_media_cancel_action=0x7f040032;
-        public static final int notification_template_big_media=0x7f040033;
-        public static final int notification_template_big_media_narrow=0x7f040034;
-        public static final int notification_template_lines=0x7f040035;
-        public static final int notification_template_media=0x7f040036;
-        public static final int notification_template_part_chronometer=0x7f040037;
-        public static final int notification_template_part_time=0x7f040038;
-        public static final int select_dialog_item_material=0x7f040039;
-        public static final int select_dialog_multichoice_material=0x7f04003a;
-        public static final int select_dialog_singlechoice_material=0x7f04003b;
-        public static final int show_album_item=0x7f04003c;
-        public static final int show_image_item=0x7f04003d;
-        public static final int support_simple_spinner_dropdown_item=0x7f04003e;
-        public static final int user_list_item=0x7f04003f;
+        public static final int act_list_view=0x7f040019;
+        public static final int act_main=0x7f04001a;
+        public static final int act_scroll_view=0x7f04001b;
+        public static final int activity_login=0x7f04001c;
+        public static final int activity_main=0x7f04001d;
+        public static final int activity_main_drawer=0x7f04001e;
+        public static final int activity_register=0x7f04001f;
+        public static final int activity_show_image=0x7f040020;
+        public static final int activity_show_news=0x7f040021;
+        public static final int activity_show_thumb=0x7f040022;
+        public static final int activity_test=0x7f040023;
+        public static final int activity_user_detail=0x7f040024;
+        public static final int activity_user_list=0x7f040025;
+        public static final int design_bottom_sheet_dialog=0x7f040026;
+        public static final int design_layout_snackbar=0x7f040027;
+        public static final int design_layout_snackbar_include=0x7f040028;
+        public static final int design_layout_tab_icon=0x7f040029;
+        public static final int design_layout_tab_text=0x7f04002a;
+        public static final int design_menu_item_action_area=0x7f04002b;
+        public static final int design_navigation_item=0x7f04002c;
+        public static final int design_navigation_item_header=0x7f04002d;
+        public static final int design_navigation_item_separator=0x7f04002e;
+        public static final int design_navigation_item_subheader=0x7f04002f;
+        public static final int design_navigation_menu=0x7f040030;
+        public static final int design_navigation_menu_item=0x7f040031;
+        public static final int fragment_main=0x7f040032;
+        public static final int item_header=0x7f040033;
+        public static final int kprogresshud_hud=0x7f040034;
+        public static final int layout_news_item=0x7f040035;
+        public static final int notification_media_action=0x7f040036;
+        public static final int notification_media_cancel_action=0x7f040037;
+        public static final int notification_template_big_media=0x7f040038;
+        public static final int notification_template_big_media_narrow=0x7f040039;
+        public static final int notification_template_lines=0x7f04003a;
+        public static final int notification_template_media=0x7f04003b;
+        public static final int notification_template_part_chronometer=0x7f04003c;
+        public static final int notification_template_part_time=0x7f04003d;
+        public static final int select_dialog_item_material=0x7f04003e;
+        public static final int select_dialog_multichoice_material=0x7f04003f;
+        public static final int select_dialog_singlechoice_material=0x7f040040;
+        public static final int show_album_item=0x7f040041;
+        public static final int show_image_item=0x7f040042;
+        public static final int support_simple_spinner_dropdown_item=0x7f040043;
+        public static final int user_list_item=0x7f040044;
+        public static final int view_head=0x7f040045;
+        public static final int vw_footer=0x7f040046;
+        public static final int vw_header=0x7f040047;
+        public static final int vw_list_item=0x7f040048;
+        public static final int vw_scroll_view_content=0x7f040049;
+        public static final int vw_xscrollview_layout=0x7f04004a;
     }
     public static final class menu {
-        public static final int menu_main=0x7f100000;
+        public static final int main=0x7f100000;
+        public static final int menu_main=0x7f100001;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -2888,13 +2933,22 @@ containing a value of this type.
         public static final int app_name=0x7f0700a4;
         public static final int appbar_scrolling_view_behavior=0x7f0700a5;
         public static final int bottom_sheet_behavior=0x7f0700a6;
-        public static final int character_counter_pattern=0x7f0700a7;
-        public static final int close_menu=0x7f0700a8;
+        public static final int btn_list_view=0x7f0700a7;
+        public static final int btn_scroll_view=0x7f0700a8;
+        public static final int character_counter_pattern=0x7f0700a9;
+        public static final int close_menu=0x7f0700aa;
+        public static final int footer_hint_load_normal=0x7f0700ab;
+        public static final int footer_hint_load_ready=0x7f0700ac;
         public static final int fuzzydatetime__now=0x7f0700a2;
-        public static final int hello_world=0x7f0700a9;
-        public static final int open_menu=0x7f0700aa;
-        public static final int parse_app_id=0x7f0700ab;
-        public static final int parse_client_key=0x7f0700ac;
+        public static final int header_hint_refresh_loading=0x7f0700ad;
+        public static final int header_hint_refresh_normal=0x7f0700ae;
+        public static final int header_hint_refresh_ready=0x7f0700af;
+        public static final int header_hint_refresh_time=0x7f0700b0;
+        public static final int hello_blank_fragment=0x7f0700b1;
+        public static final int hello_world=0x7f0700b2;
+        public static final int open_menu=0x7f0700b3;
+        public static final int parse_app_id=0x7f0700b4;
+        public static final int parse_client_key=0x7f0700b5;
         public static final int smssdk_add_contact=0x7f070014;
         public static final int smssdk_back=0x7f070015;
         public static final int smssdk_cancel=0x7f070016;
@@ -3040,245 +3094,255 @@ containing a value of this type.
         public static final int status_bar_notification_info_overflow=0x7f070013;
     }
     public static final class style {
-        public static final int AlertDialog_AppCompat=0x7f0b0087;
-        public static final int AlertDialog_AppCompat_Light=0x7f0b0088;
-        public static final int Animation_AppCompat_Dialog=0x7f0b0089;
-        public static final int Animation_AppCompat_DropDownUp=0x7f0b008a;
-        public static final int Animation_Design_BottomSheetDialog=0x7f0b008b;
-        public static final int AppTheme=0x7f0b008c;
-        public static final int Base_AlertDialog_AppCompat=0x7f0b008d;
-        public static final int Base_AlertDialog_AppCompat_Light=0x7f0b008e;
-        public static final int Base_Animation_AppCompat_Dialog=0x7f0b008f;
-        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0b0090;
-        public static final int Base_DialogWindowTitle_AppCompat=0x7f0b0091;
-        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0b0092;
-        public static final int Base_TextAppearance_AppCompat=0x7f0b0037;
-        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b0038;
-        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b0039;
-        public static final int Base_TextAppearance_AppCompat_Button=0x7f0b0021;
-        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0b003a;
-        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0b003b;
-        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0b003c;
-        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0b003d;
-        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0b003e;
-        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0b003f;
-        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0b000c;
-        public static final int Base_TextAppearance_AppCompat_Large=0x7f0b0040;
-        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b000d;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0041;
-        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0042;
-        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0b0043;
-        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b000e;
-        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0b0044;
-        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0b0093;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0045;
-        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0046;
-        public static final int Base_TextAppearance_AppCompat_Small=0x7f0b0047;
-        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b000f;
-        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0b0048;
-        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b0010;
-        public static final int Base_TextAppearance_AppCompat_Title=0x7f0b0049;
-        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b0011;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b0080;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b004a;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b004b;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b004c;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b004d;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b004e;
-        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b004f;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0b0050;
-        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b0081;
-        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b0094;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b0051;
-        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b0052;
-        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b0053;
-        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b0054;
-        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b0095;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0055;
-        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0056;
-        public static final int Base_Theme_AppCompat=0x7f0b0057;
-        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b0096;
-        public static final int Base_Theme_AppCompat_Dialog=0x7f0b0012;
-        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0b0097;
-        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b0098;
-        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b0099;
+        public static final int AlertDialog_AppCompat=0x7f0b0089;
+        public static final int AlertDialog_AppCompat_Light=0x7f0b008a;
+        public static final int Animation_AppCompat_Dialog=0x7f0b008b;
+        public static final int Animation_AppCompat_DropDownUp=0x7f0b008c;
+        public static final int Animation_Design_BottomSheetDialog=0x7f0b008d;
+        /**  API 11 theme customizations can go here. 
+ API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
+         */
+        public static final int AppBaseTheme=0x7f0b000c;
+        public static final int AppTheme=0x7f0b008e;
+        public static final int Base_AlertDialog_AppCompat=0x7f0b008f;
+        public static final int Base_AlertDialog_AppCompat_Light=0x7f0b0090;
+        public static final int Base_Animation_AppCompat_Dialog=0x7f0b0091;
+        public static final int Base_Animation_AppCompat_DropDownUp=0x7f0b0092;
+        public static final int Base_CardView=0x7f0b0093;
+        public static final int Base_DialogWindowTitle_AppCompat=0x7f0b0094;
+        public static final int Base_DialogWindowTitleBackground_AppCompat=0x7f0b0095;
+        public static final int Base_TextAppearance_AppCompat=0x7f0b0038;
+        public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b0039;
+        public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b003a;
+        public static final int Base_TextAppearance_AppCompat_Button=0x7f0b0022;
+        public static final int Base_TextAppearance_AppCompat_Caption=0x7f0b003b;
+        public static final int Base_TextAppearance_AppCompat_Display1=0x7f0b003c;
+        public static final int Base_TextAppearance_AppCompat_Display2=0x7f0b003d;
+        public static final int Base_TextAppearance_AppCompat_Display3=0x7f0b003e;
+        public static final int Base_TextAppearance_AppCompat_Display4=0x7f0b003f;
+        public static final int Base_TextAppearance_AppCompat_Headline=0x7f0b0040;
+        public static final int Base_TextAppearance_AppCompat_Inverse=0x7f0b000d;
+        public static final int Base_TextAppearance_AppCompat_Large=0x7f0b0041;
+        public static final int Base_TextAppearance_AppCompat_Large_Inverse=0x7f0b000e;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b0042;
+        public static final int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b0043;
+        public static final int Base_TextAppearance_AppCompat_Medium=0x7f0b0044;
+        public static final int Base_TextAppearance_AppCompat_Medium_Inverse=0x7f0b000f;
+        public static final int Base_TextAppearance_AppCompat_Menu=0x7f0b0045;
+        public static final int Base_TextAppearance_AppCompat_SearchResult=0x7f0b0096;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b0046;
+        public static final int Base_TextAppearance_AppCompat_SearchResult_Title=0x7f0b0047;
+        public static final int Base_TextAppearance_AppCompat_Small=0x7f0b0048;
+        public static final int Base_TextAppearance_AppCompat_Small_Inverse=0x7f0b0010;
+        public static final int Base_TextAppearance_AppCompat_Subhead=0x7f0b0049;
+        public static final int Base_TextAppearance_AppCompat_Subhead_Inverse=0x7f0b0011;
+        public static final int Base_TextAppearance_AppCompat_Title=0x7f0b004a;
+        public static final int Base_TextAppearance_AppCompat_Title_Inverse=0x7f0b0012;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b0081;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b004b;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b004c;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b004d;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b004e;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b004f;
+        public static final int Base_TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b0050;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button=0x7f0b0051;
+        public static final int Base_TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b0082;
+        public static final int Base_TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b0097;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b0052;
+        public static final int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b0053;
+        public static final int Base_TextAppearance_AppCompat_Widget_Switch=0x7f0b0054;
+        public static final int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b0055;
+        public static final int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b0098;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b0056;
+        public static final int Base_TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b0057;
+        public static final int Base_Theme_AppCompat=0x7f0b0058;
+        public static final int Base_Theme_AppCompat_CompactMenu=0x7f0b0099;
+        public static final int Base_Theme_AppCompat_Dialog=0x7f0b0013;
+        public static final int Base_Theme_AppCompat_Dialog_Alert=0x7f0b009a;
+        public static final int Base_Theme_AppCompat_Dialog_FixedSize=0x7f0b009b;
+        public static final int Base_Theme_AppCompat_Dialog_MinWidth=0x7f0b009c;
         public static final int Base_Theme_AppCompat_DialogWhenLarge=0x7f0b0002;
-        public static final int Base_Theme_AppCompat_Light=0x7f0b0058;
-        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b009a;
-        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b0013;
-        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b009b;
-        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b009c;
-        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b009d;
+        public static final int Base_Theme_AppCompat_Light=0x7f0b0059;
+        public static final int Base_Theme_AppCompat_Light_DarkActionBar=0x7f0b009d;
+        public static final int Base_Theme_AppCompat_Light_Dialog=0x7f0b0014;
+        public static final int Base_Theme_AppCompat_Light_Dialog_Alert=0x7f0b009e;
+        public static final int Base_Theme_AppCompat_Light_Dialog_FixedSize=0x7f0b009f;
+        public static final int Base_Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b00a0;
         public static final int Base_Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0003;
-        public static final int Base_ThemeOverlay_AppCompat=0x7f0b009e;
-        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b009f;
-        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b00a0;
-        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00a1;
-        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b00a2;
-        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b0014;
-        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b0015;
-        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b001d;
-        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0b001e;
-        public static final int Base_V21_Theme_AppCompat=0x7f0b0059;
-        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b005a;
-        public static final int Base_V21_Theme_AppCompat_Light=0x7f0b005b;
-        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b005c;
-        public static final int Base_V22_Theme_AppCompat=0x7f0b007e;
-        public static final int Base_V22_Theme_AppCompat_Light=0x7f0b007f;
-        public static final int Base_V23_Theme_AppCompat=0x7f0b0082;
-        public static final int Base_V23_Theme_AppCompat_Light=0x7f0b0083;
-        public static final int Base_V7_Theme_AppCompat=0x7f0b00a3;
-        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b00a4;
-        public static final int Base_V7_Theme_AppCompat_Light=0x7f0b00a5;
-        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b00a6;
-        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b00a7;
-        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0b00a8;
-        public static final int Base_Widget_AppCompat_ActionBar=0x7f0b00a9;
-        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b00aa;
-        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b00ab;
-        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b005d;
-        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b005e;
-        public static final int Base_Widget_AppCompat_ActionButton=0x7f0b005f;
-        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0060;
-        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b0061;
-        public static final int Base_Widget_AppCompat_ActionMode=0x7f0b00ac;
-        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b00ad;
-        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b001f;
-        public static final int Base_Widget_AppCompat_Button=0x7f0b0062;
-        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0b0063;
-        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b0064;
-        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00ae;
-        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0b0084;
-        public static final int Base_Widget_AppCompat_Button_Small=0x7f0b0065;
-        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0b0066;
-        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00af;
-        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0067;
-        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0068;
-        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b00b0;
+        public static final int Base_ThemeOverlay_AppCompat=0x7f0b00a1;
+        public static final int Base_ThemeOverlay_AppCompat_ActionBar=0x7f0b00a2;
+        public static final int Base_ThemeOverlay_AppCompat_Dark=0x7f0b00a3;
+        public static final int Base_ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b00a4;
+        public static final int Base_ThemeOverlay_AppCompat_Light=0x7f0b00a5;
+        public static final int Base_V11_Theme_AppCompat_Dialog=0x7f0b0015;
+        public static final int Base_V11_Theme_AppCompat_Light_Dialog=0x7f0b0016;
+        public static final int Base_V12_Widget_AppCompat_AutoCompleteTextView=0x7f0b001e;
+        public static final int Base_V12_Widget_AppCompat_EditText=0x7f0b001f;
+        public static final int Base_V21_Theme_AppCompat=0x7f0b005a;
+        public static final int Base_V21_Theme_AppCompat_Dialog=0x7f0b005b;
+        public static final int Base_V21_Theme_AppCompat_Light=0x7f0b005c;
+        public static final int Base_V21_Theme_AppCompat_Light_Dialog=0x7f0b005d;
+        public static final int Base_V22_Theme_AppCompat=0x7f0b007f;
+        public static final int Base_V22_Theme_AppCompat_Light=0x7f0b0080;
+        public static final int Base_V23_Theme_AppCompat=0x7f0b0083;
+        public static final int Base_V23_Theme_AppCompat_Light=0x7f0b0084;
+        public static final int Base_V7_Theme_AppCompat=0x7f0b00a6;
+        public static final int Base_V7_Theme_AppCompat_Dialog=0x7f0b00a7;
+        public static final int Base_V7_Theme_AppCompat_Light=0x7f0b00a8;
+        public static final int Base_V7_Theme_AppCompat_Light_Dialog=0x7f0b00a9;
+        public static final int Base_V7_Widget_AppCompat_AutoCompleteTextView=0x7f0b00aa;
+        public static final int Base_V7_Widget_AppCompat_EditText=0x7f0b00ab;
+        public static final int Base_Widget_AppCompat_ActionBar=0x7f0b00ac;
+        public static final int Base_Widget_AppCompat_ActionBar_Solid=0x7f0b00ad;
+        public static final int Base_Widget_AppCompat_ActionBar_TabBar=0x7f0b00ae;
+        public static final int Base_Widget_AppCompat_ActionBar_TabText=0x7f0b005e;
+        public static final int Base_Widget_AppCompat_ActionBar_TabView=0x7f0b005f;
+        public static final int Base_Widget_AppCompat_ActionButton=0x7f0b0060;
+        public static final int Base_Widget_AppCompat_ActionButton_CloseMode=0x7f0b0061;
+        public static final int Base_Widget_AppCompat_ActionButton_Overflow=0x7f0b0062;
+        public static final int Base_Widget_AppCompat_ActionMode=0x7f0b00af;
+        public static final int Base_Widget_AppCompat_ActivityChooserView=0x7f0b00b0;
+        public static final int Base_Widget_AppCompat_AutoCompleteTextView=0x7f0b0020;
+        public static final int Base_Widget_AppCompat_Button=0x7f0b0063;
+        public static final int Base_Widget_AppCompat_Button_Borderless=0x7f0b0064;
+        public static final int Base_Widget_AppCompat_Button_Borderless_Colored=0x7f0b0065;
+        public static final int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b00b1;
+        public static final int Base_Widget_AppCompat_Button_Colored=0x7f0b0085;
+        public static final int Base_Widget_AppCompat_Button_Small=0x7f0b0066;
+        public static final int Base_Widget_AppCompat_ButtonBar=0x7f0b0067;
+        public static final int Base_Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b00b2;
+        public static final int Base_Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0068;
+        public static final int Base_Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0069;
+        public static final int Base_Widget_AppCompat_CompoundButton_Switch=0x7f0b00b3;
         public static final int Base_Widget_AppCompat_DrawerArrowToggle=0x7f0b0000;
-        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b00b1;
-        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b0069;
-        public static final int Base_Widget_AppCompat_EditText=0x7f0b0020;
-        public static final int Base_Widget_AppCompat_ImageButton=0x7f0b006a;
-        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0b00b2;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00b3;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00b4;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b006b;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b006c;
-        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b006d;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b006e;
-        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b006f;
-        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0b0070;
-        public static final int Base_Widget_AppCompat_ListView=0x7f0b0071;
-        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0b0072;
-        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0b0073;
-        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0b0074;
-        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b0075;
-        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0b00b5;
-        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0b0016;
-        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0017;
-        public static final int Base_Widget_AppCompat_RatingBar=0x7f0b0076;
-        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0b0085;
-        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0b0086;
-        public static final int Base_Widget_AppCompat_SearchView=0x7f0b00b6;
-        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b00b7;
-        public static final int Base_Widget_AppCompat_SeekBar=0x7f0b0077;
-        public static final int Base_Widget_AppCompat_Spinner=0x7f0b0078;
+        public static final int Base_Widget_AppCompat_DrawerArrowToggle_Common=0x7f0b00b4;
+        public static final int Base_Widget_AppCompat_DropDownItem_Spinner=0x7f0b006a;
+        public static final int Base_Widget_AppCompat_EditText=0x7f0b0021;
+        public static final int Base_Widget_AppCompat_ImageButton=0x7f0b006b;
+        public static final int Base_Widget_AppCompat_Light_ActionBar=0x7f0b00b5;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_Solid=0x7f0b00b6;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b00b7;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText=0x7f0b006c;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b006d;
+        public static final int Base_Widget_AppCompat_Light_ActionBar_TabView=0x7f0b006e;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu=0x7f0b006f;
+        public static final int Base_Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b0070;
+        public static final int Base_Widget_AppCompat_ListPopupWindow=0x7f0b0071;
+        public static final int Base_Widget_AppCompat_ListView=0x7f0b0072;
+        public static final int Base_Widget_AppCompat_ListView_DropDown=0x7f0b0073;
+        public static final int Base_Widget_AppCompat_ListView_Menu=0x7f0b0074;
+        public static final int Base_Widget_AppCompat_PopupMenu=0x7f0b0075;
+        public static final int Base_Widget_AppCompat_PopupMenu_Overflow=0x7f0b0076;
+        public static final int Base_Widget_AppCompat_PopupWindow=0x7f0b00b8;
+        public static final int Base_Widget_AppCompat_ProgressBar=0x7f0b0017;
+        public static final int Base_Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0018;
+        public static final int Base_Widget_AppCompat_RatingBar=0x7f0b0077;
+        public static final int Base_Widget_AppCompat_RatingBar_Indicator=0x7f0b0086;
+        public static final int Base_Widget_AppCompat_RatingBar_Small=0x7f0b0087;
+        public static final int Base_Widget_AppCompat_SearchView=0x7f0b00b9;
+        public static final int Base_Widget_AppCompat_SearchView_ActionBar=0x7f0b00ba;
+        public static final int Base_Widget_AppCompat_SeekBar=0x7f0b0078;
+        public static final int Base_Widget_AppCompat_Spinner=0x7f0b0079;
         public static final int Base_Widget_AppCompat_Spinner_Underlined=0x7f0b0004;
-        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b0079;
-        public static final int Base_Widget_AppCompat_Toolbar=0x7f0b00b8;
-        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b007a;
-        public static final int Base_Widget_Design_TabLayout=0x7f0b00b9;
-        public static final int CardView=0x7f0b00ba;
-        public static final int CardView_Dark=0x7f0b00bb;
-        public static final int CardView_Light=0x7f0b00bc;
-        public static final int CommonDialog=0x7f0b00bd;
-        public static final int MyEditTextStyle=0x7f0b00be;
-        public static final int Platform_AppCompat=0x7f0b0018;
-        public static final int Platform_AppCompat_Light=0x7f0b0019;
-        public static final int Platform_ThemeOverlay_AppCompat=0x7f0b007b;
-        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b007c;
-        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0b007d;
-        public static final int Platform_V11_AppCompat=0x7f0b001a;
-        public static final int Platform_V11_AppCompat_Light=0x7f0b001b;
-        public static final int Platform_V14_AppCompat=0x7f0b0022;
-        public static final int Platform_V14_AppCompat_Light=0x7f0b0023;
-        public static final int Platform_Widget_AppCompat_Spinner=0x7f0b001c;
-        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b0029;
-        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b002a;
-        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b002b;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b002c;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b002d;
-        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b002e;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b002f;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b0030;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b0031;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b0032;
-        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b0033;
-        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b0034;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b0035;
-        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0036;
-        public static final int TextAppearance_AppCompat=0x7f0b00bf;
-        public static final int TextAppearance_AppCompat_Body1=0x7f0b00c0;
-        public static final int TextAppearance_AppCompat_Body2=0x7f0b00c1;
-        public static final int TextAppearance_AppCompat_Button=0x7f0b00c2;
-        public static final int TextAppearance_AppCompat_Caption=0x7f0b00c3;
-        public static final int TextAppearance_AppCompat_Display1=0x7f0b00c4;
-        public static final int TextAppearance_AppCompat_Display2=0x7f0b00c5;
-        public static final int TextAppearance_AppCompat_Display3=0x7f0b00c6;
-        public static final int TextAppearance_AppCompat_Display4=0x7f0b00c7;
-        public static final int TextAppearance_AppCompat_Headline=0x7f0b00c8;
-        public static final int TextAppearance_AppCompat_Inverse=0x7f0b00c9;
-        public static final int TextAppearance_AppCompat_Large=0x7f0b00ca;
-        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0b00cb;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00cc;
-        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00cd;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00ce;
-        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00cf;
-        public static final int TextAppearance_AppCompat_Medium=0x7f0b00d0;
-        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00d1;
-        public static final int TextAppearance_AppCompat_Menu=0x7f0b00d2;
-        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00d3;
-        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00d4;
-        public static final int TextAppearance_AppCompat_Small=0x7f0b00d5;
-        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0b00d6;
-        public static final int TextAppearance_AppCompat_Subhead=0x7f0b00d7;
-        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00d8;
-        public static final int TextAppearance_AppCompat_Title=0x7f0b00d9;
-        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0b00da;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00db;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00dc;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00dd;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b00de;
-        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b00df;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b00e0;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b00e1;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b00e2;
-        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b00e3;
-        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0b00e4;
-        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b00e5;
-        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00e6;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b00e7;
-        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b00e8;
-        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0b00e9;
-        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b00ea;
-        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0b00eb;
-        public static final int TextAppearance_Design_Counter=0x7f0b00ec;
-        public static final int TextAppearance_Design_Counter_Overflow=0x7f0b00ed;
-        public static final int TextAppearance_Design_Error=0x7f0b00ee;
-        public static final int TextAppearance_Design_Hint=0x7f0b00ef;
-        public static final int TextAppearance_Design_Snackbar_Message=0x7f0b00f0;
-        public static final int TextAppearance_Design_Tab=0x7f0b00f1;
-        public static final int TextAppearance_StatusBar_EventContent=0x7f0b0024;
-        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0b0025;
-        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0b0026;
-        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0b0027;
-        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0b0028;
-        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00f2;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b00f3;
-        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b00f4;
-        public static final int Theme_AppCompat=0x7f0b00f5;
-        public static final int Theme_AppCompat_CompactMenu=0x7f0b00f6;
+        public static final int Base_Widget_AppCompat_TextView_SpinnerItem=0x7f0b007a;
+        public static final int Base_Widget_AppCompat_Toolbar=0x7f0b00bb;
+        public static final int Base_Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b007b;
+        public static final int Base_Widget_Design_TabLayout=0x7f0b00bc;
+        public static final int CardView=0x7f0b0088;
+        public static final int CardView_Dark=0x7f0b00bd;
+        public static final int CardView_Light=0x7f0b00be;
+        public static final int CommonDialog=0x7f0b00bf;
+        public static final int MyEditTextStyle=0x7f0b00c0;
+        public static final int Platform_AppCompat=0x7f0b0019;
+        public static final int Platform_AppCompat_Light=0x7f0b001a;
+        public static final int Platform_ThemeOverlay_AppCompat=0x7f0b007c;
+        public static final int Platform_ThemeOverlay_AppCompat_Dark=0x7f0b007d;
+        public static final int Platform_ThemeOverlay_AppCompat_Light=0x7f0b007e;
+        public static final int Platform_V11_AppCompat=0x7f0b001b;
+        public static final int Platform_V11_AppCompat_Light=0x7f0b001c;
+        public static final int Platform_V14_AppCompat=0x7f0b0023;
+        public static final int Platform_V14_AppCompat_Light=0x7f0b0024;
+        public static final int Platform_Widget_AppCompat_Spinner=0x7f0b001d;
+        public static final int RtlOverlay_DialogWindowTitle_AppCompat=0x7f0b002a;
+        public static final int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem=0x7f0b002b;
+        public static final int RtlOverlay_Widget_AppCompat_DialogTitle_Icon=0x7f0b002c;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem=0x7f0b002d;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup=0x7f0b002e;
+        public static final int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text=0x7f0b002f;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown=0x7f0b0030;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1=0x7f0b0031;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2=0x7f0b0032;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Query=0x7f0b0033;
+        public static final int RtlOverlay_Widget_AppCompat_Search_DropDown_Text=0x7f0b0034;
+        public static final int RtlOverlay_Widget_AppCompat_SearchView_MagIcon=0x7f0b0035;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton=0x7f0b0036;
+        public static final int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow=0x7f0b0037;
+        public static final int TextAppearance_AppCompat=0x7f0b00c1;
+        public static final int TextAppearance_AppCompat_Body1=0x7f0b00c2;
+        public static final int TextAppearance_AppCompat_Body2=0x7f0b00c3;
+        public static final int TextAppearance_AppCompat_Button=0x7f0b00c4;
+        public static final int TextAppearance_AppCompat_Caption=0x7f0b00c5;
+        public static final int TextAppearance_AppCompat_Display1=0x7f0b00c6;
+        public static final int TextAppearance_AppCompat_Display2=0x7f0b00c7;
+        public static final int TextAppearance_AppCompat_Display3=0x7f0b00c8;
+        public static final int TextAppearance_AppCompat_Display4=0x7f0b00c9;
+        public static final int TextAppearance_AppCompat_Headline=0x7f0b00ca;
+        public static final int TextAppearance_AppCompat_Inverse=0x7f0b00cb;
+        public static final int TextAppearance_AppCompat_Large=0x7f0b00cc;
+        public static final int TextAppearance_AppCompat_Large_Inverse=0x7f0b00cd;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Subtitle=0x7f0b00ce;
+        public static final int TextAppearance_AppCompat_Light_SearchResult_Title=0x7f0b00cf;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large=0x7f0b00d0;
+        public static final int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small=0x7f0b00d1;
+        public static final int TextAppearance_AppCompat_Medium=0x7f0b00d2;
+        public static final int TextAppearance_AppCompat_Medium_Inverse=0x7f0b00d3;
+        public static final int TextAppearance_AppCompat_Menu=0x7f0b00d4;
+        public static final int TextAppearance_AppCompat_SearchResult_Subtitle=0x7f0b00d5;
+        public static final int TextAppearance_AppCompat_SearchResult_Title=0x7f0b00d6;
+        public static final int TextAppearance_AppCompat_Small=0x7f0b00d7;
+        public static final int TextAppearance_AppCompat_Small_Inverse=0x7f0b00d8;
+        public static final int TextAppearance_AppCompat_Subhead=0x7f0b00d9;
+        public static final int TextAppearance_AppCompat_Subhead_Inverse=0x7f0b00da;
+        public static final int TextAppearance_AppCompat_Title=0x7f0b00db;
+        public static final int TextAppearance_AppCompat_Title_Inverse=0x7f0b00dc;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Menu=0x7f0b00dd;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle=0x7f0b00de;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse=0x7f0b00df;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title=0x7f0b00e0;
+        public static final int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse=0x7f0b00e1;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle=0x7f0b00e2;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse=0x7f0b00e3;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title=0x7f0b00e4;
+        public static final int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse=0x7f0b00e5;
+        public static final int TextAppearance_AppCompat_Widget_Button=0x7f0b00e6;
+        public static final int TextAppearance_AppCompat_Widget_Button_Inverse=0x7f0b00e7;
+        public static final int TextAppearance_AppCompat_Widget_DropDownItem=0x7f0b00e8;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Large=0x7f0b00e9;
+        public static final int TextAppearance_AppCompat_Widget_PopupMenu_Small=0x7f0b00ea;
+        public static final int TextAppearance_AppCompat_Widget_Switch=0x7f0b00eb;
+        public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f0b00ec;
+        public static final int TextAppearance_Design_CollapsingToolbar_Expanded=0x7f0b00ed;
+        public static final int TextAppearance_Design_Counter=0x7f0b00ee;
+        public static final int TextAppearance_Design_Counter_Overflow=0x7f0b00ef;
+        public static final int TextAppearance_Design_Error=0x7f0b00f0;
+        public static final int TextAppearance_Design_Hint=0x7f0b00f1;
+        public static final int TextAppearance_Design_Snackbar_Message=0x7f0b00f2;
+        public static final int TextAppearance_Design_Tab=0x7f0b00f3;
+        public static final int TextAppearance_StatusBar_EventContent=0x7f0b0025;
+        public static final int TextAppearance_StatusBar_EventContent_Info=0x7f0b0026;
+        public static final int TextAppearance_StatusBar_EventContent_Line2=0x7f0b0027;
+        public static final int TextAppearance_StatusBar_EventContent_Time=0x7f0b0028;
+        public static final int TextAppearance_StatusBar_EventContent_Title=0x7f0b0029;
+        public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f0b00f4;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f0b00f5;
+        public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f0b00f6;
+        public static final int Theme_AppCompat=0x7f0b00f7;
+        public static final int Theme_AppCompat_CompactMenu=0x7f0b00f8;
         public static final int Theme_AppCompat_DayNight=0x7f0b0005;
         public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f0b0006;
         public static final int Theme_AppCompat_DayNight_Dialog=0x7f0b0007;
@@ -3286,109 +3350,109 @@ containing a value of this type.
         public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f0b0009;
         public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f0b000a;
         public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f0b000b;
-        public static final int Theme_AppCompat_Dialog=0x7f0b00f7;
-        public static final int Theme_AppCompat_Dialog_Alert=0x7f0b00f8;
-        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0b00f9;
-        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b00fa;
-        public static final int Theme_AppCompat_Light=0x7f0b00fb;
-        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b00fc;
-        public static final int Theme_AppCompat_Light_Dialog=0x7f0b00fd;
-        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0b00fe;
-        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b00ff;
-        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0100;
-        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b0101;
-        public static final int Theme_AppCompat_NoActionBar=0x7f0b0102;
-        public static final int Theme_Design=0x7f0b0103;
-        public static final int Theme_Design_BottomSheetDialog=0x7f0b0104;
-        public static final int Theme_Design_Light=0x7f0b0105;
-        public static final int Theme_Design_Light_BottomSheetDialog=0x7f0b0106;
-        public static final int Theme_Design_Light_NoActionBar=0x7f0b0107;
-        public static final int Theme_Design_NoActionBar=0x7f0b0108;
-        public static final int ThemeOverlay_AppCompat=0x7f0b0109;
-        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b010a;
-        public static final int ThemeOverlay_AppCompat_Dark=0x7f0b010b;
-        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b010c;
-        public static final int ThemeOverlay_AppCompat_Light=0x7f0b010d;
-        public static final int Widget_AppCompat_ActionBar=0x7f0b010e;
-        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b010f;
-        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b0110;
-        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b0111;
-        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b0112;
-        public static final int Widget_AppCompat_ActionButton=0x7f0b0113;
-        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b0114;
-        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b0115;
-        public static final int Widget_AppCompat_ActionMode=0x7f0b0116;
-        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b0117;
-        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b0118;
-        public static final int Widget_AppCompat_Button=0x7f0b0119;
-        public static final int Widget_AppCompat_Button_Borderless=0x7f0b011a;
-        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0b011b;
-        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b011c;
-        public static final int Widget_AppCompat_Button_Colored=0x7f0b011d;
-        public static final int Widget_AppCompat_Button_Small=0x7f0b011e;
-        public static final int Widget_AppCompat_ButtonBar=0x7f0b011f;
-        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b0120;
-        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0121;
-        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0122;
-        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b0123;
-        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0b0124;
-        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b0125;
-        public static final int Widget_AppCompat_EditText=0x7f0b0126;
-        public static final int Widget_AppCompat_ImageButton=0x7f0b0127;
-        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b0128;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b0129;
-        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b012a;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b012b;
-        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b012c;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b012d;
-        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b012e;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b012f;
-        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b0130;
-        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b0131;
-        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b0132;
-        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b0133;
-        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b0134;
-        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b0135;
-        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b0136;
-        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b0137;
-        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b0138;
-        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b0139;
-        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b013a;
-        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b013b;
-        public static final int Widget_AppCompat_Light_SearchView=0x7f0b013c;
-        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b013d;
-        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b013e;
-        public static final int Widget_AppCompat_ListView=0x7f0b013f;
-        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b0140;
-        public static final int Widget_AppCompat_ListView_Menu=0x7f0b0141;
-        public static final int Widget_AppCompat_PopupMenu=0x7f0b0142;
-        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0b0143;
-        public static final int Widget_AppCompat_PopupWindow=0x7f0b0144;
-        public static final int Widget_AppCompat_ProgressBar=0x7f0b0145;
-        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0146;
-        public static final int Widget_AppCompat_RatingBar=0x7f0b0147;
-        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0b0148;
-        public static final int Widget_AppCompat_RatingBar_Small=0x7f0b0149;
-        public static final int Widget_AppCompat_SearchView=0x7f0b014a;
-        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0b014b;
-        public static final int Widget_AppCompat_SeekBar=0x7f0b014c;
-        public static final int Widget_AppCompat_Spinner=0x7f0b014d;
-        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0b014e;
-        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b014f;
-        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0b0150;
-        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0b0151;
-        public static final int Widget_AppCompat_Toolbar=0x7f0b0152;
-        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0153;
-        public static final int Widget_Design_AppBarLayout=0x7f0b0154;
-        public static final int Widget_Design_BottomSheet_Modal=0x7f0b0155;
-        public static final int Widget_Design_CollapsingToolbar=0x7f0b0156;
-        public static final int Widget_Design_CoordinatorLayout=0x7f0b0157;
-        public static final int Widget_Design_FloatingActionButton=0x7f0b0158;
-        public static final int Widget_Design_NavigationView=0x7f0b0159;
-        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0b015a;
-        public static final int Widget_Design_Snackbar=0x7f0b015b;
+        public static final int Theme_AppCompat_Dialog=0x7f0b00f9;
+        public static final int Theme_AppCompat_Dialog_Alert=0x7f0b00fa;
+        public static final int Theme_AppCompat_Dialog_MinWidth=0x7f0b00fb;
+        public static final int Theme_AppCompat_DialogWhenLarge=0x7f0b00fc;
+        public static final int Theme_AppCompat_Light=0x7f0b00fd;
+        public static final int Theme_AppCompat_Light_DarkActionBar=0x7f0b00fe;
+        public static final int Theme_AppCompat_Light_Dialog=0x7f0b00ff;
+        public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f0b0100;
+        public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f0b0101;
+        public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f0b0102;
+        public static final int Theme_AppCompat_Light_NoActionBar=0x7f0b0103;
+        public static final int Theme_AppCompat_NoActionBar=0x7f0b0104;
+        public static final int Theme_Design=0x7f0b0105;
+        public static final int Theme_Design_BottomSheetDialog=0x7f0b0106;
+        public static final int Theme_Design_Light=0x7f0b0107;
+        public static final int Theme_Design_Light_BottomSheetDialog=0x7f0b0108;
+        public static final int Theme_Design_Light_NoActionBar=0x7f0b0109;
+        public static final int Theme_Design_NoActionBar=0x7f0b010a;
+        public static final int ThemeOverlay_AppCompat=0x7f0b010b;
+        public static final int ThemeOverlay_AppCompat_ActionBar=0x7f0b010c;
+        public static final int ThemeOverlay_AppCompat_Dark=0x7f0b010d;
+        public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f0b010e;
+        public static final int ThemeOverlay_AppCompat_Light=0x7f0b010f;
+        public static final int Widget_AppCompat_ActionBar=0x7f0b0110;
+        public static final int Widget_AppCompat_ActionBar_Solid=0x7f0b0111;
+        public static final int Widget_AppCompat_ActionBar_TabBar=0x7f0b0112;
+        public static final int Widget_AppCompat_ActionBar_TabText=0x7f0b0113;
+        public static final int Widget_AppCompat_ActionBar_TabView=0x7f0b0114;
+        public static final int Widget_AppCompat_ActionButton=0x7f0b0115;
+        public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f0b0116;
+        public static final int Widget_AppCompat_ActionButton_Overflow=0x7f0b0117;
+        public static final int Widget_AppCompat_ActionMode=0x7f0b0118;
+        public static final int Widget_AppCompat_ActivityChooserView=0x7f0b0119;
+        public static final int Widget_AppCompat_AutoCompleteTextView=0x7f0b011a;
+        public static final int Widget_AppCompat_Button=0x7f0b011b;
+        public static final int Widget_AppCompat_Button_Borderless=0x7f0b011c;
+        public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f0b011d;
+        public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f0b011e;
+        public static final int Widget_AppCompat_Button_Colored=0x7f0b011f;
+        public static final int Widget_AppCompat_Button_Small=0x7f0b0120;
+        public static final int Widget_AppCompat_ButtonBar=0x7f0b0121;
+        public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f0b0122;
+        public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f0b0123;
+        public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f0b0124;
+        public static final int Widget_AppCompat_CompoundButton_Switch=0x7f0b0125;
+        public static final int Widget_AppCompat_DrawerArrowToggle=0x7f0b0126;
+        public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f0b0127;
+        public static final int Widget_AppCompat_EditText=0x7f0b0128;
+        public static final int Widget_AppCompat_ImageButton=0x7f0b0129;
+        public static final int Widget_AppCompat_Light_ActionBar=0x7f0b012a;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f0b012b;
+        public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f0b012c;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f0b012d;
+        public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f0b012e;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f0b012f;
+        public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f0b0130;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f0b0131;
+        public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f0b0132;
+        public static final int Widget_AppCompat_Light_ActionButton=0x7f0b0133;
+        public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f0b0134;
+        public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f0b0135;
+        public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f0b0136;
+        public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f0b0137;
+        public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f0b0138;
+        public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f0b0139;
+        public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f0b013a;
+        public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f0b013b;
+        public static final int Widget_AppCompat_Light_PopupMenu=0x7f0b013c;
+        public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f0b013d;
+        public static final int Widget_AppCompat_Light_SearchView=0x7f0b013e;
+        public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f0b013f;
+        public static final int Widget_AppCompat_ListPopupWindow=0x7f0b0140;
+        public static final int Widget_AppCompat_ListView=0x7f0b0141;
+        public static final int Widget_AppCompat_ListView_DropDown=0x7f0b0142;
+        public static final int Widget_AppCompat_ListView_Menu=0x7f0b0143;
+        public static final int Widget_AppCompat_PopupMenu=0x7f0b0144;
+        public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f0b0145;
+        public static final int Widget_AppCompat_PopupWindow=0x7f0b0146;
+        public static final int Widget_AppCompat_ProgressBar=0x7f0b0147;
+        public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0148;
+        public static final int Widget_AppCompat_RatingBar=0x7f0b0149;
+        public static final int Widget_AppCompat_RatingBar_Indicator=0x7f0b014a;
+        public static final int Widget_AppCompat_RatingBar_Small=0x7f0b014b;
+        public static final int Widget_AppCompat_SearchView=0x7f0b014c;
+        public static final int Widget_AppCompat_SearchView_ActionBar=0x7f0b014d;
+        public static final int Widget_AppCompat_SeekBar=0x7f0b014e;
+        public static final int Widget_AppCompat_Spinner=0x7f0b014f;
+        public static final int Widget_AppCompat_Spinner_DropDown=0x7f0b0150;
+        public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0151;
+        public static final int Widget_AppCompat_Spinner_Underlined=0x7f0b0152;
+        public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f0b0153;
+        public static final int Widget_AppCompat_Toolbar=0x7f0b0154;
+        public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f0b0155;
+        public static final int Widget_Design_AppBarLayout=0x7f0b0156;
+        public static final int Widget_Design_BottomSheet_Modal=0x7f0b0157;
+        public static final int Widget_Design_CollapsingToolbar=0x7f0b0158;
+        public static final int Widget_Design_CoordinatorLayout=0x7f0b0159;
+        public static final int Widget_Design_FloatingActionButton=0x7f0b015a;
+        public static final int Widget_Design_NavigationView=0x7f0b015b;
+        public static final int Widget_Design_ScrimInsetsFrameLayout=0x7f0b015c;
+        public static final int Widget_Design_Snackbar=0x7f0b015d;
         public static final int Widget_Design_TabLayout=0x7f0b0001;
-        public static final int Widget_Design_TextInputLayout=0x7f0b015c;
+        public static final int Widget_Design_TextInputLayout=0x7f0b015e;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
@@ -3397,33 +3461,33 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionBar_background material.danny_jiang.com.webview_senior:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundSplit material.danny_jiang.com.webview_senior:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_backgroundStacked material.danny_jiang.com.webview_senior:backgroundStacked}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetEnd material.danny_jiang.com.webview_senior:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetLeft material.danny_jiang.com.webview_senior:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetRight material.danny_jiang.com.webview_senior:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_contentInsetStart material.danny_jiang.com.webview_senior:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_customNavigationLayout material.danny_jiang.com.webview_senior:customNavigationLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_displayOptions material.danny_jiang.com.webview_senior:displayOptions}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_divider material.danny_jiang.com.webview_senior:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_elevation material.danny_jiang.com.webview_senior:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_height material.danny_jiang.com.webview_senior:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_hideOnContentScroll material.danny_jiang.com.webview_senior:hideOnContentScroll}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeAsUpIndicator material.danny_jiang.com.webview_senior:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_homeLayout material.danny_jiang.com.webview_senior:homeLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_icon material.danny_jiang.com.webview_senior:icon}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle material.danny_jiang.com.webview_senior:indeterminateProgressStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_itemPadding material.danny_jiang.com.webview_senior:itemPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_logo material.danny_jiang.com.webview_senior:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_navigationMode material.danny_jiang.com.webview_senior:navigationMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_popupTheme material.danny_jiang.com.webview_senior:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarPadding material.danny_jiang.com.webview_senior:progressBarPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_progressBarStyle material.danny_jiang.com.webview_senior:progressBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitle material.danny_jiang.com.webview_senior:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_subtitleTextStyle material.danny_jiang.com.webview_senior:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_title material.danny_jiang.com.webview_senior:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionBar_titleTextStyle material.danny_jiang.com.webview_senior:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_background com.parse.starter:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundSplit com.parse.starter:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_backgroundStacked com.parse.starter:backgroundStacked}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetEnd com.parse.starter:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetLeft com.parse.starter:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetRight com.parse.starter:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_contentInsetStart com.parse.starter:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_customNavigationLayout com.parse.starter:customNavigationLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_displayOptions com.parse.starter:displayOptions}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_divider com.parse.starter:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_elevation com.parse.starter:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_height com.parse.starter:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_hideOnContentScroll com.parse.starter:hideOnContentScroll}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.parse.starter:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_homeLayout com.parse.starter:homeLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_icon com.parse.starter:icon}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.parse.starter:indeterminateProgressStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_itemPadding com.parse.starter:itemPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_logo com.parse.starter:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_navigationMode com.parse.starter:navigationMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_popupTheme com.parse.starter:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarPadding com.parse.starter:progressBarPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_progressBarStyle com.parse.starter:progressBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitle com.parse.starter:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_subtitleTextStyle com.parse.starter:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_title com.parse.starter:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionBar_titleTextStyle com.parse.starter:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionBar_background
            @see #ActionBar_backgroundSplit
@@ -3463,17 +3527,17 @@ containing a value of this type.
             0x7f01001a, 0x7f01001b, 0x7f010057
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#background}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#background}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:background
+          @attr name com.parse.starter:background
         */
         public static final int ActionBar_background = 10;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3481,11 +3545,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:backgroundSplit
+          @attr name com.parse.starter:backgroundSplit
         */
         public static final int ActionBar_backgroundSplit = 12;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#backgroundStacked}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#backgroundStacked}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3493,11 +3557,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:backgroundStacked
+          @attr name com.parse.starter:backgroundStacked
         */
         public static final int ActionBar_backgroundStacked = 11;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3509,11 +3573,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentInsetEnd
+          @attr name com.parse.starter:contentInsetEnd
         */
         public static final int ActionBar_contentInsetEnd = 21;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3525,11 +3589,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentInsetLeft
+          @attr name com.parse.starter:contentInsetLeft
         */
         public static final int ActionBar_contentInsetLeft = 22;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3541,11 +3605,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentInsetRight
+          @attr name com.parse.starter:contentInsetRight
         */
         public static final int ActionBar_contentInsetRight = 23;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3557,21 +3621,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentInsetStart
+          @attr name com.parse.starter:contentInsetStart
         */
         public static final int ActionBar_contentInsetStart = 20;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#customNavigationLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#customNavigationLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:customNavigationLayout
+          @attr name com.parse.starter:customNavigationLayout
         */
         public static final int ActionBar_customNavigationLayout = 13;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#displayOptions}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#displayOptions}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3589,21 +3653,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>showCustom</code></td><td>0x10</td><td></td></tr>
 <tr><td><code>disableHome</code></td><td>0x20</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:displayOptions
+          @attr name com.parse.starter:displayOptions
         */
         public static final int ActionBar_displayOptions = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#divider}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:divider
+          @attr name com.parse.starter:divider
         */
         public static final int ActionBar_divider = 9;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#elevation}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3615,11 +3679,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:elevation
+          @attr name com.parse.starter:elevation
         */
         public static final int ActionBar_elevation = 24;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#height}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#height}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3631,11 +3695,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:height
+          @attr name com.parse.starter:height
         */
         public static final int ActionBar_height = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#hideOnContentScroll}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#hideOnContentScroll}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3645,51 +3709,51 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:hideOnContentScroll
+          @attr name com.parse.starter:hideOnContentScroll
         */
         public static final int ActionBar_hideOnContentScroll = 19;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:homeAsUpIndicator
+          @attr name com.parse.starter:homeAsUpIndicator
         */
         public static final int ActionBar_homeAsUpIndicator = 26;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#homeLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#homeLayout}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:homeLayout
+          @attr name com.parse.starter:homeLayout
         */
         public static final int ActionBar_homeLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#icon}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#icon}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:icon
+          @attr name com.parse.starter:icon
         */
         public static final int ActionBar_icon = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#indeterminateProgressStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#indeterminateProgressStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:indeterminateProgressStyle
+          @attr name com.parse.starter:indeterminateProgressStyle
         */
         public static final int ActionBar_indeterminateProgressStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#itemPadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#itemPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3701,21 +3765,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:itemPadding
+          @attr name com.parse.starter:itemPadding
         */
         public static final int ActionBar_itemPadding = 18;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#logo}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:logo
+          @attr name com.parse.starter:logo
         */
         public static final int ActionBar_logo = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#navigationMode}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#navigationMode}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3729,21 +3793,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>listMode</code></td><td>1</td><td></td></tr>
 <tr><td><code>tabMode</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:navigationMode
+          @attr name com.parse.starter:navigationMode
         */
         public static final int ActionBar_navigationMode = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#popupTheme}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:popupTheme
+          @attr name com.parse.starter:popupTheme
         */
         public static final int ActionBar_popupTheme = 25;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#progressBarPadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#progressBarPadding}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3755,21 +3819,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:progressBarPadding
+          @attr name com.parse.starter:progressBarPadding
         */
         public static final int ActionBar_progressBarPadding = 17;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#progressBarStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#progressBarStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:progressBarStyle
+          @attr name com.parse.starter:progressBarStyle
         */
         public static final int ActionBar_progressBarStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#subtitle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3779,21 +3843,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:subtitle
+          @attr name com.parse.starter:subtitle
         */
         public static final int ActionBar_subtitle = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:subtitleTextStyle
+          @attr name com.parse.starter:subtitleTextStyle
         */
         public static final int ActionBar_subtitleTextStyle = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#title}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#title}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
@@ -3803,17 +3867,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:title
+          @attr name com.parse.starter:title
         */
         public static final int ActionBar_title = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionBar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:titleTextStyle
+          @attr name com.parse.starter:titleTextStyle
         */
         public static final int ActionBar_titleTextStyle = 5;
         /** Attributes that can be used with a ActionBarLayout.
@@ -3865,12 +3929,12 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActionMode_background material.danny_jiang.com.webview_senior:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_backgroundSplit material.danny_jiang.com.webview_senior:backgroundSplit}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_closeItemLayout material.danny_jiang.com.webview_senior:closeItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_height material.danny_jiang.com.webview_senior:height}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_subtitleTextStyle material.danny_jiang.com.webview_senior:subtitleTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActionMode_titleTextStyle material.danny_jiang.com.webview_senior:titleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_background com.parse.starter:background}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_backgroundSplit com.parse.starter:backgroundSplit}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_closeItemLayout com.parse.starter:closeItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_height com.parse.starter:height}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_subtitleTextStyle com.parse.starter:subtitleTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActionMode_titleTextStyle com.parse.starter:titleTextStyle}</code></td><td></td></tr>
            </table>
            @see #ActionMode_background
            @see #ActionMode_backgroundSplit
@@ -3884,17 +3948,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01000e, 0x7f01001c
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#background}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#background}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:background
+          @attr name com.parse.starter:background
         */
         public static final int ActionMode_background = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#backgroundSplit}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#backgroundSplit}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3902,21 +3966,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:backgroundSplit
+          @attr name com.parse.starter:backgroundSplit
         */
         public static final int ActionMode_backgroundSplit = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#closeItemLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#closeItemLayout}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:closeItemLayout
+          @attr name com.parse.starter:closeItemLayout
         */
         public static final int ActionMode_closeItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#height}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#height}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
@@ -3928,27 +3992,27 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:height
+          @attr name com.parse.starter:height
         */
         public static final int ActionMode_height = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#subtitleTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#subtitleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:subtitleTextStyle
+          @attr name com.parse.starter:subtitleTextStyle
         */
         public static final int ActionMode_subtitleTextStyle = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#titleTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#titleTextStyle}
           attribute's value can be found in the {@link #ActionMode} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:titleTextStyle
+          @attr name com.parse.starter:titleTextStyle
         */
         public static final int ActionMode_titleTextStyle = 1;
         /** Attributes that can be used with a ActivityChooserView.
@@ -3957,8 +4021,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable material.danny_jiang.com.webview_senior:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #ActivityChooserView_initialActivityCount material.danny_jiang.com.webview_senior:initialActivityCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.parse.starter:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.parse.starter:initialActivityCount}</code></td><td></td></tr>
            </table>
            @see #ActivityChooserView_expandActivityOverflowButtonDrawable
            @see #ActivityChooserView_initialActivityCount
@@ -3967,17 +4031,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f01001d, 0x7f01001e
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#expandActivityOverflowButtonDrawable}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#expandActivityOverflowButtonDrawable}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:expandActivityOverflowButtonDrawable
+          @attr name com.parse.starter:expandActivityOverflowButtonDrawable
         */
         public static final int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#initialActivityCount}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#initialActivityCount}
           attribute's value can be found in the {@link #ActivityChooserView} array.
 
 
@@ -3987,7 +4051,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:initialActivityCount
+          @attr name com.parse.starter:initialActivityCount
         */
         public static final int ActivityChooserView_initialActivityCount = 0;
         /** Attributes that can be used with a AlertDialog.
@@ -3997,11 +4061,11 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout material.danny_jiang.com.webview_senior:buttonPanelSideLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listItemLayout material.danny_jiang.com.webview_senior:listItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_listLayout material.danny_jiang.com.webview_senior:listLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout material.danny_jiang.com.webview_senior:multiChoiceItemLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout material.danny_jiang.com.webview_senior:singleChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.parse.starter:buttonPanelSideLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listItemLayout com.parse.starter:listItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_listLayout com.parse.starter:listLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.parse.starter:multiChoiceItemLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.parse.starter:singleChoiceItemLayout}</code></td><td></td></tr>
            </table>
            @see #AlertDialog_android_layout
            @see #AlertDialog_buttonPanelSideLayout
@@ -4021,53 +4085,53 @@ containing a value of this type.
         */
         public static final int AlertDialog_android_layout = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#buttonPanelSideLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#buttonPanelSideLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:buttonPanelSideLayout
+          @attr name com.parse.starter:buttonPanelSideLayout
         */
         public static final int AlertDialog_buttonPanelSideLayout = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#listItemLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#listItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:listItemLayout
+          @attr name com.parse.starter:listItemLayout
         */
         public static final int AlertDialog_listItemLayout = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#listLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#listLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:listLayout
+          @attr name com.parse.starter:listLayout
         */
         public static final int AlertDialog_listLayout = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#multiChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#multiChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:multiChoiceItemLayout
+          @attr name com.parse.starter:multiChoiceItemLayout
         */
         public static final int AlertDialog_multiChoiceItemLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#singleChoiceItemLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#singleChoiceItemLayout}
           attribute's value can be found in the {@link #AlertDialog} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:singleChoiceItemLayout
+          @attr name com.parse.starter:singleChoiceItemLayout
         */
         public static final int AlertDialog_singleChoiceItemLayout = 4;
         /** Attributes that can be used with a AppBarLayout.
@@ -4077,8 +4141,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_elevation material.danny_jiang.com.webview_senior:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_expanded material.danny_jiang.com.webview_senior:expanded}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_elevation com.parse.starter:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_expanded com.parse.starter:expanded}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_android_background
            @see #AppBarLayout_elevation
@@ -4094,7 +4158,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppBarLayout_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#elevation}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4106,11 +4170,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:elevation
+          @attr name com.parse.starter:elevation
         */
         public static final int AppBarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#expanded}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#expanded}
           attribute's value can be found in the {@link #AppBarLayout} array.
 
 
@@ -4120,7 +4184,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:expanded
+          @attr name com.parse.starter:expanded
         */
         public static final int AppBarLayout_expanded = 2;
         /** Attributes that can be used with a AppBarLayout_LayoutParams.
@@ -4129,8 +4193,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags material.danny_jiang.com.webview_senior:layout_scrollFlags}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator material.danny_jiang.com.webview_senior:layout_scrollInterpolator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollFlags com.parse.starter:layout_scrollFlags}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppBarLayout_LayoutParams_layout_scrollInterpolator com.parse.starter:layout_scrollInterpolator}</code></td><td></td></tr>
            </table>
            @see #AppBarLayout_LayoutParams_layout_scrollFlags
            @see #AppBarLayout_LayoutParams_layout_scrollInterpolator
@@ -4139,7 +4203,7 @@ containing a value of this type.
             0x7f010025, 0x7f010026
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#layout_scrollFlags}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#layout_scrollFlags}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
@@ -4155,17 +4219,17 @@ containing a value of this type.
 <tr><td><code>enterAlwaysCollapsed</code></td><td>0x8</td><td></td></tr>
 <tr><td><code>snap</code></td><td>0x10</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:layout_scrollFlags
+          @attr name com.parse.starter:layout_scrollFlags
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#layout_scrollInterpolator}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#layout_scrollInterpolator}
           attribute's value can be found in the {@link #AppBarLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:layout_scrollInterpolator
+          @attr name com.parse.starter:layout_scrollInterpolator
         */
         public static final int AppBarLayout_LayoutParams_layout_scrollInterpolator = 1;
         /** Attributes that can be used with a AppCompatImageView.
@@ -4175,7 +4239,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatImageView_srcCompat material.danny_jiang.com.webview_senior:srcCompat}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatImageView_srcCompat com.parse.starter:srcCompat}</code></td><td></td></tr>
            </table>
            @see #AppCompatImageView_android_src
            @see #AppCompatImageView_srcCompat
@@ -4190,13 +4254,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatImageView_android_src = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#srcCompat}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#srcCompat}
           attribute's value can be found in the {@link #AppCompatImageView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:srcCompat
+          @attr name com.parse.starter:srcCompat
         */
         public static final int AppCompatImageView_srcCompat = 1;
         /** Attributes that can be used with a AppCompatTextView.
@@ -4206,7 +4270,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTextView_textAllCaps material.danny_jiang.com.webview_senior:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTextView_textAllCaps com.parse.starter:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #AppCompatTextView_android_textAppearance
            @see #AppCompatTextView_textAllCaps
@@ -4221,14 +4285,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTextView_android_textAppearance = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textAllCaps}
           attribute's value can be found in the {@link #AppCompatTextView} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name material.danny_jiang.com.webview_senior:textAllCaps
+          @attr name com.parse.starter:textAllCaps
         */
         public static final int AppCompatTextView_textAllCaps = 1;
         /** Attributes that can be used with a AppCompatTheme.
@@ -4237,118 +4301,118 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarDivider material.danny_jiang.com.webview_senior:actionBarDivider}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground material.danny_jiang.com.webview_senior:actionBarItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme material.danny_jiang.com.webview_senior:actionBarPopupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSize material.danny_jiang.com.webview_senior:actionBarSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle material.danny_jiang.com.webview_senior:actionBarSplitStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarStyle material.danny_jiang.com.webview_senior:actionBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle material.danny_jiang.com.webview_senior:actionBarTabBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle material.danny_jiang.com.webview_senior:actionBarTabStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle material.danny_jiang.com.webview_senior:actionBarTabTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarTheme material.danny_jiang.com.webview_senior:actionBarTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme material.danny_jiang.com.webview_senior:actionBarWidgetTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle material.danny_jiang.com.webview_senior:actionButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle material.danny_jiang.com.webview_senior:actionDropDownStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance material.danny_jiang.com.webview_senior:actionMenuTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor material.danny_jiang.com.webview_senior:actionMenuTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeBackground material.danny_jiang.com.webview_senior:actionModeBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle material.danny_jiang.com.webview_senior:actionModeCloseButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable material.danny_jiang.com.webview_senior:actionModeCloseDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable material.danny_jiang.com.webview_senior:actionModeCopyDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable material.danny_jiang.com.webview_senior:actionModeCutDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable material.danny_jiang.com.webview_senior:actionModeFindDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable material.danny_jiang.com.webview_senior:actionModePasteDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle material.danny_jiang.com.webview_senior:actionModePopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable material.danny_jiang.com.webview_senior:actionModeSelectAllDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable material.danny_jiang.com.webview_senior:actionModeShareDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground material.danny_jiang.com.webview_senior:actionModeSplitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeStyle material.danny_jiang.com.webview_senior:actionModeStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable material.danny_jiang.com.webview_senior:actionModeWebSearchDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle material.danny_jiang.com.webview_senior:actionOverflowButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle material.danny_jiang.com.webview_senior:actionOverflowMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle material.danny_jiang.com.webview_senior:activityChooserViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle material.danny_jiang.com.webview_senior:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons material.danny_jiang.com.webview_senior:alertDialogCenterButtons}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle material.danny_jiang.com.webview_senior:alertDialogStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme material.danny_jiang.com.webview_senior:alertDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.parse.starter:actionBarDivider}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.parse.starter:actionBarItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.parse.starter:actionBarPopupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSize com.parse.starter:actionBarSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.parse.starter:actionBarSplitStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.parse.starter:actionBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.parse.starter:actionBarTabBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.parse.starter:actionBarTabStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.parse.starter:actionBarTabTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.parse.starter:actionBarTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.parse.starter:actionBarWidgetTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.parse.starter:actionButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.parse.starter:actionDropDownStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.parse.starter:actionMenuTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.parse.starter:actionMenuTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.parse.starter:actionModeBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.parse.starter:actionModeCloseButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.parse.starter:actionModeCloseDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.parse.starter:actionModeCopyDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.parse.starter:actionModeCutDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.parse.starter:actionModeFindDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.parse.starter:actionModePasteDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.parse.starter:actionModePopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.parse.starter:actionModeSelectAllDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.parse.starter:actionModeShareDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.parse.starter:actionModeSplitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.parse.starter:actionModeStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.parse.starter:actionModeWebSearchDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.parse.starter:actionOverflowButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.parse.starter:actionOverflowMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.parse.starter:activityChooserViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.parse.starter:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.parse.starter:alertDialogCenterButtons}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.parse.starter:alertDialogStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.parse.starter:alertDialogTheme}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle material.danny_jiang.com.webview_senior:autoCompleteTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle material.danny_jiang.com.webview_senior:borderlessButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle material.danny_jiang.com.webview_senior:buttonBarButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle material.danny_jiang.com.webview_senior:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle material.danny_jiang.com.webview_senior:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle material.danny_jiang.com.webview_senior:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle material.danny_jiang.com.webview_senior:buttonBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyle material.danny_jiang.com.webview_senior:buttonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall material.danny_jiang.com.webview_senior:buttonStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkboxStyle material.danny_jiang.com.webview_senior:checkboxStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle material.danny_jiang.com.webview_senior:checkedTextViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorAccent material.danny_jiang.com.webview_senior:colorAccent}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal material.danny_jiang.com.webview_senior:colorButtonNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlActivated material.danny_jiang.com.webview_senior:colorControlActivated}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight material.danny_jiang.com.webview_senior:colorControlHighlight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorControlNormal material.danny_jiang.com.webview_senior:colorControlNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimary material.danny_jiang.com.webview_senior:colorPrimary}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark material.danny_jiang.com.webview_senior:colorPrimaryDark}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal material.danny_jiang.com.webview_senior:colorSwitchThumbNormal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_controlBackground material.danny_jiang.com.webview_senior:controlBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding material.danny_jiang.com.webview_senior:dialogPreferredPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dialogTheme material.danny_jiang.com.webview_senior:dialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal material.danny_jiang.com.webview_senior:dividerHorizontal}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dividerVertical material.danny_jiang.com.webview_senior:dividerVertical}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle material.danny_jiang.com.webview_senior:dropDownListViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight material.danny_jiang.com.webview_senior:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextBackground material.danny_jiang.com.webview_senior:editTextBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextColor material.danny_jiang.com.webview_senior:editTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_editTextStyle material.danny_jiang.com.webview_senior:editTextStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator material.danny_jiang.com.webview_senior:homeAsUpIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle material.danny_jiang.com.webview_senior:imageButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator material.danny_jiang.com.webview_senior:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog material.danny_jiang.com.webview_senior:listDividerAlertDialog}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle material.danny_jiang.com.webview_senior:listPopupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight material.danny_jiang.com.webview_senior:listPreferredItemHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge material.danny_jiang.com.webview_senior:listPreferredItemHeightLarge}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall material.danny_jiang.com.webview_senior:listPreferredItemHeightSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft material.danny_jiang.com.webview_senior:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight material.danny_jiang.com.webview_senior:listPreferredItemPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelBackground material.danny_jiang.com.webview_senior:panelBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme material.danny_jiang.com.webview_senior:panelMenuListTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth material.danny_jiang.com.webview_senior:panelMenuListWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle material.danny_jiang.com.webview_senior:popupMenuStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle material.danny_jiang.com.webview_senior:popupWindowStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle material.danny_jiang.com.webview_senior:radioButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle material.danny_jiang.com.webview_senior:ratingBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator material.danny_jiang.com.webview_senior:ratingBarStyleIndicator}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall material.danny_jiang.com.webview_senior:ratingBarStyleSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_searchViewStyle material.danny_jiang.com.webview_senior:searchViewStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_seekBarStyle material.danny_jiang.com.webview_senior:seekBarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground material.danny_jiang.com.webview_senior:selectableItemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless material.danny_jiang.com.webview_senior:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle material.danny_jiang.com.webview_senior:spinnerDropDownItemStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_spinnerStyle material.danny_jiang.com.webview_senior:spinnerStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_switchStyle material.danny_jiang.com.webview_senior:switchStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu material.danny_jiang.com.webview_senior:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem material.danny_jiang.com.webview_senior:textAppearanceListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall material.danny_jiang.com.webview_senior:textAppearanceListItemSmall}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle material.danny_jiang.com.webview_senior:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle material.danny_jiang.com.webview_senior:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu material.danny_jiang.com.webview_senior:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem material.danny_jiang.com.webview_senior:textColorAlertDialogListItem}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl material.danny_jiang.com.webview_senior:textColorSearchUrl}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle material.danny_jiang.com.webview_senior:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_toolbarStyle material.danny_jiang.com.webview_senior:toolbarStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBar material.danny_jiang.com.webview_senior:windowActionBar}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay material.danny_jiang.com.webview_senior:windowActionBarOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay material.danny_jiang.com.webview_senior:windowActionModeOverlay}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor material.danny_jiang.com.webview_senior:windowFixedHeightMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor material.danny_jiang.com.webview_senior:windowFixedHeightMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor material.danny_jiang.com.webview_senior:windowFixedWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor material.danny_jiang.com.webview_senior:windowFixedWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor material.danny_jiang.com.webview_senior:windowMinWidthMajor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor material.danny_jiang.com.webview_senior:windowMinWidthMinor}</code></td><td></td></tr>
-           <tr><td><code>{@link #AppCompatTheme_windowNoTitle material.danny_jiang.com.webview_senior:windowNoTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.parse.starter:autoCompleteTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.parse.starter:borderlessButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.parse.starter:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.parse.starter:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.parse.starter:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.parse.starter:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.parse.starter:buttonBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyle com.parse.starter:buttonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.parse.starter:buttonStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.parse.starter:checkboxStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.parse.starter:checkedTextViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorAccent com.parse.starter:colorAccent}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.parse.starter:colorButtonNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.parse.starter:colorControlActivated}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.parse.starter:colorControlHighlight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.parse.starter:colorControlNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimary com.parse.starter:colorPrimary}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.parse.starter:colorPrimaryDark}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.parse.starter:colorSwitchThumbNormal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_controlBackground com.parse.starter:controlBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.parse.starter:dialogPreferredPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dialogTheme com.parse.starter:dialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.parse.starter:dividerHorizontal}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dividerVertical com.parse.starter:dividerVertical}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.parse.starter:dropDownListViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.parse.starter:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextBackground com.parse.starter:editTextBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextColor com.parse.starter:editTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_editTextStyle com.parse.starter:editTextStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.parse.starter:homeAsUpIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.parse.starter:imageButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.parse.starter:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.parse.starter:listDividerAlertDialog}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.parse.starter:listPopupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.parse.starter:listPreferredItemHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.parse.starter:listPreferredItemHeightLarge}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.parse.starter:listPreferredItemHeightSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.parse.starter:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.parse.starter:listPreferredItemPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelBackground com.parse.starter:panelBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.parse.starter:panelMenuListTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.parse.starter:panelMenuListWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.parse.starter:popupMenuStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.parse.starter:popupWindowStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.parse.starter:radioButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.parse.starter:ratingBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.parse.starter:ratingBarStyleIndicator}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.parse.starter:ratingBarStyleSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.parse.starter:searchViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.parse.starter:seekBarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.parse.starter:selectableItemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.parse.starter:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.parse.starter:spinnerDropDownItemStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.parse.starter:spinnerStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_switchStyle com.parse.starter:switchStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.parse.starter:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.parse.starter:textAppearanceListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.parse.starter:textAppearanceListItemSmall}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.parse.starter:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.parse.starter:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.parse.starter:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.parse.starter:textColorAlertDialogListItem}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.parse.starter:textColorSearchUrl}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.parse.starter:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.parse.starter:toolbarStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBar com.parse.starter:windowActionBar}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.parse.starter:windowActionBarOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.parse.starter:windowActionModeOverlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.parse.starter:windowFixedHeightMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.parse.starter:windowFixedHeightMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.parse.starter:windowFixedWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.parse.starter:windowFixedWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.parse.starter:windowMinWidthMajor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.parse.starter:windowMinWidthMinor}</code></td><td></td></tr>
+           <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.parse.starter:windowNoTitle}</code></td><td></td></tr>
            </table>
            @see #AppCompatTheme_actionBarDivider
            @see #AppCompatTheme_actionBarItemBackground
@@ -4494,37 +4558,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010093, 0x7f010094, 0x7f010095, 0x7f010096
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarDivider}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarDivider}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionBarDivider
+          @attr name com.parse.starter:actionBarDivider
         */
         public static final int AppCompatTheme_actionBarDivider = 23;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarItemBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionBarItemBackground
+          @attr name com.parse.starter:actionBarItemBackground
         */
         public static final int AppCompatTheme_actionBarItemBackground = 24;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarPopupTheme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarPopupTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionBarPopupTheme
+          @attr name com.parse.starter:actionBarPopupTheme
         */
         public static final int AppCompatTheme_actionBarPopupTheme = 17;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarSize}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarSize}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4544,111 +4608,111 @@ containing a value of this type.
 <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
 <tr><td><code>wrap_content</code></td><td>0</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:actionBarSize
+          @attr name com.parse.starter:actionBarSize
         */
         public static final int AppCompatTheme_actionBarSize = 22;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarSplitStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarSplitStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionBarSplitStyle
+          @attr name com.parse.starter:actionBarSplitStyle
         */
         public static final int AppCompatTheme_actionBarSplitStyle = 19;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionBarStyle
+          @attr name com.parse.starter:actionBarStyle
         */
         public static final int AppCompatTheme_actionBarStyle = 18;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarTabBarStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarTabBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionBarTabBarStyle
+          @attr name com.parse.starter:actionBarTabBarStyle
         */
         public static final int AppCompatTheme_actionBarTabBarStyle = 13;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarTabStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarTabStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionBarTabStyle
+          @attr name com.parse.starter:actionBarTabStyle
         */
         public static final int AppCompatTheme_actionBarTabStyle = 12;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarTabTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarTabTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionBarTabTextStyle
+          @attr name com.parse.starter:actionBarTabTextStyle
         */
         public static final int AppCompatTheme_actionBarTabTextStyle = 14;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarTheme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionBarTheme
+          @attr name com.parse.starter:actionBarTheme
         */
         public static final int AppCompatTheme_actionBarTheme = 20;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionBarWidgetTheme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionBarWidgetTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionBarWidgetTheme
+          @attr name com.parse.starter:actionBarWidgetTheme
         */
         public static final int AppCompatTheme_actionBarWidgetTheme = 21;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionButtonStyle
+          @attr name com.parse.starter:actionButtonStyle
         */
         public static final int AppCompatTheme_actionButtonStyle = 49;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionDropDownStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionDropDownStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionDropDownStyle
+          @attr name com.parse.starter:actionDropDownStyle
         */
         public static final int AppCompatTheme_actionDropDownStyle = 45;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionMenuTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionMenuTextAppearance}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionMenuTextAppearance
+          @attr name com.parse.starter:actionMenuTextAppearance
         */
         public static final int AppCompatTheme_actionMenuTextAppearance = 25;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionMenuTextColor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionMenuTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4656,181 +4720,181 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionMenuTextColor
+          @attr name com.parse.starter:actionMenuTextColor
         */
         public static final int AppCompatTheme_actionMenuTextColor = 26;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeBackground
+          @attr name com.parse.starter:actionModeBackground
         */
         public static final int AppCompatTheme_actionModeBackground = 29;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeCloseButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeCloseButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeCloseButtonStyle
+          @attr name com.parse.starter:actionModeCloseButtonStyle
         */
         public static final int AppCompatTheme_actionModeCloseButtonStyle = 28;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeCloseDrawable}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeCloseDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeCloseDrawable
+          @attr name com.parse.starter:actionModeCloseDrawable
         */
         public static final int AppCompatTheme_actionModeCloseDrawable = 31;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeCopyDrawable}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeCopyDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeCopyDrawable
+          @attr name com.parse.starter:actionModeCopyDrawable
         */
         public static final int AppCompatTheme_actionModeCopyDrawable = 33;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeCutDrawable}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeCutDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeCutDrawable
+          @attr name com.parse.starter:actionModeCutDrawable
         */
         public static final int AppCompatTheme_actionModeCutDrawable = 32;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeFindDrawable}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeFindDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeFindDrawable
+          @attr name com.parse.starter:actionModeFindDrawable
         */
         public static final int AppCompatTheme_actionModeFindDrawable = 37;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModePasteDrawable}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModePasteDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModePasteDrawable
+          @attr name com.parse.starter:actionModePasteDrawable
         */
         public static final int AppCompatTheme_actionModePasteDrawable = 34;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModePopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModePopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModePopupWindowStyle
+          @attr name com.parse.starter:actionModePopupWindowStyle
         */
         public static final int AppCompatTheme_actionModePopupWindowStyle = 39;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeSelectAllDrawable}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeSelectAllDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeSelectAllDrawable
+          @attr name com.parse.starter:actionModeSelectAllDrawable
         */
         public static final int AppCompatTheme_actionModeSelectAllDrawable = 35;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeShareDrawable}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeShareDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeShareDrawable
+          @attr name com.parse.starter:actionModeShareDrawable
         */
         public static final int AppCompatTheme_actionModeShareDrawable = 36;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeSplitBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeSplitBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeSplitBackground
+          @attr name com.parse.starter:actionModeSplitBackground
         */
         public static final int AppCompatTheme_actionModeSplitBackground = 30;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeStyle
+          @attr name com.parse.starter:actionModeStyle
         */
         public static final int AppCompatTheme_actionModeStyle = 27;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionModeWebSearchDrawable}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionModeWebSearchDrawable}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionModeWebSearchDrawable
+          @attr name com.parse.starter:actionModeWebSearchDrawable
         */
         public static final int AppCompatTheme_actionModeWebSearchDrawable = 38;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionOverflowButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionOverflowButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionOverflowButtonStyle
+          @attr name com.parse.starter:actionOverflowButtonStyle
         */
         public static final int AppCompatTheme_actionOverflowButtonStyle = 15;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionOverflowMenuStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionOverflowMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionOverflowMenuStyle
+          @attr name com.parse.starter:actionOverflowMenuStyle
         */
         public static final int AppCompatTheme_actionOverflowMenuStyle = 16;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#activityChooserViewStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#activityChooserViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:activityChooserViewStyle
+          @attr name com.parse.starter:activityChooserViewStyle
         */
         public static final int AppCompatTheme_activityChooserViewStyle = 57;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#alertDialogButtonGroupStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#alertDialogButtonGroupStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:alertDialogButtonGroupStyle
+          @attr name com.parse.starter:alertDialogButtonGroupStyle
         */
         public static final int AppCompatTheme_alertDialogButtonGroupStyle = 92;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#alertDialogCenterButtons}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#alertDialogCenterButtons}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4840,27 +4904,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:alertDialogCenterButtons
+          @attr name com.parse.starter:alertDialogCenterButtons
         */
         public static final int AppCompatTheme_alertDialogCenterButtons = 93;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#alertDialogStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#alertDialogStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:alertDialogStyle
+          @attr name com.parse.starter:alertDialogStyle
         */
         public static final int AppCompatTheme_alertDialogStyle = 91;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#alertDialogTheme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#alertDialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:alertDialogTheme
+          @attr name com.parse.starter:alertDialogTheme
         */
         public static final int AppCompatTheme_alertDialogTheme = 94;
         /**
@@ -4876,117 +4940,117 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int AppCompatTheme_android_windowIsFloating = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#autoCompleteTextViewStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#autoCompleteTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:autoCompleteTextViewStyle
+          @attr name com.parse.starter:autoCompleteTextViewStyle
         */
         public static final int AppCompatTheme_autoCompleteTextViewStyle = 99;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#borderlessButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#borderlessButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:borderlessButtonStyle
+          @attr name com.parse.starter:borderlessButtonStyle
         */
         public static final int AppCompatTheme_borderlessButtonStyle = 54;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#buttonBarButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#buttonBarButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:buttonBarButtonStyle
+          @attr name com.parse.starter:buttonBarButtonStyle
         */
         public static final int AppCompatTheme_buttonBarButtonStyle = 51;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#buttonBarNegativeButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#buttonBarNegativeButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:buttonBarNegativeButtonStyle
+          @attr name com.parse.starter:buttonBarNegativeButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNegativeButtonStyle = 97;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#buttonBarNeutralButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#buttonBarNeutralButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:buttonBarNeutralButtonStyle
+          @attr name com.parse.starter:buttonBarNeutralButtonStyle
         */
         public static final int AppCompatTheme_buttonBarNeutralButtonStyle = 98;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#buttonBarPositiveButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#buttonBarPositiveButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:buttonBarPositiveButtonStyle
+          @attr name com.parse.starter:buttonBarPositiveButtonStyle
         */
         public static final int AppCompatTheme_buttonBarPositiveButtonStyle = 96;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#buttonBarStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#buttonBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:buttonBarStyle
+          @attr name com.parse.starter:buttonBarStyle
         */
         public static final int AppCompatTheme_buttonBarStyle = 50;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#buttonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#buttonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:buttonStyle
+          @attr name com.parse.starter:buttonStyle
         */
         public static final int AppCompatTheme_buttonStyle = 100;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#buttonStyleSmall}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#buttonStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:buttonStyleSmall
+          @attr name com.parse.starter:buttonStyleSmall
         */
         public static final int AppCompatTheme_buttonStyleSmall = 101;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#checkboxStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#checkboxStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:checkboxStyle
+          @attr name com.parse.starter:checkboxStyle
         */
         public static final int AppCompatTheme_checkboxStyle = 102;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#checkedTextViewStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#checkedTextViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:checkedTextViewStyle
+          @attr name com.parse.starter:checkedTextViewStyle
         */
         public static final int AppCompatTheme_checkedTextViewStyle = 103;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#colorAccent}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#colorAccent}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -4997,11 +5061,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:colorAccent
+          @attr name com.parse.starter:colorAccent
         */
         public static final int AppCompatTheme_colorAccent = 84;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#colorButtonNormal}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#colorButtonNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5012,11 +5076,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:colorButtonNormal
+          @attr name com.parse.starter:colorButtonNormal
         */
         public static final int AppCompatTheme_colorButtonNormal = 88;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#colorControlActivated}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#colorControlActivated}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5027,11 +5091,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:colorControlActivated
+          @attr name com.parse.starter:colorControlActivated
         */
         public static final int AppCompatTheme_colorControlActivated = 86;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#colorControlHighlight}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#colorControlHighlight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5042,11 +5106,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:colorControlHighlight
+          @attr name com.parse.starter:colorControlHighlight
         */
         public static final int AppCompatTheme_colorControlHighlight = 87;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#colorControlNormal}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#colorControlNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5057,11 +5121,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:colorControlNormal
+          @attr name com.parse.starter:colorControlNormal
         */
         public static final int AppCompatTheme_colorControlNormal = 85;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#colorPrimary}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#colorPrimary}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5072,11 +5136,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:colorPrimary
+          @attr name com.parse.starter:colorPrimary
         */
         public static final int AppCompatTheme_colorPrimary = 82;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#colorPrimaryDark}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#colorPrimaryDark}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5087,11 +5151,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:colorPrimaryDark
+          @attr name com.parse.starter:colorPrimaryDark
         */
         public static final int AppCompatTheme_colorPrimaryDark = 83;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#colorSwitchThumbNormal}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#colorSwitchThumbNormal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5102,21 +5166,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:colorSwitchThumbNormal
+          @attr name com.parse.starter:colorSwitchThumbNormal
         */
         public static final int AppCompatTheme_colorSwitchThumbNormal = 89;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#controlBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#controlBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:controlBackground
+          @attr name com.parse.starter:controlBackground
         */
         public static final int AppCompatTheme_controlBackground = 90;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#dialogPreferredPadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#dialogPreferredPadding}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5128,51 +5192,51 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:dialogPreferredPadding
+          @attr name com.parse.starter:dialogPreferredPadding
         */
         public static final int AppCompatTheme_dialogPreferredPadding = 43;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#dialogTheme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#dialogTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:dialogTheme
+          @attr name com.parse.starter:dialogTheme
         */
         public static final int AppCompatTheme_dialogTheme = 42;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#dividerHorizontal}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#dividerHorizontal}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:dividerHorizontal
+          @attr name com.parse.starter:dividerHorizontal
         */
         public static final int AppCompatTheme_dividerHorizontal = 56;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#dividerVertical}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#dividerVertical}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:dividerVertical
+          @attr name com.parse.starter:dividerVertical
         */
         public static final int AppCompatTheme_dividerVertical = 55;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#dropDownListViewStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#dropDownListViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:dropDownListViewStyle
+          @attr name com.parse.starter:dropDownListViewStyle
         */
         public static final int AppCompatTheme_dropDownListViewStyle = 74;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#dropdownListPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#dropdownListPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5184,21 +5248,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:dropdownListPreferredItemHeight
+          @attr name com.parse.starter:dropdownListPreferredItemHeight
         */
         public static final int AppCompatTheme_dropdownListPreferredItemHeight = 46;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#editTextBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#editTextBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:editTextBackground
+          @attr name com.parse.starter:editTextBackground
         */
         public static final int AppCompatTheme_editTextBackground = 63;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#editTextColor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#editTextColor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5206,71 +5270,71 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:editTextColor
+          @attr name com.parse.starter:editTextColor
         */
         public static final int AppCompatTheme_editTextColor = 62;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#editTextStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#editTextStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:editTextStyle
+          @attr name com.parse.starter:editTextStyle
         */
         public static final int AppCompatTheme_editTextStyle = 104;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#homeAsUpIndicator}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#homeAsUpIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:homeAsUpIndicator
+          @attr name com.parse.starter:homeAsUpIndicator
         */
         public static final int AppCompatTheme_homeAsUpIndicator = 48;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#imageButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#imageButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:imageButtonStyle
+          @attr name com.parse.starter:imageButtonStyle
         */
         public static final int AppCompatTheme_imageButtonStyle = 64;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#listChoiceBackgroundIndicator}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#listChoiceBackgroundIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:listChoiceBackgroundIndicator
+          @attr name com.parse.starter:listChoiceBackgroundIndicator
         */
         public static final int AppCompatTheme_listChoiceBackgroundIndicator = 81;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#listDividerAlertDialog}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#listDividerAlertDialog}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:listDividerAlertDialog
+          @attr name com.parse.starter:listDividerAlertDialog
         */
         public static final int AppCompatTheme_listDividerAlertDialog = 44;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#listPopupWindowStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#listPopupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:listPopupWindowStyle
+          @attr name com.parse.starter:listPopupWindowStyle
         */
         public static final int AppCompatTheme_listPopupWindowStyle = 75;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#listPreferredItemHeight}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#listPreferredItemHeight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5282,11 +5346,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:listPreferredItemHeight
+          @attr name com.parse.starter:listPreferredItemHeight
         */
         public static final int AppCompatTheme_listPreferredItemHeight = 69;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#listPreferredItemHeightLarge}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#listPreferredItemHeightLarge}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5298,11 +5362,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:listPreferredItemHeightLarge
+          @attr name com.parse.starter:listPreferredItemHeightLarge
         */
         public static final int AppCompatTheme_listPreferredItemHeightLarge = 71;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#listPreferredItemHeightSmall}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#listPreferredItemHeightSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5314,11 +5378,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:listPreferredItemHeightSmall
+          @attr name com.parse.starter:listPreferredItemHeightSmall
         */
         public static final int AppCompatTheme_listPreferredItemHeightSmall = 70;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#listPreferredItemPaddingLeft}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#listPreferredItemPaddingLeft}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5330,11 +5394,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:listPreferredItemPaddingLeft
+          @attr name com.parse.starter:listPreferredItemPaddingLeft
         */
         public static final int AppCompatTheme_listPreferredItemPaddingLeft = 72;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#listPreferredItemPaddingRight}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#listPreferredItemPaddingRight}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5346,31 +5410,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:listPreferredItemPaddingRight
+          @attr name com.parse.starter:listPreferredItemPaddingRight
         */
         public static final int AppCompatTheme_listPreferredItemPaddingRight = 73;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#panelBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#panelBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:panelBackground
+          @attr name com.parse.starter:panelBackground
         */
         public static final int AppCompatTheme_panelBackground = 78;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#panelMenuListTheme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#panelMenuListTheme}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:panelMenuListTheme
+          @attr name com.parse.starter:panelMenuListTheme
         */
         public static final int AppCompatTheme_panelMenuListTheme = 80;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#panelMenuListWidth}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#panelMenuListWidth}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5382,201 +5446,201 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:panelMenuListWidth
+          @attr name com.parse.starter:panelMenuListWidth
         */
         public static final int AppCompatTheme_panelMenuListWidth = 79;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#popupMenuStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#popupMenuStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:popupMenuStyle
+          @attr name com.parse.starter:popupMenuStyle
         */
         public static final int AppCompatTheme_popupMenuStyle = 60;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#popupWindowStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#popupWindowStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:popupWindowStyle
+          @attr name com.parse.starter:popupWindowStyle
         */
         public static final int AppCompatTheme_popupWindowStyle = 61;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#radioButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#radioButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:radioButtonStyle
+          @attr name com.parse.starter:radioButtonStyle
         */
         public static final int AppCompatTheme_radioButtonStyle = 105;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#ratingBarStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#ratingBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:ratingBarStyle
+          @attr name com.parse.starter:ratingBarStyle
         */
         public static final int AppCompatTheme_ratingBarStyle = 106;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#ratingBarStyleIndicator}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#ratingBarStyleIndicator}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:ratingBarStyleIndicator
+          @attr name com.parse.starter:ratingBarStyleIndicator
         */
         public static final int AppCompatTheme_ratingBarStyleIndicator = 107;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#ratingBarStyleSmall}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#ratingBarStyleSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:ratingBarStyleSmall
+          @attr name com.parse.starter:ratingBarStyleSmall
         */
         public static final int AppCompatTheme_ratingBarStyleSmall = 108;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#searchViewStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#searchViewStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:searchViewStyle
+          @attr name com.parse.starter:searchViewStyle
         */
         public static final int AppCompatTheme_searchViewStyle = 68;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#seekBarStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#seekBarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:seekBarStyle
+          @attr name com.parse.starter:seekBarStyle
         */
         public static final int AppCompatTheme_seekBarStyle = 109;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#selectableItemBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#selectableItemBackground}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:selectableItemBackground
+          @attr name com.parse.starter:selectableItemBackground
         */
         public static final int AppCompatTheme_selectableItemBackground = 52;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#selectableItemBackgroundBorderless}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#selectableItemBackgroundBorderless}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:selectableItemBackgroundBorderless
+          @attr name com.parse.starter:selectableItemBackgroundBorderless
         */
         public static final int AppCompatTheme_selectableItemBackgroundBorderless = 53;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#spinnerDropDownItemStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#spinnerDropDownItemStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:spinnerDropDownItemStyle
+          @attr name com.parse.starter:spinnerDropDownItemStyle
         */
         public static final int AppCompatTheme_spinnerDropDownItemStyle = 47;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#spinnerStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#spinnerStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:spinnerStyle
+          @attr name com.parse.starter:spinnerStyle
         */
         public static final int AppCompatTheme_spinnerStyle = 110;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#switchStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#switchStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:switchStyle
+          @attr name com.parse.starter:switchStyle
         */
         public static final int AppCompatTheme_switchStyle = 111;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textAppearanceLargePopupMenu}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textAppearanceLargePopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:textAppearanceLargePopupMenu
+          @attr name com.parse.starter:textAppearanceLargePopupMenu
         */
         public static final int AppCompatTheme_textAppearanceLargePopupMenu = 40;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textAppearanceListItem}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textAppearanceListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:textAppearanceListItem
+          @attr name com.parse.starter:textAppearanceListItem
         */
         public static final int AppCompatTheme_textAppearanceListItem = 76;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textAppearanceListItemSmall}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textAppearanceListItemSmall}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:textAppearanceListItemSmall
+          @attr name com.parse.starter:textAppearanceListItemSmall
         */
         public static final int AppCompatTheme_textAppearanceListItemSmall = 77;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textAppearanceSearchResultSubtitle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textAppearanceSearchResultSubtitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:textAppearanceSearchResultSubtitle
+          @attr name com.parse.starter:textAppearanceSearchResultSubtitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultSubtitle = 66;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textAppearanceSearchResultTitle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textAppearanceSearchResultTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:textAppearanceSearchResultTitle
+          @attr name com.parse.starter:textAppearanceSearchResultTitle
         */
         public static final int AppCompatTheme_textAppearanceSearchResultTitle = 65;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textAppearanceSmallPopupMenu}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textAppearanceSmallPopupMenu}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:textAppearanceSmallPopupMenu
+          @attr name com.parse.starter:textAppearanceSmallPopupMenu
         */
         public static final int AppCompatTheme_textAppearanceSmallPopupMenu = 41;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textColorAlertDialogListItem}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textColorAlertDialogListItem}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5584,11 +5648,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:textColorAlertDialogListItem
+          @attr name com.parse.starter:textColorAlertDialogListItem
         */
         public static final int AppCompatTheme_textColorAlertDialogListItem = 95;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textColorSearchUrl}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textColorSearchUrl}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5596,31 +5660,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:textColorSearchUrl
+          @attr name com.parse.starter:textColorSearchUrl
         */
         public static final int AppCompatTheme_textColorSearchUrl = 67;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#toolbarNavigationButtonStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#toolbarNavigationButtonStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:toolbarNavigationButtonStyle
+          @attr name com.parse.starter:toolbarNavigationButtonStyle
         */
         public static final int AppCompatTheme_toolbarNavigationButtonStyle = 59;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#toolbarStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#toolbarStyle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:toolbarStyle
+          @attr name com.parse.starter:toolbarStyle
         */
         public static final int AppCompatTheme_toolbarStyle = 58;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#windowActionBar}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#windowActionBar}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5630,11 +5694,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:windowActionBar
+          @attr name com.parse.starter:windowActionBar
         */
         public static final int AppCompatTheme_windowActionBar = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#windowActionBarOverlay}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#windowActionBarOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5644,11 +5708,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:windowActionBarOverlay
+          @attr name com.parse.starter:windowActionBarOverlay
         */
         public static final int AppCompatTheme_windowActionBarOverlay = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#windowActionModeOverlay}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#windowActionModeOverlay}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5658,11 +5722,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:windowActionModeOverlay
+          @attr name com.parse.starter:windowActionModeOverlay
         */
         public static final int AppCompatTheme_windowActionModeOverlay = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#windowFixedHeightMajor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#windowFixedHeightMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5677,11 +5741,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:windowFixedHeightMajor
+          @attr name com.parse.starter:windowFixedHeightMajor
         */
         public static final int AppCompatTheme_windowFixedHeightMajor = 9;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#windowFixedHeightMinor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#windowFixedHeightMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5696,11 +5760,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:windowFixedHeightMinor
+          @attr name com.parse.starter:windowFixedHeightMinor
         */
         public static final int AppCompatTheme_windowFixedHeightMinor = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#windowFixedWidthMajor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#windowFixedWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5715,11 +5779,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:windowFixedWidthMajor
+          @attr name com.parse.starter:windowFixedWidthMajor
         */
         public static final int AppCompatTheme_windowFixedWidthMajor = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#windowFixedWidthMinor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#windowFixedWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5734,11 +5798,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:windowFixedWidthMinor
+          @attr name com.parse.starter:windowFixedWidthMinor
         */
         public static final int AppCompatTheme_windowFixedWidthMinor = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#windowMinWidthMajor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#windowMinWidthMajor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5753,11 +5817,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:windowMinWidthMajor
+          @attr name com.parse.starter:windowMinWidthMajor
         */
         public static final int AppCompatTheme_windowMinWidthMajor = 10;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#windowMinWidthMinor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#windowMinWidthMinor}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5772,11 +5836,11 @@ some parent container.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:windowMinWidthMinor
+          @attr name com.parse.starter:windowMinWidthMinor
         */
         public static final int AppCompatTheme_windowMinWidthMinor = 11;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#windowNoTitle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#windowNoTitle}
           attribute's value can be found in the {@link #AppCompatTheme} array.
 
 
@@ -5786,7 +5850,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:windowNoTitle
+          @attr name com.parse.starter:windowNoTitle
         */
         public static final int AppCompatTheme_windowNoTitle = 3;
         /** Attributes that can be used with a BottomSheetBehavior_Params.
@@ -5795,8 +5859,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable material.danny_jiang.com.webview_senior:behavior_hideable}</code></td><td></td></tr>
-           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight material.danny_jiang.com.webview_senior:behavior_peekHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_hideable com.parse.starter:behavior_hideable}</code></td><td></td></tr>
+           <tr><td><code>{@link #BottomSheetBehavior_Params_behavior_peekHeight com.parse.starter:behavior_peekHeight}</code></td><td></td></tr>
            </table>
            @see #BottomSheetBehavior_Params_behavior_hideable
            @see #BottomSheetBehavior_Params_behavior_peekHeight
@@ -5805,7 +5869,7 @@ containing a value of this type.
             0x7f010097, 0x7f010098
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#behavior_hideable}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#behavior_hideable}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -5815,11 +5879,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:behavior_hideable
+          @attr name com.parse.starter:behavior_hideable
         */
         public static final int BottomSheetBehavior_Params_behavior_hideable = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#behavior_peekHeight}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#behavior_peekHeight}
           attribute's value can be found in the {@link #BottomSheetBehavior_Params} array.
 
 
@@ -5831,7 +5895,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:behavior_peekHeight
+          @attr name com.parse.starter:behavior_peekHeight
         */
         public static final int BottomSheetBehavior_Params_behavior_peekHeight = 0;
         /** Attributes that can be used with a ButtonBarLayout.
@@ -5840,7 +5904,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ButtonBarLayout_allowStacking material.danny_jiang.com.webview_senior:allowStacking}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarLayout_allowStacking com.parse.starter:allowStacking}</code></td><td></td></tr>
            </table>
            @see #ButtonBarLayout_allowStacking
          */
@@ -5848,7 +5912,7 @@ containing a value of this type.
             0x7f010099
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#allowStacking}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#allowStacking}
           attribute's value can be found in the {@link #ButtonBarLayout} array.
 
 
@@ -5858,7 +5922,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:allowStacking
+          @attr name com.parse.starter:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
         /** Attributes that can be used with a CardView.
@@ -5867,18 +5931,22 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CardView_cardBackgroundColor material.danny_jiang.com.webview_senior:cardBackgroundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardCornerRadius material.danny_jiang.com.webview_senior:cardCornerRadius}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardElevation material.danny_jiang.com.webview_senior:cardElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardMaxElevation material.danny_jiang.com.webview_senior:cardMaxElevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardPreventCornerOverlap material.danny_jiang.com.webview_senior:cardPreventCornerOverlap}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_cardUseCompatPadding material.danny_jiang.com.webview_senior:cardUseCompatPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPadding material.danny_jiang.com.webview_senior:contentPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingBottom material.danny_jiang.com.webview_senior:contentPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingLeft material.danny_jiang.com.webview_senior:contentPaddingLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingRight material.danny_jiang.com.webview_senior:contentPaddingRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #CardView_contentPaddingTop material.danny_jiang.com.webview_senior:contentPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardBackgroundColor com.parse.starter:cardBackgroundColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardCornerRadius com.parse.starter:cardCornerRadius}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardElevation com.parse.starter:cardElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardMaxElevation com.parse.starter:cardMaxElevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.parse.starter:cardPreventCornerOverlap}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_cardUseCompatPadding com.parse.starter:cardUseCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPadding com.parse.starter:contentPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingBottom com.parse.starter:contentPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingLeft com.parse.starter:contentPaddingLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingRight com.parse.starter:contentPaddingRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #CardView_contentPaddingTop com.parse.starter:contentPaddingTop}</code></td><td></td></tr>
            </table>
+           @see #CardView_android_minHeight
+           @see #CardView_android_minWidth
            @see #CardView_cardBackgroundColor
            @see #CardView_cardCornerRadius
            @see #CardView_cardElevation
@@ -5892,12 +5960,25 @@ containing a value of this type.
            @see #CardView_contentPaddingTop
          */
         public static final int[] CardView = {
-            0x7f01009a, 0x7f01009b, 0x7f01009c, 0x7f01009d,
-            0x7f01009e, 0x7f01009f, 0x7f0100a0, 0x7f0100a1,
-            0x7f0100a2, 0x7f0100a3, 0x7f0100a4
+            0x0101013f, 0x01010140, 0x7f01009a, 0x7f01009b,
+            0x7f01009c, 0x7f01009d, 0x7f01009e, 0x7f01009f,
+            0x7f0100a0, 0x7f0100a1, 0x7f0100a2, 0x7f0100a3,
+            0x7f0100a4
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#cardBackgroundColor}
+          <p>This symbol is the offset where the {@link android.R.attr#minHeight}
+          attribute's value can be found in the {@link #CardView} array.
+          @attr name android:minHeight
+        */
+        public static final int CardView_android_minHeight = 1;
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#minWidth}
+          attribute's value can be found in the {@link #CardView} array.
+          @attr name android:minWidth
+        */
+        public static final int CardView_android_minWidth = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#cardBackgroundColor}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5908,11 +5989,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:cardBackgroundColor
+          @attr name com.parse.starter:cardBackgroundColor
         */
-        public static final int CardView_cardBackgroundColor = 0;
+        public static final int CardView_cardBackgroundColor = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#cardCornerRadius}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#cardCornerRadius}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5924,11 +6005,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:cardCornerRadius
+          @attr name com.parse.starter:cardCornerRadius
         */
-        public static final int CardView_cardCornerRadius = 1;
+        public static final int CardView_cardCornerRadius = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#cardElevation}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#cardElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5940,11 +6021,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:cardElevation
+          @attr name com.parse.starter:cardElevation
         */
-        public static final int CardView_cardElevation = 2;
+        public static final int CardView_cardElevation = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#cardMaxElevation}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#cardMaxElevation}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5956,11 +6037,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:cardMaxElevation
+          @attr name com.parse.starter:cardMaxElevation
         */
-        public static final int CardView_cardMaxElevation = 3;
+        public static final int CardView_cardMaxElevation = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#cardPreventCornerOverlap}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#cardPreventCornerOverlap}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5970,11 +6051,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:cardPreventCornerOverlap
+          @attr name com.parse.starter:cardPreventCornerOverlap
         */
-        public static final int CardView_cardPreventCornerOverlap = 5;
+        public static final int CardView_cardPreventCornerOverlap = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#cardUseCompatPadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#cardUseCompatPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -5984,11 +6065,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:cardUseCompatPadding
+          @attr name com.parse.starter:cardUseCompatPadding
         */
-        public static final int CardView_cardUseCompatPadding = 4;
+        public static final int CardView_cardUseCompatPadding = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentPadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentPadding}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6000,11 +6081,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentPadding
+          @attr name com.parse.starter:contentPadding
         */
-        public static final int CardView_contentPadding = 6;
+        public static final int CardView_contentPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentPaddingBottom}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentPaddingBottom}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6016,11 +6097,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentPaddingBottom
+          @attr name com.parse.starter:contentPaddingBottom
         */
-        public static final int CardView_contentPaddingBottom = 10;
+        public static final int CardView_contentPaddingBottom = 12;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentPaddingLeft}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentPaddingLeft}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6032,11 +6113,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentPaddingLeft
+          @attr name com.parse.starter:contentPaddingLeft
         */
-        public static final int CardView_contentPaddingLeft = 7;
+        public static final int CardView_contentPaddingLeft = 9;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentPaddingRight}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentPaddingRight}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6048,11 +6129,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentPaddingRight
+          @attr name com.parse.starter:contentPaddingRight
         */
-        public static final int CardView_contentPaddingRight = 8;
+        public static final int CardView_contentPaddingRight = 10;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentPaddingTop}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentPaddingTop}
           attribute's value can be found in the {@link #CardView} array.
 
 
@@ -6064,23 +6145,23 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentPaddingTop
+          @attr name com.parse.starter:contentPaddingTop
         */
-        public static final int CardView_contentPaddingTop = 9;
+        public static final int CardView_contentPaddingTop = 11;
         /** Attributes that can be used with a CircularImageView.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CircularImageView_border material.danny_jiang.com.webview_senior:border}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularImageView_border_color material.danny_jiang.com.webview_senior:border_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularImageView_border_width material.danny_jiang.com.webview_senior:border_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularImageView_selector material.danny_jiang.com.webview_senior:selector}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularImageView_selector_color material.danny_jiang.com.webview_senior:selector_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularImageView_selector_stroke_color material.danny_jiang.com.webview_senior:selector_stroke_color}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularImageView_selector_stroke_width material.danny_jiang.com.webview_senior:selector_stroke_width}</code></td><td></td></tr>
-           <tr><td><code>{@link #CircularImageView_shadow material.danny_jiang.com.webview_senior:shadow}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularImageView_border com.parse.starter:border}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularImageView_border_color com.parse.starter:border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularImageView_border_width com.parse.starter:border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularImageView_selector com.parse.starter:selector}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularImageView_selector_color com.parse.starter:selector_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularImageView_selector_stroke_color com.parse.starter:selector_stroke_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularImageView_selector_stroke_width com.parse.starter:selector_stroke_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircularImageView_shadow com.parse.starter:shadow}</code></td><td></td></tr>
            </table>
            @see #CircularImageView_border
            @see #CircularImageView_border_color
@@ -6096,7 +6177,7 @@ containing a value of this type.
             0x7f0100a9, 0x7f0100aa, 0x7f0100ab, 0x7f0100ac
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#border}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#border}
           attribute's value can be found in the {@link #CircularImageView} array.
 
 
@@ -6106,11 +6187,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:border
+          @attr name com.parse.starter:border
         */
         public static final int CircularImageView_border = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#border_color}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#border_color}
           attribute's value can be found in the {@link #CircularImageView} array.
 
 
@@ -6121,11 +6202,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:border_color
+          @attr name com.parse.starter:border_color
         */
         public static final int CircularImageView_border_color = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#border_width}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#border_width}
           attribute's value can be found in the {@link #CircularImageView} array.
 
 
@@ -6137,11 +6218,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:border_width
+          @attr name com.parse.starter:border_width
         */
         public static final int CircularImageView_border_width = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#selector}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#selector}
           attribute's value can be found in the {@link #CircularImageView} array.
 
 
@@ -6151,11 +6232,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:selector
+          @attr name com.parse.starter:selector
         */
         public static final int CircularImageView_selector = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#selector_color}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#selector_color}
           attribute's value can be found in the {@link #CircularImageView} array.
 
 
@@ -6166,11 +6247,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:selector_color
+          @attr name com.parse.starter:selector_color
         */
         public static final int CircularImageView_selector_color = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#selector_stroke_color}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#selector_stroke_color}
           attribute's value can be found in the {@link #CircularImageView} array.
 
 
@@ -6181,11 +6262,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:selector_stroke_color
+          @attr name com.parse.starter:selector_stroke_color
         */
         public static final int CircularImageView_selector_stroke_color = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#selector_stroke_width}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#selector_stroke_width}
           attribute's value can be found in the {@link #CircularImageView} array.
 
 
@@ -6197,11 +6278,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:selector_stroke_width
+          @attr name com.parse.starter:selector_stroke_width
         */
         public static final int CircularImageView_selector_stroke_width = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#shadow}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#shadow}
           attribute's value can be found in the {@link #CircularImageView} array.
 
 
@@ -6211,7 +6292,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:shadow
+          @attr name com.parse.starter:shadow
         */
         public static final int CircularImageView_shadow = 7;
         /** Attributes that can be used with a CollapsingAppBarLayout_LayoutParams.
@@ -6220,8 +6301,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode material.danny_jiang.com.webview_senior:layout_collapseMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier material.danny_jiang.com.webview_senior:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseMode com.parse.starter:layout_collapseMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier com.parse.starter:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
            </table>
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseMode
            @see #CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
@@ -6230,7 +6311,7 @@ containing a value of this type.
             0x7f0100ad, 0x7f0100ae
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#layout_collapseMode}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#layout_collapseMode}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -6244,11 +6325,11 @@ containing a value of this type.
 <tr><td><code>pin</code></td><td>1</td><td></td></tr>
 <tr><td><code>parallax</code></td><td>2</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:layout_collapseMode
+          @attr name com.parse.starter:layout_collapseMode
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#layout_collapseParallaxMultiplier}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#layout_collapseParallaxMultiplier}
           attribute's value can be found in the {@link #CollapsingAppBarLayout_LayoutParams} array.
 
 
@@ -6258,7 +6339,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:layout_collapseParallaxMultiplier
+          @attr name com.parse.starter:layout_collapseParallaxMultiplier
         */
         public static final int CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = 1;
         /** Attributes that can be used with a CollapsingToolbarLayout.
@@ -6267,20 +6348,20 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity material.danny_jiang.com.webview_senior:collapsedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance material.danny_jiang.com.webview_senior:collapsedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim material.danny_jiang.com.webview_senior:contentScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity material.danny_jiang.com.webview_senior:expandedTitleGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin material.danny_jiang.com.webview_senior:expandedTitleMargin}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom material.danny_jiang.com.webview_senior:expandedTitleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd material.danny_jiang.com.webview_senior:expandedTitleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart material.danny_jiang.com.webview_senior:expandedTitleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop material.danny_jiang.com.webview_senior:expandedTitleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance material.danny_jiang.com.webview_senior:expandedTitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim material.danny_jiang.com.webview_senior:statusBarScrim}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_title material.danny_jiang.com.webview_senior:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled material.danny_jiang.com.webview_senior:titleEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId material.danny_jiang.com.webview_senior:toolbarId}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.parse.starter:collapsedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.parse.starter:collapsedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.parse.starter:contentScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.parse.starter:expandedTitleGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.parse.starter:expandedTitleMargin}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.parse.starter:expandedTitleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.parse.starter:expandedTitleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.parse.starter:expandedTitleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.parse.starter:expandedTitleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.parse.starter:expandedTitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.parse.starter:statusBarScrim}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_title com.parse.starter:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.parse.starter:titleEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.parse.starter:toolbarId}</code></td><td></td></tr>
            </table>
            @see #CollapsingToolbarLayout_collapsedTitleGravity
            @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -6304,7 +6385,7 @@ containing a value of this type.
             0x7f0100ba, 0x7f0100bb
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#collapsedTitleGravity}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#collapsedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6325,21 +6406,21 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:collapsedTitleGravity
+          @attr name com.parse.starter:collapsedTitleGravity
         */
         public static final int CollapsingToolbarLayout_collapsedTitleGravity = 11;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#collapsedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#collapsedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:collapsedTitleTextAppearance
+          @attr name com.parse.starter:collapsedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentScrim}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6350,11 +6431,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentScrim
+          @attr name com.parse.starter:contentScrim
         */
         public static final int CollapsingToolbarLayout_contentScrim = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#expandedTitleGravity}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#expandedTitleGravity}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6375,11 +6456,11 @@ containing a value of this type.
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:expandedTitleGravity
+          @attr name com.parse.starter:expandedTitleGravity
         */
         public static final int CollapsingToolbarLayout_expandedTitleGravity = 12;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#expandedTitleMargin}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#expandedTitleMargin}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6391,11 +6472,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:expandedTitleMargin
+          @attr name com.parse.starter:expandedTitleMargin
         */
         public static final int CollapsingToolbarLayout_expandedTitleMargin = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#expandedTitleMarginBottom}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#expandedTitleMarginBottom}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6407,11 +6488,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:expandedTitleMarginBottom
+          @attr name com.parse.starter:expandedTitleMarginBottom
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#expandedTitleMarginEnd}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#expandedTitleMarginEnd}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6423,11 +6504,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:expandedTitleMarginEnd
+          @attr name com.parse.starter:expandedTitleMarginEnd
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#expandedTitleMarginStart}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#expandedTitleMarginStart}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6439,11 +6520,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:expandedTitleMarginStart
+          @attr name com.parse.starter:expandedTitleMarginStart
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#expandedTitleMarginTop}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#expandedTitleMarginTop}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6455,21 +6536,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:expandedTitleMarginTop
+          @attr name com.parse.starter:expandedTitleMarginTop
         */
         public static final int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#expandedTitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#expandedTitleTextAppearance}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:expandedTitleTextAppearance
+          @attr name com.parse.starter:expandedTitleTextAppearance
         */
         public static final int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#statusBarScrim}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#statusBarScrim}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6480,11 +6561,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:statusBarScrim
+          @attr name com.parse.starter:statusBarScrim
         */
         public static final int CollapsingToolbarLayout_statusBarScrim = 9;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#title}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#title}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6494,11 +6575,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:title
+          @attr name com.parse.starter:title
         */
         public static final int CollapsingToolbarLayout_title = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#titleEnabled}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#titleEnabled}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
@@ -6508,17 +6589,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:titleEnabled
+          @attr name com.parse.starter:titleEnabled
         */
         public static final int CollapsingToolbarLayout_titleEnabled = 13;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#toolbarId}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#toolbarId}
           attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:toolbarId
+          @attr name com.parse.starter:toolbarId
         */
         public static final int CollapsingToolbarLayout_toolbarId = 10;
         /** Attributes that can be used with a CompoundButton.
@@ -6528,8 +6609,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTint material.danny_jiang.com.webview_senior:buttonTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #CompoundButton_buttonTintMode material.danny_jiang.com.webview_senior:buttonTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTint com.parse.starter:buttonTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #CompoundButton_buttonTintMode com.parse.starter:buttonTintMode}</code></td><td></td></tr>
            </table>
            @see #CompoundButton_android_button
            @see #CompoundButton_buttonTint
@@ -6545,7 +6626,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CompoundButton_android_button = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#buttonTint}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#buttonTint}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -6556,11 +6637,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:buttonTint
+          @attr name com.parse.starter:buttonTint
         */
         public static final int CompoundButton_buttonTint = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#buttonTintMode}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#buttonTintMode}
           attribute's value can be found in the {@link #CompoundButton} array.
 
 
@@ -6576,7 +6657,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:buttonTintMode
+          @attr name com.parse.starter:buttonTintMode
         */
         public static final int CompoundButton_buttonTintMode = 2;
         /** Attributes that can be used with a CoordinatorLayout.
@@ -6585,8 +6666,8 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CoordinatorLayout_keylines material.danny_jiang.com.webview_senior:keylines}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground material.danny_jiang.com.webview_senior:statusBarBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_keylines com.parse.starter:keylines}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.parse.starter:statusBarBackground}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_keylines
            @see #CoordinatorLayout_statusBarBackground
@@ -6595,23 +6676,23 @@ containing a value of this type.
             0x7f0100be, 0x7f0100bf
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#keylines}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#keylines}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:keylines
+          @attr name com.parse.starter:keylines
         */
         public static final int CoordinatorLayout_keylines = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#statusBarBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#statusBarBackground}
           attribute's value can be found in the {@link #CoordinatorLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:statusBarBackground
+          @attr name com.parse.starter:statusBarBackground
         */
         public static final int CoordinatorLayout_statusBarBackground = 1;
         /** Attributes that can be used with a CoordinatorLayout_LayoutParams.
@@ -6621,10 +6702,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #CoordinatorLayout_LayoutParams_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor material.danny_jiang.com.webview_senior:layout_anchor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity material.danny_jiang.com.webview_senior:layout_anchorGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior material.danny_jiang.com.webview_senior:layout_behavior}</code></td><td></td></tr>
-           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline material.danny_jiang.com.webview_senior:layout_keyline}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchor com.parse.starter:layout_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_anchorGravity com.parse.starter:layout_anchorGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_behavior com.parse.starter:layout_behavior}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorLayout_LayoutParams_layout_keyline com.parse.starter:layout_keyline}</code></td><td></td></tr>
            </table>
            @see #CoordinatorLayout_LayoutParams_android_layout_gravity
            @see #CoordinatorLayout_LayoutParams_layout_anchor
@@ -6643,17 +6724,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#layout_anchor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#layout_anchor}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:layout_anchor
+          @attr name com.parse.starter:layout_anchor
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchor = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#layout_anchorGravity}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#layout_anchorGravity}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6678,11 +6759,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>start</code></td><td>0x00800003</td><td></td></tr>
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:layout_anchorGravity
+          @attr name com.parse.starter:layout_anchorGravity
         */
         public static final int CoordinatorLayout_LayoutParams_layout_anchorGravity = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#layout_behavior}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#layout_behavior}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6692,11 +6773,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:layout_behavior
+          @attr name com.parse.starter:layout_behavior
         */
         public static final int CoordinatorLayout_LayoutParams_layout_behavior = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#layout_keyline}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#layout_keyline}
           attribute's value can be found in the {@link #CoordinatorLayout_LayoutParams} array.
 
 
@@ -6706,7 +6787,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:layout_keyline
+          @attr name com.parse.starter:layout_keyline
         */
         public static final int CoordinatorLayout_LayoutParams_layout_keyline = 3;
         /** Attributes that can be used with a CustomCircularImageViewTheme.
@@ -6715,7 +6796,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomCircularImageViewTheme_circularImageViewStyle material.danny_jiang.com.webview_senior:circularImageViewStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomCircularImageViewTheme_circularImageViewStyle com.parse.starter:circularImageViewStyle}</code></td><td></td></tr>
            </table>
            @see #CustomCircularImageViewTheme_circularImageViewStyle
          */
@@ -6723,13 +6804,13 @@ containing a value of this type.
             0x7f0100c4
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#circularImageViewStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#circularImageViewStyle}
           attribute's value can be found in the {@link #CustomCircularImageViewTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:circularImageViewStyle
+          @attr name com.parse.starter:circularImageViewStyle
         */
         public static final int CustomCircularImageViewTheme_circularImageViewStyle = 0;
         /** Attributes that can be used with a DesignTheme.
@@ -6738,9 +6819,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme material.danny_jiang.com.webview_senior:bottomSheetDialogTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_bottomSheetStyle material.danny_jiang.com.webview_senior:bottomSheetStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #DesignTheme_textColorError material.danny_jiang.com.webview_senior:textColorError}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.parse.starter:bottomSheetDialogTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.parse.starter:bottomSheetStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #DesignTheme_textColorError com.parse.starter:textColorError}</code></td><td></td></tr>
            </table>
            @see #DesignTheme_bottomSheetDialogTheme
            @see #DesignTheme_bottomSheetStyle
@@ -6750,27 +6831,27 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100c5, 0x7f0100c6, 0x7f0100c7
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#bottomSheetDialogTheme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#bottomSheetDialogTheme}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:bottomSheetDialogTheme
+          @attr name com.parse.starter:bottomSheetDialogTheme
         */
         public static final int DesignTheme_bottomSheetDialogTheme = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#bottomSheetStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#bottomSheetStyle}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:bottomSheetStyle
+          @attr name com.parse.starter:bottomSheetStyle
         */
         public static final int DesignTheme_bottomSheetStyle = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textColorError}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textColorError}
           attribute's value can be found in the {@link #DesignTheme} array.
 
 
@@ -6781,7 +6862,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:textColorError
+          @attr name com.parse.starter:textColorError
         */
         public static final int DesignTheme_textColorError = 2;
         /** Attributes that can be used with a DrawerArrowToggle.
@@ -6790,14 +6871,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength material.danny_jiang.com.webview_senior:arrowHeadLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength material.danny_jiang.com.webview_senior:arrowShaftLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_barLength material.danny_jiang.com.webview_senior:barLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_color material.danny_jiang.com.webview_senior:color}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_drawableSize material.danny_jiang.com.webview_senior:drawableSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars material.danny_jiang.com.webview_senior:gapBetweenBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_spinBars material.danny_jiang.com.webview_senior:spinBars}</code></td><td></td></tr>
-           <tr><td><code>{@link #DrawerArrowToggle_thickness material.danny_jiang.com.webview_senior:thickness}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.parse.starter:arrowHeadLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.parse.starter:arrowShaftLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_barLength com.parse.starter:barLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_color com.parse.starter:color}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.parse.starter:drawableSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.parse.starter:gapBetweenBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_spinBars com.parse.starter:spinBars}</code></td><td></td></tr>
+           <tr><td><code>{@link #DrawerArrowToggle_thickness com.parse.starter:thickness}</code></td><td></td></tr>
            </table>
            @see #DrawerArrowToggle_arrowHeadLength
            @see #DrawerArrowToggle_arrowShaftLength
@@ -6813,7 +6894,7 @@ containing a value of this type.
             0x7f0100cc, 0x7f0100cd, 0x7f0100ce, 0x7f0100cf
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#arrowHeadLength}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#arrowHeadLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6825,11 +6906,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:arrowHeadLength
+          @attr name com.parse.starter:arrowHeadLength
         */
         public static final int DrawerArrowToggle_arrowHeadLength = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#arrowShaftLength}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#arrowShaftLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6841,11 +6922,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:arrowShaftLength
+          @attr name com.parse.starter:arrowShaftLength
         */
         public static final int DrawerArrowToggle_arrowShaftLength = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#barLength}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#barLength}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6857,11 +6938,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:barLength
+          @attr name com.parse.starter:barLength
         */
         public static final int DrawerArrowToggle_barLength = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#color}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#color}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6872,11 +6953,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:color
+          @attr name com.parse.starter:color
         */
         public static final int DrawerArrowToggle_color = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#drawableSize}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#drawableSize}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6888,11 +6969,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:drawableSize
+          @attr name com.parse.starter:drawableSize
         */
         public static final int DrawerArrowToggle_drawableSize = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#gapBetweenBars}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#gapBetweenBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6904,11 +6985,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:gapBetweenBars
+          @attr name com.parse.starter:gapBetweenBars
         */
         public static final int DrawerArrowToggle_gapBetweenBars = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#spinBars}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#spinBars}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6918,11 +6999,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:spinBars
+          @attr name com.parse.starter:spinBars
         */
         public static final int DrawerArrowToggle_spinBars = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#thickness}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#thickness}
           attribute's value can be found in the {@link #DrawerArrowToggle} array.
 
 
@@ -6934,7 +7015,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:thickness
+          @attr name com.parse.starter:thickness
         */
         public static final int DrawerArrowToggle_thickness = 7;
         /** Attributes that can be used with a FloatingActionButton.
@@ -6943,14 +7024,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTint material.danny_jiang.com.webview_senior:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode material.danny_jiang.com.webview_senior:backgroundTintMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_borderWidth material.danny_jiang.com.webview_senior:borderWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_elevation material.danny_jiang.com.webview_senior:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_fabSize material.danny_jiang.com.webview_senior:fabSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ material.danny_jiang.com.webview_senior:pressedTranslationZ}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_rippleColor material.danny_jiang.com.webview_senior:rippleColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #FloatingActionButton_useCompatPadding material.danny_jiang.com.webview_senior:useCompatPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTint com.parse.starter:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.parse.starter:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_borderWidth com.parse.starter:borderWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_elevation com.parse.starter:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_fabSize com.parse.starter:fabSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.parse.starter:pressedTranslationZ}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_rippleColor com.parse.starter:rippleColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.parse.starter:useCompatPadding}</code></td><td></td></tr>
            </table>
            @see #FloatingActionButton_backgroundTint
            @see #FloatingActionButton_backgroundTintMode
@@ -6966,7 +7047,7 @@ containing a value of this type.
             0x7f0100d3, 0x7f0100d4, 0x7f010130, 0x7f010131
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#backgroundTint}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6977,11 +7058,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:backgroundTint
+          @attr name com.parse.starter:backgroundTint
         */
         public static final int FloatingActionButton_backgroundTint = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -6997,11 +7078,11 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:backgroundTintMode
+          @attr name com.parse.starter:backgroundTintMode
         */
         public static final int FloatingActionButton_backgroundTintMode = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#borderWidth}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#borderWidth}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7013,11 +7094,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:borderWidth
+          @attr name com.parse.starter:borderWidth
         */
         public static final int FloatingActionButton_borderWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#elevation}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7029,11 +7110,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:elevation
+          @attr name com.parse.starter:elevation
         */
         public static final int FloatingActionButton_elevation = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#fabSize}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#fabSize}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7046,11 +7127,11 @@ containing a value of this type.
 <tr><td><code>normal</code></td><td>0</td><td></td></tr>
 <tr><td><code>mini</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:fabSize
+          @attr name com.parse.starter:fabSize
         */
         public static final int FloatingActionButton_fabSize = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#pressedTranslationZ}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#pressedTranslationZ}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7062,11 +7143,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:pressedTranslationZ
+          @attr name com.parse.starter:pressedTranslationZ
         */
         public static final int FloatingActionButton_pressedTranslationZ = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#rippleColor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#rippleColor}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7077,11 +7158,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:rippleColor
+          @attr name com.parse.starter:rippleColor
         */
         public static final int FloatingActionButton_rippleColor = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#useCompatPadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#useCompatPadding}
           attribute's value can be found in the {@link #FloatingActionButton} array.
 
 
@@ -7091,7 +7172,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:useCompatPadding
+          @attr name com.parse.starter:useCompatPadding
         */
         public static final int FloatingActionButton_useCompatPadding = 5;
         /** Attributes that can be used with a ForegroundLinearLayout.
@@ -7102,7 +7183,7 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
            <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding material.danny_jiang.com.webview_senior:foregroundInsidePadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.parse.starter:foregroundInsidePadding}</code></td><td></td></tr>
            </table>
            @see #ForegroundLinearLayout_android_foreground
            @see #ForegroundLinearLayout_android_foregroundGravity
@@ -7124,7 +7205,7 @@ containing a value of this type.
         */
         public static final int ForegroundLinearLayout_android_foregroundGravity = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#foregroundInsidePadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#foregroundInsidePadding}
           attribute's value can be found in the {@link #ForegroundLinearLayout} array.
 
 
@@ -7134,7 +7215,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:foregroundInsidePadding
+          @attr name com.parse.starter:foregroundInsidePadding
         */
         public static final int ForegroundLinearLayout_foregroundInsidePadding = 2;
         /** Attributes that can be used with a LinearLayoutCompat.
@@ -7148,10 +7229,10 @@ containing a value of this type.
            <tr><td><code>{@link #LinearLayoutCompat_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_divider material.danny_jiang.com.webview_senior:divider}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding material.danny_jiang.com.webview_senior:dividerPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild material.danny_jiang.com.webview_senior:measureWithLargestChild}</code></td><td></td></tr>
-           <tr><td><code>{@link #LinearLayoutCompat_showDividers material.danny_jiang.com.webview_senior:showDividers}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_divider com.parse.starter:divider}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.parse.starter:dividerPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.parse.starter:measureWithLargestChild}</code></td><td></td></tr>
+           <tr><td><code>{@link #LinearLayoutCompat_showDividers com.parse.starter:showDividers}</code></td><td></td></tr>
            </table>
            @see #LinearLayoutCompat_android_baselineAligned
            @see #LinearLayoutCompat_android_baselineAlignedChildIndex
@@ -7199,17 +7280,17 @@ containing a value of this type.
         */
         public static final int LinearLayoutCompat_android_weightSum = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#divider}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#divider}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:divider
+          @attr name com.parse.starter:divider
         */
         public static final int LinearLayoutCompat_divider = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#dividerPadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#dividerPadding}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7221,11 +7302,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:dividerPadding
+          @attr name com.parse.starter:dividerPadding
         */
         public static final int LinearLayoutCompat_dividerPadding = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#measureWithLargestChild}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#measureWithLargestChild}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7235,11 +7316,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:measureWithLargestChild
+          @attr name com.parse.starter:measureWithLargestChild
         */
         public static final int LinearLayoutCompat_measureWithLargestChild = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#showDividers}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#showDividers}
           attribute's value can be found in the {@link #LinearLayoutCompat} array.
 
 
@@ -7254,7 +7335,7 @@ containing a value of this type.
 <tr><td><code>middle</code></td><td>2</td><td></td></tr>
 <tr><td><code>end</code></td><td>4</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:showDividers
+          @attr name com.parse.starter:showDividers
         */
         public static final int LinearLayoutCompat_showDividers = 7;
         /** Attributes that can be used with a LinearLayoutCompat_Layout.
@@ -7393,9 +7474,9 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MenuItem_actionLayout material.danny_jiang.com.webview_senior:actionLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionProviderClass material.danny_jiang.com.webview_senior:actionProviderClass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_actionViewClass material.danny_jiang.com.webview_senior:actionViewClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionLayout com.parse.starter:actionLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionProviderClass com.parse.starter:actionProviderClass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_actionViewClass com.parse.starter:actionViewClass}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_alphabeticShortcut android:alphabeticShortcut}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_checked android:checked}</code></td><td></td></tr>
@@ -7409,7 +7490,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuItem_android_title android:title}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_titleCondensed android:titleCondensed}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuItem_android_visible android:visible}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuItem_showAsAction material.danny_jiang.com.webview_senior:showAsAction}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuItem_showAsAction com.parse.starter:showAsAction}</code></td><td></td></tr>
            </table>
            @see #MenuItem_actionLayout
            @see #MenuItem_actionProviderClass
@@ -7437,17 +7518,17 @@ containing a value of this type.
             0x7f0100dc
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionLayout}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:actionLayout
+          @attr name com.parse.starter:actionLayout
         */
         public static final int MenuItem_actionLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionProviderClass}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionProviderClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7457,11 +7538,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:actionProviderClass
+          @attr name com.parse.starter:actionProviderClass
         */
         public static final int MenuItem_actionProviderClass = 16;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#actionViewClass}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#actionViewClass}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7471,7 +7552,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:actionViewClass
+          @attr name com.parse.starter:actionViewClass
         */
         public static final int MenuItem_actionViewClass = 15;
         /**
@@ -7553,7 +7634,7 @@ containing a value of this type.
         */
         public static final int MenuItem_android_visible = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#showAsAction}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#showAsAction}
           attribute's value can be found in the {@link #MenuItem} array.
 
 
@@ -7569,7 +7650,7 @@ containing a value of this type.
 <tr><td><code>withText</code></td><td>4</td><td></td></tr>
 <tr><td><code>collapseActionView</code></td><td>8</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:showAsAction
+          @attr name com.parse.starter:showAsAction
         */
         public static final int MenuItem_showAsAction = 13;
         /** Attributes that can be used with a MenuView.
@@ -7585,7 +7666,7 @@ containing a value of this type.
            <tr><td><code>{@link #MenuView_android_itemTextAppearance android:itemTextAppearance}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_verticalDivider android:verticalDivider}</code></td><td></td></tr>
            <tr><td><code>{@link #MenuView_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MenuView_preserveIconSpacing material.danny_jiang.com.webview_senior:preserveIconSpacing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MenuView_preserveIconSpacing com.parse.starter:preserveIconSpacing}</code></td><td></td></tr>
            </table>
            @see #MenuView_android_headerBackground
            @see #MenuView_android_horizontalDivider
@@ -7643,7 +7724,7 @@ containing a value of this type.
         */
         public static final int MenuView_android_windowAnimationStyle = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#preserveIconSpacing}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#preserveIconSpacing}
           attribute's value can be found in the {@link #MenuView} array.
 
 
@@ -7653,7 +7734,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:preserveIconSpacing
+          @attr name com.parse.starter:preserveIconSpacing
         */
         public static final int MenuView_preserveIconSpacing = 7;
         /** Attributes that can be used with a NavigationView.
@@ -7665,13 +7746,13 @@ containing a value of this type.
            <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
            <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_elevation material.danny_jiang.com.webview_senior:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_headerLayout material.danny_jiang.com.webview_senior:headerLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemBackground material.danny_jiang.com.webview_senior:itemBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemIconTint material.danny_jiang.com.webview_senior:itemIconTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextAppearance material.danny_jiang.com.webview_senior:itemTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_itemTextColor material.danny_jiang.com.webview_senior:itemTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #NavigationView_menu material.danny_jiang.com.webview_senior:menu}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_elevation com.parse.starter:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_headerLayout com.parse.starter:headerLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemBackground com.parse.starter:itemBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemIconTint com.parse.starter:itemIconTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextAppearance com.parse.starter:itemTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_itemTextColor com.parse.starter:itemTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #NavigationView_menu com.parse.starter:menu}</code></td><td></td></tr>
            </table>
            @see #NavigationView_android_background
            @see #NavigationView_android_fitsSystemWindows
@@ -7708,7 +7789,7 @@ containing a value of this type.
         */
         public static final int NavigationView_android_maxWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#elevation}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7720,31 +7801,31 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:elevation
+          @attr name com.parse.starter:elevation
         */
         public static final int NavigationView_elevation = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#headerLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#headerLayout}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:headerLayout
+          @attr name com.parse.starter:headerLayout
         */
         public static final int NavigationView_headerLayout = 9;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#itemBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#itemBackground}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:itemBackground
+          @attr name com.parse.starter:itemBackground
         */
         public static final int NavigationView_itemBackground = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#itemIconTint}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#itemIconTint}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7755,21 +7836,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:itemIconTint
+          @attr name com.parse.starter:itemIconTint
         */
         public static final int NavigationView_itemIconTint = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#itemTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#itemTextAppearance}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:itemTextAppearance
+          @attr name com.parse.starter:itemTextAppearance
         */
         public static final int NavigationView_itemTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#itemTextColor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#itemTextColor}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
@@ -7780,17 +7861,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:itemTextColor
+          @attr name com.parse.starter:itemTextColor
         */
         public static final int NavigationView_itemTextColor = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#menu}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#menu}
           attribute's value can be found in the {@link #NavigationView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:menu
+          @attr name com.parse.starter:menu
         */
         public static final int NavigationView_menu = 4;
         /** Attributes that can be used with a NineGridImageView.
@@ -7799,10 +7880,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #NineGridImageView_imgGap material.danny_jiang.com.webview_senior:imgGap}</code></td><td></td></tr>
-           <tr><td><code>{@link #NineGridImageView_maxSize material.danny_jiang.com.webview_senior:maxSize}</code></td><td></td></tr>
-           <tr><td><code>{@link #NineGridImageView_showStyle material.danny_jiang.com.webview_senior:showStyle}</code></td><td></td></tr>
-           <tr><td><code>{@link #NineGridImageView_singleImgSize material.danny_jiang.com.webview_senior:singleImgSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #NineGridImageView_imgGap com.parse.starter:imgGap}</code></td><td></td></tr>
+           <tr><td><code>{@link #NineGridImageView_maxSize com.parse.starter:maxSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #NineGridImageView_showStyle com.parse.starter:showStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #NineGridImageView_singleImgSize com.parse.starter:singleImgSize}</code></td><td></td></tr>
            </table>
            @see #NineGridImageView_imgGap
            @see #NineGridImageView_maxSize
@@ -7813,7 +7894,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100e4, 0x7f0100e5, 0x7f0100e6, 0x7f0100e7
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#imgGap}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#imgGap}
           attribute's value can be found in the {@link #NineGridImageView} array.
 
 
@@ -7825,11 +7906,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:imgGap
+          @attr name com.parse.starter:imgGap
         */
         public static final int NineGridImageView_imgGap = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#maxSize}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#maxSize}
           attribute's value can be found in the {@link #NineGridImageView} array.
 
 
@@ -7839,11 +7920,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:maxSize
+          @attr name com.parse.starter:maxSize
         */
         public static final int NineGridImageView_maxSize = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#showStyle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#showStyle}
           attribute's value can be found in the {@link #NineGridImageView} array.
 
 
@@ -7856,11 +7937,11 @@ containing a value of this type.
 <tr><td><code>grid</code></td><td>0</td><td></td></tr>
 <tr><td><code>fill</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:showStyle
+          @attr name com.parse.starter:showStyle
         */
         public static final int NineGridImageView_showStyle = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#singleImgSize}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#singleImgSize}
           attribute's value can be found in the {@link #NineGridImageView} array.
 
 
@@ -7872,7 +7953,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:singleImgSize
+          @attr name com.parse.starter:singleImgSize
         */
         public static final int NineGridImageView_singleImgSize = 0;
         /** Attributes that can be used with a PopupWindow.
@@ -7882,7 +7963,7 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #PopupWindow_overlapAnchor material.danny_jiang.com.webview_senior:overlapAnchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindow_overlapAnchor com.parse.starter:overlapAnchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindow_android_popupBackground
            @see #PopupWindow_overlapAnchor
@@ -7897,7 +7978,7 @@ containing a value of this type.
         */
         public static final int PopupWindow_android_popupBackground = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#overlapAnchor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#overlapAnchor}
           attribute's value can be found in the {@link #PopupWindow} array.
 
 
@@ -7907,7 +7988,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:overlapAnchor
+          @attr name com.parse.starter:overlapAnchor
         */
         public static final int PopupWindow_overlapAnchor = 1;
         /** Attributes that can be used with a PopupWindowBackgroundState.
@@ -7916,7 +7997,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor material.danny_jiang.com.webview_senior:state_above_anchor}</code></td><td></td></tr>
+           <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.parse.starter:state_above_anchor}</code></td><td></td></tr>
            </table>
            @see #PopupWindowBackgroundState_state_above_anchor
          */
@@ -7924,7 +8005,7 @@ containing a value of this type.
             0x7f0100e9
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#state_above_anchor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#state_above_anchor}
           attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
 
 
@@ -7934,7 +8015,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:state_above_anchor
+          @attr name com.parse.starter:state_above_anchor
         */
         public static final int PopupWindowBackgroundState_state_above_anchor = 0;
         /** Attributes that can be used with a RecyclerView.
@@ -7944,10 +8025,10 @@ containing a value of this type.
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_layoutManager material.danny_jiang.com.webview_senior:layoutManager}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_reverseLayout material.danny_jiang.com.webview_senior:reverseLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_spanCount material.danny_jiang.com.webview_senior:spanCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #RecyclerView_stackFromEnd material.danny_jiang.com.webview_senior:stackFromEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_layoutManager com.parse.starter:layoutManager}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_reverseLayout com.parse.starter:reverseLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_spanCount com.parse.starter:spanCount}</code></td><td></td></tr>
+           <tr><td><code>{@link #RecyclerView_stackFromEnd com.parse.starter:stackFromEnd}</code></td><td></td></tr>
            </table>
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
@@ -7966,7 +8047,7 @@ containing a value of this type.
         */
         public static final int RecyclerView_android_orientation = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#layoutManager}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#layoutManager}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7976,11 +8057,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:layoutManager
+          @attr name com.parse.starter:layoutManager
         */
         public static final int RecyclerView_layoutManager = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#reverseLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -7990,11 +8071,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:reverseLayout
+          @attr name com.parse.starter:reverseLayout
         */
         public static final int RecyclerView_reverseLayout = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#spanCount}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8004,11 +8085,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:spanCount
+          @attr name com.parse.starter:spanCount
         */
         public static final int RecyclerView_spanCount = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#stackFromEnd}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
 
 
@@ -8018,7 +8099,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:stackFromEnd
+          @attr name com.parse.starter:stackFromEnd
         */
         public static final int RecyclerView_stackFromEnd = 4;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
@@ -8027,7 +8108,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground material.danny_jiang.com.webview_senior:insetForeground}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.parse.starter:insetForeground}</code></td><td></td></tr>
            </table>
            @see #ScrimInsetsFrameLayout_insetForeground
          */
@@ -8035,7 +8116,7 @@ containing a value of this type.
             0x7f0100ee
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#insetForeground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#insetForeground}
           attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
 
 
@@ -8043,7 +8124,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:insetForeground
+          @attr name com.parse.starter:insetForeground
         */
         public static final int ScrimInsetsFrameLayout_insetForeground = 0;
         /** Attributes that can be used with a ScrollingViewBehavior_Params.
@@ -8052,7 +8133,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop material.danny_jiang.com.webview_senior:behavior_overlapTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #ScrollingViewBehavior_Params_behavior_overlapTop com.parse.starter:behavior_overlapTop}</code></td><td></td></tr>
            </table>
            @see #ScrollingViewBehavior_Params_behavior_overlapTop
          */
@@ -8060,7 +8141,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f0100ef
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#behavior_overlapTop}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#behavior_overlapTop}
           attribute's value can be found in the {@link #ScrollingViewBehavior_Params} array.
 
 
@@ -8072,7 +8153,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:behavior_overlapTop
+          @attr name com.parse.starter:behavior_overlapTop
         */
         public static final int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
         /** Attributes that can be used with a SearchView.
@@ -8085,19 +8166,19 @@ containing a value of this type.
            <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
            <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_closeIcon material.danny_jiang.com.webview_senior:closeIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_commitIcon material.danny_jiang.com.webview_senior:commitIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_defaultQueryHint material.danny_jiang.com.webview_senior:defaultQueryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_goIcon material.danny_jiang.com.webview_senior:goIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_iconifiedByDefault material.danny_jiang.com.webview_senior:iconifiedByDefault}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_layout material.danny_jiang.com.webview_senior:layout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryBackground material.danny_jiang.com.webview_senior:queryBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_queryHint material.danny_jiang.com.webview_senior:queryHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchHintIcon material.danny_jiang.com.webview_senior:searchHintIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_searchIcon material.danny_jiang.com.webview_senior:searchIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_submitBackground material.danny_jiang.com.webview_senior:submitBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_suggestionRowLayout material.danny_jiang.com.webview_senior:suggestionRowLayout}</code></td><td></td></tr>
-           <tr><td><code>{@link #SearchView_voiceIcon material.danny_jiang.com.webview_senior:voiceIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_closeIcon com.parse.starter:closeIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_commitIcon com.parse.starter:commitIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_defaultQueryHint com.parse.starter:defaultQueryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_goIcon com.parse.starter:goIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_iconifiedByDefault com.parse.starter:iconifiedByDefault}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_layout com.parse.starter:layout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryBackground com.parse.starter:queryBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_queryHint com.parse.starter:queryHint}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchHintIcon com.parse.starter:searchHintIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_searchIcon com.parse.starter:searchIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_submitBackground com.parse.starter:submitBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_suggestionRowLayout com.parse.starter:suggestionRowLayout}</code></td><td></td></tr>
+           <tr><td><code>{@link #SearchView_voiceIcon com.parse.starter:voiceIcon}</code></td><td></td></tr>
            </table>
            @see #SearchView_android_focusable
            @see #SearchView_android_imeOptions
@@ -8149,27 +8230,27 @@ containing a value of this type.
         */
         public static final int SearchView_android_maxWidth = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#closeIcon}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#closeIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:closeIcon
+          @attr name com.parse.starter:closeIcon
         */
         public static final int SearchView_closeIcon = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#commitIcon}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#commitIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:commitIcon
+          @attr name com.parse.starter:commitIcon
         */
         public static final int SearchView_commitIcon = 13;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#defaultQueryHint}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#defaultQueryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8179,21 +8260,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:defaultQueryHint
+          @attr name com.parse.starter:defaultQueryHint
         */
         public static final int SearchView_defaultQueryHint = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#goIcon}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#goIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:goIcon
+          @attr name com.parse.starter:goIcon
         */
         public static final int SearchView_goIcon = 9;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#iconifiedByDefault}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#iconifiedByDefault}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8203,31 +8284,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:iconifiedByDefault
+          @attr name com.parse.starter:iconifiedByDefault
         */
         public static final int SearchView_iconifiedByDefault = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#layout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#layout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:layout
+          @attr name com.parse.starter:layout
         */
         public static final int SearchView_layout = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#queryBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#queryBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:queryBackground
+          @attr name com.parse.starter:queryBackground
         */
         public static final int SearchView_queryBackground = 15;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#queryHint}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#queryHint}
           attribute's value can be found in the {@link #SearchView} array.
 
 
@@ -8237,57 +8318,57 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:queryHint
+          @attr name com.parse.starter:queryHint
         */
         public static final int SearchView_queryHint = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#searchHintIcon}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#searchHintIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:searchHintIcon
+          @attr name com.parse.starter:searchHintIcon
         */
         public static final int SearchView_searchHintIcon = 11;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#searchIcon}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#searchIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:searchIcon
+          @attr name com.parse.starter:searchIcon
         */
         public static final int SearchView_searchIcon = 10;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#submitBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#submitBackground}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:submitBackground
+          @attr name com.parse.starter:submitBackground
         */
         public static final int SearchView_submitBackground = 16;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#suggestionRowLayout}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#suggestionRowLayout}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:suggestionRowLayout
+          @attr name com.parse.starter:suggestionRowLayout
         */
         public static final int SearchView_suggestionRowLayout = 14;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#voiceIcon}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#voiceIcon}
           attribute's value can be found in the {@link #SearchView} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:voiceIcon
+          @attr name com.parse.starter:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
         /** Attributes that can be used with a SnackbarLayout.
@@ -8297,8 +8378,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_elevation material.danny_jiang.com.webview_senior:elevation}</code></td><td></td></tr>
-           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth material.danny_jiang.com.webview_senior:maxActionInlineWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_elevation com.parse.starter:elevation}</code></td><td></td></tr>
+           <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.parse.starter:maxActionInlineWidth}</code></td><td></td></tr>
            </table>
            @see #SnackbarLayout_android_maxWidth
            @see #SnackbarLayout_elevation
@@ -8314,7 +8395,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SnackbarLayout_android_maxWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#elevation}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#elevation}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -8326,11 +8407,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:elevation
+          @attr name com.parse.starter:elevation
         */
         public static final int SnackbarLayout_elevation = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#maxActionInlineWidth}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#maxActionInlineWidth}
           attribute's value can be found in the {@link #SnackbarLayout} array.
 
 
@@ -8342,7 +8423,7 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:maxActionInlineWidth
+          @attr name com.parse.starter:maxActionInlineWidth
         */
         public static final int SnackbarLayout_maxActionInlineWidth = 2;
         /** Attributes that can be used with a Spinner.
@@ -8355,7 +8436,7 @@ containing a value of this type.
            <tr><td><code>{@link #Spinner_android_entries android:entries}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
            <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
-           <tr><td><code>{@link #Spinner_popupTheme material.danny_jiang.com.webview_senior:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Spinner_popupTheme com.parse.starter:popupTheme}</code></td><td></td></tr>
            </table>
            @see #Spinner_android_dropDownWidth
            @see #Spinner_android_entries
@@ -8392,13 +8473,13 @@ containing a value of this type.
         */
         public static final int Spinner_android_prompt = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#popupTheme}
           attribute's value can be found in the {@link #Spinner} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:popupTheme
+          @attr name com.parse.starter:popupTheme
         */
         public static final int Spinner_popupTheme = 4;
         /** Attributes that can be used with a SwitchCompat.
@@ -8410,13 +8491,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
            <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_showText material.danny_jiang.com.webview_senior:showText}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_splitTrack material.danny_jiang.com.webview_senior:splitTrack}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchMinWidth material.danny_jiang.com.webview_senior:switchMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchPadding material.danny_jiang.com.webview_senior:switchPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_switchTextAppearance material.danny_jiang.com.webview_senior:switchTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_thumbTextPadding material.danny_jiang.com.webview_senior:thumbTextPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #SwitchCompat_track material.danny_jiang.com.webview_senior:track}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_showText com.parse.starter:showText}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_splitTrack com.parse.starter:splitTrack}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchMinWidth com.parse.starter:switchMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchPadding com.parse.starter:switchPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.parse.starter:switchTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.parse.starter:thumbTextPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #SwitchCompat_track com.parse.starter:track}</code></td><td></td></tr>
            </table>
            @see #SwitchCompat_android_textOff
            @see #SwitchCompat_android_textOn
@@ -8453,7 +8534,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int SwitchCompat_android_thumb = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#showText}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#showText}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8463,11 +8544,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:showText
+          @attr name com.parse.starter:showText
         */
         public static final int SwitchCompat_showText = 9;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#splitTrack}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#splitTrack}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8477,11 +8558,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:splitTrack
+          @attr name com.parse.starter:splitTrack
         */
         public static final int SwitchCompat_splitTrack = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#switchMinWidth}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#switchMinWidth}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8493,11 +8574,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:switchMinWidth
+          @attr name com.parse.starter:switchMinWidth
         */
         public static final int SwitchCompat_switchMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#switchPadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#switchPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8509,21 +8590,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:switchPadding
+          @attr name com.parse.starter:switchPadding
         */
         public static final int SwitchCompat_switchPadding = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#switchTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#switchTextAppearance}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:switchTextAppearance
+          @attr name com.parse.starter:switchTextAppearance
         */
         public static final int SwitchCompat_switchTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#thumbTextPadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#thumbTextPadding}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
@@ -8535,17 +8616,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:thumbTextPadding
+          @attr name com.parse.starter:thumbTextPadding
         */
         public static final int SwitchCompat_thumbTextPadding = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#track}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#track}
           attribute's value can be found in the {@link #SwitchCompat} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:track
+          @attr name com.parse.starter:track
         */
         public static final int SwitchCompat_track = 3;
         /** Attributes that can be used with a TabItem.
@@ -8589,22 +8670,22 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TabLayout_tabBackground material.danny_jiang.com.webview_senior:tabBackground}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabContentStart material.danny_jiang.com.webview_senior:tabContentStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabGravity material.danny_jiang.com.webview_senior:tabGravity}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorColor material.danny_jiang.com.webview_senior:tabIndicatorColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabIndicatorHeight material.danny_jiang.com.webview_senior:tabIndicatorHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMaxWidth material.danny_jiang.com.webview_senior:tabMaxWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMinWidth material.danny_jiang.com.webview_senior:tabMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabMode material.danny_jiang.com.webview_senior:tabMode}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPadding material.danny_jiang.com.webview_senior:tabPadding}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingBottom material.danny_jiang.com.webview_senior:tabPaddingBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingEnd material.danny_jiang.com.webview_senior:tabPaddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingStart material.danny_jiang.com.webview_senior:tabPaddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabPaddingTop material.danny_jiang.com.webview_senior:tabPaddingTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabSelectedTextColor material.danny_jiang.com.webview_senior:tabSelectedTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextAppearance material.danny_jiang.com.webview_senior:tabTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TabLayout_tabTextColor material.danny_jiang.com.webview_senior:tabTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabBackground com.parse.starter:tabBackground}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabContentStart com.parse.starter:tabContentStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabGravity com.parse.starter:tabGravity}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorColor com.parse.starter:tabIndicatorColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.parse.starter:tabIndicatorHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMaxWidth com.parse.starter:tabMaxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMinWidth com.parse.starter:tabMinWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabMode com.parse.starter:tabMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPadding com.parse.starter:tabPadding}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingBottom com.parse.starter:tabPaddingBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingEnd com.parse.starter:tabPaddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingStart com.parse.starter:tabPaddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabPaddingTop com.parse.starter:tabPaddingTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.parse.starter:tabSelectedTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextAppearance com.parse.starter:tabTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TabLayout_tabTextColor com.parse.starter:tabTextColor}</code></td><td></td></tr>
            </table>
            @see #TabLayout_tabBackground
            @see #TabLayout_tabContentStart
@@ -8630,17 +8711,17 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
             0x7f010111, 0x7f010112, 0x7f010113, 0x7f010114
         };
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabBackground}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabBackground}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:tabBackground
+          @attr name com.parse.starter:tabBackground
         */
         public static final int TabLayout_tabBackground = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabContentStart}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabContentStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8652,11 +8733,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabContentStart
+          @attr name com.parse.starter:tabContentStart
         */
         public static final int TabLayout_tabContentStart = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabGravity}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabGravity}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8669,11 +8750,11 @@ containing a value of this type.
 <tr><td><code>fill</code></td><td>0</td><td></td></tr>
 <tr><td><code>center</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:tabGravity
+          @attr name com.parse.starter:tabGravity
         */
         public static final int TabLayout_tabGravity = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabIndicatorColor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabIndicatorColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8684,11 +8765,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabIndicatorColor
+          @attr name com.parse.starter:tabIndicatorColor
         */
         public static final int TabLayout_tabIndicatorColor = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabIndicatorHeight}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabIndicatorHeight}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8700,11 +8781,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabIndicatorHeight
+          @attr name com.parse.starter:tabIndicatorHeight
         */
         public static final int TabLayout_tabIndicatorHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabMaxWidth}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabMaxWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8716,11 +8797,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabMaxWidth
+          @attr name com.parse.starter:tabMaxWidth
         */
         public static final int TabLayout_tabMaxWidth = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabMinWidth}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabMinWidth}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8732,11 +8813,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabMinWidth
+          @attr name com.parse.starter:tabMinWidth
         */
         public static final int TabLayout_tabMinWidth = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabMode}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabMode}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8749,11 +8830,11 @@ containing a value of this type.
 <tr><td><code>scrollable</code></td><td>0</td><td></td></tr>
 <tr><td><code>fixed</code></td><td>1</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:tabMode
+          @attr name com.parse.starter:tabMode
         */
         public static final int TabLayout_tabMode = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabPadding}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabPadding}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8765,11 +8846,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabPadding
+          @attr name com.parse.starter:tabPadding
         */
         public static final int TabLayout_tabPadding = 15;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabPaddingBottom}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabPaddingBottom}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8781,11 +8862,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabPaddingBottom
+          @attr name com.parse.starter:tabPaddingBottom
         */
         public static final int TabLayout_tabPaddingBottom = 14;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabPaddingEnd}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabPaddingEnd}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8797,11 +8878,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabPaddingEnd
+          @attr name com.parse.starter:tabPaddingEnd
         */
         public static final int TabLayout_tabPaddingEnd = 13;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabPaddingStart}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabPaddingStart}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8813,11 +8894,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabPaddingStart
+          @attr name com.parse.starter:tabPaddingStart
         */
         public static final int TabLayout_tabPaddingStart = 11;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabPaddingTop}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabPaddingTop}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8829,11 +8910,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabPaddingTop
+          @attr name com.parse.starter:tabPaddingTop
         */
         public static final int TabLayout_tabPaddingTop = 12;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabSelectedTextColor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabSelectedTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8844,21 +8925,21 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabSelectedTextColor
+          @attr name com.parse.starter:tabSelectedTextColor
         */
         public static final int TabLayout_tabSelectedTextColor = 10;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabTextAppearance}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:tabTextAppearance
+          @attr name com.parse.starter:tabTextAppearance
         */
         public static final int TabLayout_tabTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#tabTextColor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#tabTextColor}
           attribute's value can be found in the {@link #TabLayout} array.
 
 
@@ -8869,7 +8950,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:tabTextColor
+          @attr name com.parse.starter:tabTextColor
         */
         public static final int TabLayout_tabTextColor = 9;
         /** Attributes that can be used with a TextAppearance.
@@ -8886,7 +8967,7 @@ containing a value of this type.
            <tr><td><code>{@link #TextAppearance_android_textSize android:textSize}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_textStyle android:textStyle}</code></td><td></td></tr>
            <tr><td><code>{@link #TextAppearance_android_typeface android:typeface}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextAppearance_textAllCaps material.danny_jiang.com.webview_senior:textAllCaps}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextAppearance_textAllCaps com.parse.starter:textAllCaps}</code></td><td></td></tr>
            </table>
            @see #TextAppearance_android_shadowColor
            @see #TextAppearance_android_shadowDx
@@ -8952,14 +9033,14 @@ containing a value of this type.
         */
         public static final int TextAppearance_android_typeface = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#textAllCaps}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#textAllCaps}
           attribute's value can be found in the {@link #TextAppearance} array.
 
 
           <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          @attr name material.danny_jiang.com.webview_senior:textAllCaps
+          @attr name com.parse.starter:textAllCaps
         */
         public static final int TextAppearance_textAllCaps = 8;
         /** Attributes that can be used with a TextInputLayout.
@@ -8970,15 +9051,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
            <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterEnabled material.danny_jiang.com.webview_senior:counterEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterMaxLength material.danny_jiang.com.webview_senior:counterMaxLength}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance material.danny_jiang.com.webview_senior:counterOverflowTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_counterTextAppearance material.danny_jiang.com.webview_senior:counterTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorEnabled material.danny_jiang.com.webview_senior:errorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_errorTextAppearance material.danny_jiang.com.webview_senior:errorTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled material.danny_jiang.com.webview_senior:hintAnimationEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintEnabled material.danny_jiang.com.webview_senior:hintEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #TextInputLayout_hintTextAppearance material.danny_jiang.com.webview_senior:hintTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterEnabled com.parse.starter:counterEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterMaxLength com.parse.starter:counterMaxLength}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.parse.starter:counterOverflowTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.parse.starter:counterTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorEnabled com.parse.starter:errorEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.parse.starter:errorTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.parse.starter:hintAnimationEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintEnabled com.parse.starter:hintEnabled}</code></td><td></td></tr>
+           <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.parse.starter:hintTextAppearance}</code></td><td></td></tr>
            </table>
            @see #TextInputLayout_android_hint
            @see #TextInputLayout_android_textColorHint
@@ -9010,7 +9091,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int TextInputLayout_android_textColorHint = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#counterEnabled}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#counterEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9020,11 +9101,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:counterEnabled
+          @attr name com.parse.starter:counterEnabled
         */
         public static final int TextInputLayout_counterEnabled = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#counterMaxLength}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#counterMaxLength}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9034,31 +9115,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:counterMaxLength
+          @attr name com.parse.starter:counterMaxLength
         */
         public static final int TextInputLayout_counterMaxLength = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#counterOverflowTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#counterOverflowTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:counterOverflowTextAppearance
+          @attr name com.parse.starter:counterOverflowTextAppearance
         */
         public static final int TextInputLayout_counterOverflowTextAppearance = 9;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#counterTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#counterTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:counterTextAppearance
+          @attr name com.parse.starter:counterTextAppearance
         */
         public static final int TextInputLayout_counterTextAppearance = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#errorEnabled}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#errorEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9068,21 +9149,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:errorEnabled
+          @attr name com.parse.starter:errorEnabled
         */
         public static final int TextInputLayout_errorEnabled = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#errorTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#errorTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:errorTextAppearance
+          @attr name com.parse.starter:errorTextAppearance
         */
         public static final int TextInputLayout_errorTextAppearance = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#hintAnimationEnabled}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#hintAnimationEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9092,11 +9173,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:hintAnimationEnabled
+          @attr name com.parse.starter:hintAnimationEnabled
         */
         public static final int TextInputLayout_hintAnimationEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#hintEnabled}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#hintEnabled}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
@@ -9106,17 +9187,17 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:hintEnabled
+          @attr name com.parse.starter:hintEnabled
         */
         public static final int TextInputLayout_hintEnabled = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#hintTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#hintTextAppearance}
           attribute's value can be found in the {@link #TextInputLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:hintTextAppearance
+          @attr name com.parse.starter:hintTextAppearance
         */
         public static final int TextInputLayout_hintTextAppearance = 2;
         /** Attributes that can be used with a Toolbar.
@@ -9127,29 +9208,29 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
            <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseContentDescription material.danny_jiang.com.webview_senior:collapseContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_collapseIcon material.danny_jiang.com.webview_senior:collapseIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetEnd material.danny_jiang.com.webview_senior:contentInsetEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetLeft material.danny_jiang.com.webview_senior:contentInsetLeft}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetRight material.danny_jiang.com.webview_senior:contentInsetRight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_contentInsetStart material.danny_jiang.com.webview_senior:contentInsetStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logo material.danny_jiang.com.webview_senior:logo}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_logoDescription material.danny_jiang.com.webview_senior:logoDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_maxButtonHeight material.danny_jiang.com.webview_senior:maxButtonHeight}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationContentDescription material.danny_jiang.com.webview_senior:navigationContentDescription}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_navigationIcon material.danny_jiang.com.webview_senior:navigationIcon}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_popupTheme material.danny_jiang.com.webview_senior:popupTheme}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitle material.danny_jiang.com.webview_senior:subtitle}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextAppearance material.danny_jiang.com.webview_senior:subtitleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_subtitleTextColor material.danny_jiang.com.webview_senior:subtitleTextColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_title material.danny_jiang.com.webview_senior:title}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginBottom material.danny_jiang.com.webview_senior:titleMarginBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginEnd material.danny_jiang.com.webview_senior:titleMarginEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginStart material.danny_jiang.com.webview_senior:titleMarginStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMarginTop material.danny_jiang.com.webview_senior:titleMarginTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleMargins material.danny_jiang.com.webview_senior:titleMargins}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextAppearance material.danny_jiang.com.webview_senior:titleTextAppearance}</code></td><td></td></tr>
-           <tr><td><code>{@link #Toolbar_titleTextColor material.danny_jiang.com.webview_senior:titleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseContentDescription com.parse.starter:collapseContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_collapseIcon com.parse.starter:collapseIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetEnd com.parse.starter:contentInsetEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetLeft com.parse.starter:contentInsetLeft}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetRight com.parse.starter:contentInsetRight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_contentInsetStart com.parse.starter:contentInsetStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logo com.parse.starter:logo}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_logoDescription com.parse.starter:logoDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_maxButtonHeight com.parse.starter:maxButtonHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationContentDescription com.parse.starter:navigationContentDescription}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_navigationIcon com.parse.starter:navigationIcon}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_popupTheme com.parse.starter:popupTheme}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitle com.parse.starter:subtitle}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.parse.starter:subtitleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_subtitleTextColor com.parse.starter:subtitleTextColor}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_title com.parse.starter:title}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginBottom com.parse.starter:titleMarginBottom}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginEnd com.parse.starter:titleMarginEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginStart com.parse.starter:titleMarginStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMarginTop com.parse.starter:titleMarginTop}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleMargins com.parse.starter:titleMargins}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextAppearance com.parse.starter:titleTextAppearance}</code></td><td></td></tr>
+           <tr><td><code>{@link #Toolbar_titleTextColor com.parse.starter:titleTextColor}</code></td><td></td></tr>
            </table>
            @see #Toolbar_android_gravity
            @see #Toolbar_android_minHeight
@@ -9199,7 +9280,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int Toolbar_android_minHeight = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#collapseContentDescription}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#collapseContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9209,21 +9290,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:collapseContentDescription
+          @attr name com.parse.starter:collapseContentDescription
         */
         public static final int Toolbar_collapseContentDescription = 19;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#collapseIcon}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#collapseIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:collapseIcon
+          @attr name com.parse.starter:collapseIcon
         */
         public static final int Toolbar_collapseIcon = 18;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentInsetEnd}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentInsetEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9235,11 +9316,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentInsetEnd
+          @attr name com.parse.starter:contentInsetEnd
         */
         public static final int Toolbar_contentInsetEnd = 6;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentInsetLeft}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentInsetLeft}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9251,11 +9332,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentInsetLeft
+          @attr name com.parse.starter:contentInsetLeft
         */
         public static final int Toolbar_contentInsetLeft = 7;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentInsetRight}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentInsetRight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9267,11 +9348,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentInsetRight
+          @attr name com.parse.starter:contentInsetRight
         */
         public static final int Toolbar_contentInsetRight = 8;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#contentInsetStart}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#contentInsetStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9283,21 +9364,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:contentInsetStart
+          @attr name com.parse.starter:contentInsetStart
         */
         public static final int Toolbar_contentInsetStart = 5;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#logo}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#logo}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:logo
+          @attr name com.parse.starter:logo
         */
         public static final int Toolbar_logo = 4;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#logoDescription}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#logoDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9307,11 +9388,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:logoDescription
+          @attr name com.parse.starter:logoDescription
         */
         public static final int Toolbar_logoDescription = 22;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#maxButtonHeight}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#maxButtonHeight}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9323,11 +9404,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:maxButtonHeight
+          @attr name com.parse.starter:maxButtonHeight
         */
         public static final int Toolbar_maxButtonHeight = 17;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#navigationContentDescription}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#navigationContentDescription}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9337,31 +9418,31 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:navigationContentDescription
+          @attr name com.parse.starter:navigationContentDescription
         */
         public static final int Toolbar_navigationContentDescription = 21;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#navigationIcon}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#navigationIcon}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:navigationIcon
+          @attr name com.parse.starter:navigationIcon
         */
         public static final int Toolbar_navigationIcon = 20;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#popupTheme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#popupTheme}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:popupTheme
+          @attr name com.parse.starter:popupTheme
         */
         public static final int Toolbar_popupTheme = 9;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#subtitle}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#subtitle}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9371,21 +9452,21 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:subtitle
+          @attr name com.parse.starter:subtitle
         */
         public static final int Toolbar_subtitle = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#subtitleTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#subtitleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:subtitleTextAppearance
+          @attr name com.parse.starter:subtitleTextAppearance
         */
         public static final int Toolbar_subtitleTextAppearance = 11;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#subtitleTextColor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#subtitleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9396,11 +9477,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:subtitleTextColor
+          @attr name com.parse.starter:subtitleTextColor
         */
         public static final int Toolbar_subtitleTextColor = 24;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#title}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#title}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9410,11 +9491,11 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:title
+          @attr name com.parse.starter:title
         */
         public static final int Toolbar_title = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#titleMarginBottom}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#titleMarginBottom}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9426,11 +9507,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:titleMarginBottom
+          @attr name com.parse.starter:titleMarginBottom
         */
         public static final int Toolbar_titleMarginBottom = 16;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#titleMarginEnd}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#titleMarginEnd}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9442,11 +9523,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:titleMarginEnd
+          @attr name com.parse.starter:titleMarginEnd
         */
         public static final int Toolbar_titleMarginEnd = 14;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#titleMarginStart}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#titleMarginStart}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9458,11 +9539,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:titleMarginStart
+          @attr name com.parse.starter:titleMarginStart
         */
         public static final int Toolbar_titleMarginStart = 13;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#titleMarginTop}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#titleMarginTop}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9474,11 +9555,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:titleMarginTop
+          @attr name com.parse.starter:titleMarginTop
         */
         public static final int Toolbar_titleMarginTop = 15;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#titleMargins}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#titleMargins}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9490,21 +9571,21 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:titleMargins
+          @attr name com.parse.starter:titleMargins
         */
         public static final int Toolbar_titleMargins = 12;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#titleTextAppearance}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#titleTextAppearance}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:titleTextAppearance
+          @attr name com.parse.starter:titleTextAppearance
         */
         public static final int Toolbar_titleTextAppearance = 10;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#titleTextColor}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#titleTextColor}
           attribute's value can be found in the {@link #Toolbar} array.
 
 
@@ -9515,7 +9596,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:titleTextColor
+          @attr name com.parse.starter:titleTextColor
         */
         public static final int Toolbar_titleTextColor = 23;
         /** Attributes that can be used with a View.
@@ -9526,9 +9607,9 @@ containing a value of this type.
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
            <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingEnd material.danny_jiang.com.webview_senior:paddingEnd}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_paddingStart material.danny_jiang.com.webview_senior:paddingStart}</code></td><td></td></tr>
-           <tr><td><code>{@link #View_theme material.danny_jiang.com.webview_senior:theme}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingEnd com.parse.starter:paddingEnd}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_paddingStart com.parse.starter:paddingStart}</code></td><td></td></tr>
+           <tr><td><code>{@link #View_theme com.parse.starter:theme}</code></td><td></td></tr>
            </table>
            @see #View_android_focusable
            @see #View_android_theme
@@ -9553,7 +9634,7 @@ containing a value of this type.
         */
         public static final int View_android_theme = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#paddingEnd}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#paddingEnd}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9565,11 +9646,11 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:paddingEnd
+          @attr name com.parse.starter:paddingEnd
         */
         public static final int View_paddingEnd = 3;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#paddingStart}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#paddingStart}
           attribute's value can be found in the {@link #View} array.
 
 
@@ -9581,17 +9662,17 @@ in (inches), mm (millimeters).
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:paddingStart
+          @attr name com.parse.starter:paddingStart
         */
         public static final int View_paddingStart = 2;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#theme}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#theme}
           attribute's value can be found in the {@link #View} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name material.danny_jiang.com.webview_senior:theme
+          @attr name com.parse.starter:theme
         */
         public static final int View_theme = 4;
         /** Attributes that can be used with a ViewBackgroundHelper.
@@ -9601,8 +9682,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
            <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint material.danny_jiang.com.webview_senior:backgroundTint}</code></td><td></td></tr>
-           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode material.danny_jiang.com.webview_senior:backgroundTintMode}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.parse.starter:backgroundTint}</code></td><td></td></tr>
+           <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.parse.starter:backgroundTintMode}</code></td><td></td></tr>
            </table>
            @see #ViewBackgroundHelper_android_background
            @see #ViewBackgroundHelper_backgroundTint
@@ -9618,7 +9699,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         */
         public static final int ViewBackgroundHelper_android_background = 0;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#backgroundTint}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#backgroundTint}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9629,11 +9710,11 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name material.danny_jiang.com.webview_senior:backgroundTint
+          @attr name com.parse.starter:backgroundTint
         */
         public static final int ViewBackgroundHelper_backgroundTint = 1;
         /**
-          <p>This symbol is the offset where the {@link material.danny_jiang.com.webview_senior.R.attr#backgroundTintMode}
+          <p>This symbol is the offset where the {@link com.parse.starter.R.attr#backgroundTintMode}
           attribute's value can be found in the {@link #ViewBackgroundHelper} array.
 
 
@@ -9649,7 +9730,7 @@ containing a value of this type.
 <tr><td><code>multiply</code></td><td>14</td><td></td></tr>
 <tr><td><code>screen</code></td><td>15</td><td></td></tr>
 </table>
-          @attr name material.danny_jiang.com.webview_senior:backgroundTintMode
+          @attr name com.parse.starter:backgroundTintMode
         */
         public static final int ViewBackgroundHelper_backgroundTintMode = 2;
         /** Attributes that can be used with a ViewStubCompat.
